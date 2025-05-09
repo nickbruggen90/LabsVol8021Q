@@ -7,7 +7,7 @@ Simulate a real-world enterprise network that includes:
 - A WAF (SafeLine) protecting that server  
 - A virtualized network in GNS3 (VyOS routers/switches)  
 - An external Kali laptop simulating users or attackers  
-- Python monitoring scripts (future Substack content)  
+- Python monitoring scripts
 
 #### 🧩 Lab Components:
 - Ubuntu VM (on desktop):
