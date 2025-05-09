@@ -1,5 +1,5 @@
 ### 🧱 Project Title:  
-## Enterprise Security Simulation Lab — Web Server + WAF + GNS3 Topology
+## Web Server + WAF + GNS3 Topology
 ---
 #### 🎯 Goal:  
 Simulate a real-world enterprise network that includes:
