@@ -1,7 +1,7 @@
-🧱 Project Title:  
-Enterprise Security Simulation Lab — Web Server + WAF + GNS3 Topology
-
-🎯 Goal:  
+###🧱 Project Title:  
+## Enterprise Security Simulation Lab — Web Server + WAF + GNS3 Topology
+---
+#### 🎯 Goal:  
 Simulate a real-world enterprise network that includes:
 - A real Ubuntu VM hosting a website (Linktree or DVWA)  
 - A WAF (SafeLine) protecting that server  
@@ -9,7 +9,7 @@ Simulate a real-world enterprise network that includes:
 - An external Kali laptop simulating users or attackers  
 - Python monitoring scripts (future Substack content)  
 
-🧩 Lab Components:
+####🧩 Lab Components:
 - Ubuntu VM (on desktop):
   - Apache + VirtualHost for linktree or DVWA
   - Static IP (e.g., 192.168.4.120)
