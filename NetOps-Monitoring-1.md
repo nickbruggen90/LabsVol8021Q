@@ -1,36 +1,27 @@
 # 🧪 **Project 1: NetOps Monitoring & Automation Lab**
 
 ### 🎯 Objective  
-Design a GNS3-based lab simulating a secure branch office with VPN access, SNMP/Syslog monitoring, packet analysis, and Python-driven automation workflows.
+Build a virtual lab simulating a secure network environment with centralized logging, SNMP telemetry, packet analysis, and Python-driven automation workflows using pfSense, Ubuntu, rsyslog, Netmiko, and Wireshark.
 
 ---
 
 ## 🧱 Lab Components  
-- **Cisco Router (IOSv/IOU)** – Core routing + SNMP/Syslog source  
-- **pfSense Firewall** – VPN gateway (OpenVPN or IPSec)  
-- **LibreNMS VM** – SNMP monitoring + Syslog collection  
-- **Python VM** – Runs Netmiko + TraceNG scripts  
-- **Wireshark** – For live packet capture and traffic analysis
+
+| Component           | Purpose                                            |
+|---------------------|----------------------------------------------------|
+| **pfSense VM**       | Firewall, DHCP, and Syslog/SNMP source             |
+| **Ubuntu Server**    | rsyslog collector + SNMP client + Python scripts   |
+| **Wireshark**        | Live packet analysis and traffic validation        |
+| **Python Tooling**   | Automation using Netmiko, TraceNG, and log parsing |
+
+> *LibreNMS will be added as a Docker container in Phase 4 for GUI-based monitoring.*
 
 ---
 
 ## 🔄 Workflow Overview  
-1. VPN tunnel established from client to pfSense firewall  
-2. LibreNMS polls SNMP data and logs events via Syslog  
-3. Python/TraceNG VM performs reachability tests and path tracing  
-4. Netmiko scripts automate device queries and configuration  
-5. Wireshark captures VPN, control, and test traffic for validation
 
----
-
-## ✅ Skills Demonstrated  
-- VPN tunnel configuration and testing  
-- SNMP and Syslog server setup  
-- Real-time network monitoring and alerting  
-- Python-based network automation (Netmiko + TraceNG)  
-- Packet analysis and telemetry interpretation
-
----
-
-## 💼 Resume Version (2 lines)  
-> Designed a GNS3-based lab simulating a secure branch office with VPN, SNMP/Syslog monitoring, packet analysis, and Python-driven automation. Integrated Cisco IOS, pfSense, LibreNMS, Netmiko, TraceNG, and Wireshark for full-stack NetOps visibility and control.
+1. pfSense acts as the central firewall and telemetry source  
+2. Ubuntu receives logs over Syslog (UDP 514) and stores them in `/var/log/pfsense.log`  
+3. SNMP is enabled on pfSense and verified via `snmpwalk` from Ubuntu  
+4. Python scripts parse logs and automate network checks via SSH (Netmiko)  
+5. Wireshark captures traffic including syslog, SNMP, DHCP, and VPN (future
