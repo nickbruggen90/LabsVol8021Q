@@ -1,4 +1,4 @@
-### 🧱 Project Title:  
+### 🧱Pilot Project Title:  
 ## Web Server + WAF + GNS3 Topology
 ---
 #### 🎯 Goal:  
