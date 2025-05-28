@@ -1,3 +1,20 @@
-# Labs: Vol. 8021.Q
-* [Boson NetSim Labs](https://github.com/nickbruggen90/Boson-Network-Labs)
-* [Web Server + WAF + GNS3 Topology](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Web_Server_WAF_GNS3_Topology.md)
+## 🧪 Current Labs
+
+| Lab Title                 | Description                                  | Status   |
+|--------------------------|----------------------------------------------|----------|
+| `NetOps Lab Project 1:`          | pfSense ↔ Ubuntu logging + Python SSH        | 🧩 WIP   |
+| `WAN Edge Automation Lab Project 2`   |        | 🧩 WIP    |
+| `VPN + NetOps Automation + Simulated NOC Project 3`   | Site-to-site VPN + automation                | 🧪 Planned|
+---
+
+## 🛠️ Tools & Platforms Used
+
+- Cisco IOS (via emulators or hardware)
+- pfSense
+- Ubuntu Server (CLI)
+- Python (Netmiko, Paramiko, etc.)
+- Wireshark
+- LibreNMS
+- VMware Workstation Pro (host-only / bridged)
+
+---
