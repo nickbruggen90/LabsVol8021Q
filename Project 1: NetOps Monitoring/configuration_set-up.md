@@ -1,5 +1,5 @@
 ### pfSense Creation and Initial Configuration
-First we will create the pfSense VM with VMWare Workstation. Use the official pfSense CE .iso release. Choose the following configuration for set-up.
+First we will create the pfSense VM with VMWare Workstation. Use the official pfSense CE .iso release. Choose the following configuration for set-up:
 ```
 1. 2 NICs are needed: have the first one be Bridged, and the second Host-Only
 2. 2BG RAM
@@ -12,7 +12,7 @@ Once the VM boots up, pfSense will ask some configuration options. The ones you 
 2. MBR
 ```
 After the installation and initial bootup, pfSense will prompt you will a numbered menu. You are in the right spot.
-Find the subnet associated with the virtual NIC.
+Find the subnet associated with the virtual NIC:
 ```
 1. Windows cmd -> ipconfig
 2. Look for VMNet1 NIC (VMWare uses the 192.168.83.0/24 subnet by default, but double check)
