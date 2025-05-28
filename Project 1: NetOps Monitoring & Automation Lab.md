@@ -9,6 +9,7 @@ Build a virtual lab simulating a secure network environment with centralized log
 
 | Component           | Purpose                                            |
 |---------------------|----------------------------------------------------|
+| **VMWare Workstation**       | hypervisor             |
 | **pfSense VM**       | Firewall, DHCP, and Syslog/SNMP source             |
 | **Ubuntu Server**    | rsyslog collector + SNMP client + Python scripts   |
 | **Wireshark**        | Live packet analysis and traffic validation        |
