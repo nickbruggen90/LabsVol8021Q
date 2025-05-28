@@ -6,7 +6,7 @@ First we will create the pfSense VM with VMWare Workstation. Use the official pf
 4. 2 processors
 Once the VM boots up, pfSense will ask some configuration options. The ones you need to pay attention to are:
 6. Auto UFS
-7. MBR
+7. MBR  
 After the installation and initial bootup, pfSense will prompt you will a numbered menu. You are in the right spot.
 Find the subnet associated with the virtual NIC.
 1. Windows cmd -> ipconfig
