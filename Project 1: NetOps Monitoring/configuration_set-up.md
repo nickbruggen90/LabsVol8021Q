@@ -1,5 +1,5 @@
 ### pfSense Creation and Initial Configuration
-First we will create the pfSense VM with VMWare Workstation. Use the official pfSense CE release. Choose the following configuration for set-up.
+First we will create the pfSense VM with VMWare Workstation. Use the official pfSense CE .iso release. Choose the following configuration for set-up.
 ```
 1. 2 NICs are needed: have the first one be Bridged, and the second Host-Only
 2. 2BG RAM
@@ -21,7 +21,7 @@ You are now able to log into the pfSense portal via the LAN IP you assigned (192
 Now we need to set up Ubuntu Server to act the Syslog Collector and SNMP Client.
 
 ### Ubuntu Server Creation and Configuration
-The Ubuntu Server VM will be created with VMWare Workstation. Use the official Ubuntu Live Server .iso
+The Ubuntu Server VM will be created with VMWare Workstation. Use the official Ubuntu Live Server .iso release.
 1. 2 GB RAM
 2. 2 processors
 3. Host-Only network adapter
