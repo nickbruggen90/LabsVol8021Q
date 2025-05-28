@@ -13,10 +13,12 @@ Once the VM boots up, pfSense will ask some configuration options. The ones you 
 ```
 After the installation and initial bootup, pfSense will prompt you will a numbered menu. You are in the right spot.
 Find the subnet associated with the virtual NIC.
+```
 1. Windows cmd -> ipconfig
 2. Look for VMNet1 NIC (VMWare uses the 192.168.83.0/24 subnet by default, but double check)
 3. Choose to Set Interface IPs from pfSense home screen. And choose the LAN interface (in this instance it is em1)
 4. Change the LAN interface on pfSense to an IP within VMNet1 NIC subnet (in this instance it will be 192.168.83.100/24)
+```
 You are now able to log into the pfSense portal via the LAN IP you assigned (192.168.83.100).
 Now we need to set up Ubuntu Server to act the Syslog Collector and SNMP Client.
 
