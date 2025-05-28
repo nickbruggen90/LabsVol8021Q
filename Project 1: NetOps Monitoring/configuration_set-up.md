@@ -19,6 +19,9 @@ Find the subnet associated with the virtual NIC:
 3. Choose to Set Interface IPs from pfSense home screen. And choose the LAN interface (in this instance it is em1)
 4. Change the LAN interface on pfSense to an IP within VMNet1 NIC subnet (in this instance it will be 192.168.83.100/24)
 ```
+![VMNet1 NIC output](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-28%20145426.png)
+![pfSense IPs](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-28%20145701.png)
+
 You are now able to log into the pfSense portal via the LAN IP you assigned (192.168.83.100).
 Now we need to set up Ubuntu Server to act the Syslog Collector and SNMP Client.
 
