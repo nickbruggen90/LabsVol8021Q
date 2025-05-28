@@ -13,8 +13,7 @@ Build a virtual lab simulating a secure network environment with centralized log
 | **pfSense VM**       | Firewall, DHCP, and Syslog/SNMP source             |
 | **Ubuntu Server**    | rsyslog collector + SNMP client + Python scripts   |
 | **Wireshark**        | Live packet analysis and traffic validation        |
-| **Python Tooling**   | Automation using Paramiko, and syslog parsing |
-| **VS Code**       | Scripting app             |
+| **Python Tooling**   | Automation using Paramiko and VS Code |
 
 > *LibreNMS will be added as a Docker container in Phase 4 for GUI-based monitoring.*
 
