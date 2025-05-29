@@ -33,13 +33,13 @@ The Ubuntu Server VM will be created with VMWare Workstation. Use the official U
 3. Host-Only network adapter
 4. The default on the rest is fine
 ```
-Once it boots up and you reach Network Configurations
+Once it boots up and you reach Network Configurations:
 ```
 1. You will choose an IP within the subnet of the VMNet1 NIC. In this instance it will be 192.168.83.10/24
 2. The gateway will be the IP of the pfSense LAN - 192.168.83.100
 3. Ping the default gateway and a name server (8.8.8.8 for instance)
 ```
-To populate the IP's of the Ubuntu Server, you may need to install net-tools
+To populate the IP's of the Ubuntu Server, you may need to install net-tools:
 ```
 1. sudo apt install net-tools
 2. ifconfig /all
