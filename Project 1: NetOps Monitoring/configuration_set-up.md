@@ -23,7 +23,7 @@ Find the subnet associated with the virtual NIC:
 ![pfSense IPs](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-28%20145701.png)
 
 You are now able to log into the pfSense portal via the LAN IP you assigned (192.168.83.100).
-Now we need to set up Ubuntu Server to act the Syslog Collector and SNMP Client.
+Now we need to set up Ubuntu Server to act the Syslog Collector and SNMP Client, as well as create a Python script for SSH connection testing (and future automation).
 
 ### Ubuntu Server Creation and Configuration
 The Ubuntu Server VM will be created with VMWare Workstation. Use the official Ubuntu Live Server .iso release.
@@ -72,3 +72,60 @@ if ($fromhost-ip == '192.168.83.100') then /var/log/pfsense.log
 & stop
 ```
 Restart Syslog with *sudo systemctl restart rsyslog* - and also power down and power back up the entire VM for good measure.
+While the VM is powered down, now is a good opportunity to create a shared folder between the VM and the host machine.
+```
+1. Open VM settings in VMWare Workstation and locate the Options tab at the top
+2. Choose Share Folders and define the path
+```
+Inside Ubuntu we must also mount the shared folder.
+```
+sudo mkdir -p /mnt/hgfs
+sudo vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other
+```
+
+### Virtual Environment Creating and Installing Python
+We will need to install Paramiko and SCP inside a virtual environment (VENV) to allow it to function.
+```
+sudo apt install python3-venv -y
+python3 -m venv ~/netops-venv
+source ~/netops-venv/bin/activate
+which python
+pip install --upgrade pip
+pip install netmiko paramiko scp
+```
+Now we must create a Python script for testing. VS Code is a good option for writing code. Below is a sample Paramiko Python script.
+```
+
+```
+To execute this script, we need to add the script to the shared folder for accessibility and allow for SSH connection through pfSense.
+Return to Ubuntu CLI to confirm script is in the appropriate place.
+```
+ls -la /mnt/hgfs
+```
+Now we need to return to the pfSense GUI to allow Syslog, SNMP and SSH connections.
+
+### Allowing pfSense Connections
+We will define the Syslog server, allow for SSH connections and set up SNMP polling.
+Inside the pfSense GUI:
+```
+1. Status tab -> System Logs -> Settings
+2. Enable remote syslog server, and use the IP of the Ubuntu server and allow for Syslog UDP 514
+3. 192.168.83.10:514
+```
+
+PIC!
+
+```
+1. System tab -> Advanced -> Admin Access
+2. Secure Shell -> Enable Secure Shell
+```
+
+PIC!
+
+```
+1. Services -> SNMP -> Enable the SNMP Daemon and its controls
+2. Polling Port: 161
+3. You can define the System Location, System Contacts and Read Community String as needed
+4. Bind to LAN interface (in this instance it is the pfSense LAN)
+```
+The Read Community String is essentially a password shared by the server and the device being polled. This will be important later when needing to run the snmpwalk command to return output.
