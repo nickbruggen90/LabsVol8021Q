@@ -163,8 +163,9 @@ Now we need to return to the pfSense GUI to allow Syslog, SNMP and SSH connectio
 ---
 
 ### Allowing pfSense Connections and Testing Python Script
-We will define the Syslog server, allow for SSH connections and set up SNMP polling.
-Inside the pfSense GUI:
+We will define the Syslog server, allow for SSH connections and set up SNMP polling.  
+Inside the pfSense GUI:  
+
 Syslog:
 ```
 1. Status tab -> System Logs -> Settings
@@ -172,12 +173,14 @@ Syslog:
 3. 192.168.83.10:514
 ```
 ![syslog gui 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-31%20082535.png)
+
 SSH:
 ```
 1. System tab -> Advanced -> Admin Access
 2. Secure Shell -> Enable Secure Shell
 ```
 ![ssh gui 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-31%20083019.png)
+
 SNMP:
 ```
 1. Services -> SNMP -> Enable the SNMP Daemon and its controls
