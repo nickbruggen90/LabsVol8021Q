@@ -56,12 +56,16 @@ Alternatively, you can edit the /etc/snmp/snmp.conf file to make the output more
 ```
 #mibs :
 ```
+![mibs output 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-29%20185249.png)
+![mibs output 2](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-29%20185400.png)
 Next, lets install Syslog and confirm it's active. Likewise, we will need to allow it on pfSense in future steps.
 ```
 sudo apt update
 sudo apt install rsyslog
 sudo systemctl status rsyslog
 ```
+![syslog active 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-31%20071256.png)
+
 We must also create and define log files and directories.
 ```
 sudo mkdir /var/log
@@ -79,6 +83,8 @@ While the VM is powered down, now is a good opportunity to create a shared folde
 1. Open VM settings in VMWare Workstation and locate the Options tab at the top
 2. Choose Share Folders and define the path
 ```
+![shared folder 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-31%20075236.png)
+
 Inside Ubuntu we must also mount the shared folder.
 ```
 sudo mkdir -p /mnt/hgfs
@@ -96,6 +102,7 @@ source ~/netops-venv/bin/activate
 which python
 pip install --upgrade pip
 pip install netmiko paramiko scp
+deactivate
 ```
 Now we must create a Python script for testing. VS Code is a good option for writing code. Below is a sample Paramiko Python script.
 ```
@@ -110,7 +117,7 @@ Now we need to return to the pfSense GUI to allow Syslog, SNMP and SSH connectio
 
 ---
 
-### Allowing pfSense Connections
+### Allowing pfSense Connections and Testing Python Script
 We will define the Syslog server, allow for SSH connections and set up SNMP polling.
 Inside the pfSense GUI:
 ```
@@ -118,16 +125,12 @@ Inside the pfSense GUI:
 2. Enable remote syslog server, and use the IP of the Ubuntu server and allow for Syslog UDP 514
 3. 192.168.83.10:514
 ```
-
-PIC!
-
+![syslog gui 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-31%20082535.png)
 ```
 1. System tab -> Advanced -> Admin Access
 2. Secure Shell -> Enable Secure Shell
 ```
-
-PIC!
-
+![ssh gui 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-31%20083019.png)
 ```
 1. Services -> SNMP -> Enable the SNMP Daemon and its controls
 2. Polling Port: 161
@@ -135,3 +138,14 @@ PIC!
 4. Bind to LAN interface (in this instance it is the pfSense LAN)
 ```
 The Read Community String is essentially a password shared by the server and the device being polled. This will be important later when needing to run the snmpwalk command to return output.
+
+Let's return back to Ubuntu CLI to test Syslog funcationality, SNMP polling, Paramiko and the Python script through SSH connection.
+```
+source ~/netops-venv/bin/activate
+python3 -c "import paramiko; print('test test test')"
+```
+![paramiko 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-31%20081524.png)
+
+---
+
+### In version 1.1 we will add a LibreNMS Docker for a GUI NMS.
