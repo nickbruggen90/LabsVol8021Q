@@ -203,8 +203,8 @@ snmpwalk -v2c -c public 192.168.83.100
 ```
 ![mibs output 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-29%20185249.png)
 ![mibs output 2](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-29%20185400.png)
-
-
+  
+  
 Paramiko and the Python script need to ran in the VENV where pip was installed.
 ```
 source ~/netops-venv/bin/activate
