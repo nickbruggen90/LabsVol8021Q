@@ -25,6 +25,8 @@ Find the subnet associated with the virtual NIC:
 You are now able to log into the pfSense portal via the LAN IP you assigned (192.168.83.100).
 Now we need to set up Ubuntu Server to act the Syslog Collector and SNMP Client, as well as create a Python script for SSH connection testing (and future automation).
 
+---
+
 ### Ubuntu Server Creation and Configuration
 The Ubuntu Server VM will be created with VMWare Workstation. Use the official Ubuntu Live Server .iso release.
 ```
@@ -83,6 +85,8 @@ sudo mkdir -p /mnt/hgfs
 sudo vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other
 ```
 
+---
+
 ### Virtual Environment Creating and Installing Python
 We will need to install Paramiko and SCP inside a virtual environment (VENV) to allow it to function.
 ```
@@ -103,6 +107,8 @@ Return to Ubuntu CLI to confirm script is in the appropriate place.
 ls -la /mnt/hgfs
 ```
 Now we need to return to the pfSense GUI to allow Syslog, SNMP and SSH connections.
+
+---
 
 ### Allowing pfSense Connections
 We will define the Syslog server, allow for SSH connections and set up SNMP polling.
