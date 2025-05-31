@@ -158,6 +158,7 @@ Return to Ubuntu CLI to confirm script is in the appropriate place.
 ```
 ls -la /mnt/hgfs/[name of shared folder]
 ```
+Let's save this test script as python.py 
 Now we need to return to the pfSense GUI to allow Syslog, SNMP and SSH connections.
 
 ---
@@ -207,8 +208,13 @@ snmpwalk -v2c -c public 192.168.83.100
 ```
 source ~/netops-venv/bin/activate
 python3 -c "import paramiko; print('test test test')"
+python3 
 ```
+Paramiko:
 ![paramiko 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-31%20081524.png)
+
+Python:
+![python output 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-31%20091301.png)
 
 ---
 
