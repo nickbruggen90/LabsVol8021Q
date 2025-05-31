@@ -44,4 +44,31 @@ To populate the IP's of the Ubuntu Server, you may need to install net-tools:
 1. sudo apt install net-tools
 2. ifconfig /all
 ```
-
+Next, let's install SNMP on the Ubuntu server. We will also need to allow SNMP on pfSense in future steps.
+Inside Ubuntu Server VM:
+```
+sudo apt install snmp snmp-mibs-downloader
+snmpwalk -v2c -c public 192.168.83.100
+```
+Alternatively, you can edit the /etc/snmp/snmp.conf file to make the output more readable.
+```
+#mibs :
+```
+Next, lets install Syslog and confirm it's active. Likewise, we will need to allow it on pfSense in future steps.
+```
+sudo apt update
+sudo apt install rsyslog
+sudo systemctl status rsyslog
+```
+We must also create and define log files and directories.
+```
+sudo mkdir /var/log
+sudo touch /var/log/pfsense.log
+sudo vim /etc/rsyslog.d/10-pfsense.conf
+```
+Add the following lines to the .conf file:
+```
+if ($fromhost-ip == '192.168.83.100') then /var/log/pfsense.log
+& stop
+```
+Restart Syslog with *sudo systemctl restart rsyslog* - and also power down and power back up the entire VM for good measure.
