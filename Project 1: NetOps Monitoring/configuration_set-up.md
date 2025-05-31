@@ -192,6 +192,19 @@ The Read Community String is essentially a password shared by the server and the
 
 Let's return back to Ubuntu CLI to test Syslog funcationality, SNMP polling, Paramiko and the Python script through SSH connection.
 ```
+tail -f /var/log/pfsense.log
+```
+![syslog output 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-31%20090011.png)
+
+
+```
+snmpwalk -v2c -c public 192.168.83.100
+```
+![mibs output 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-29%20185249.png)
+![mibs output 2](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-29%20185400.png)
+
+
+```
 source ~/netops-venv/bin/activate
 python3 -c "import paramiko; print('test test test')"
 ```
