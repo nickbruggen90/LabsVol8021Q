@@ -156,7 +156,7 @@ except Exception as e:
 To execute this script, we need to add the script to the shared folder for accessibility and allow for SSH connection through pfSense.
 Return to Ubuntu CLI to confirm script is in the appropriate place.
 ```
-ls -la /mnt/hgfs
+ls -la /mnt/hgfs/[name of shared folder]
 ```
 Now we need to return to the pfSense GUI to allow Syslog, SNMP and SSH connections.
 
