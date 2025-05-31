@@ -1,23 +1,27 @@
 ### pfSense Creation and Initial Configuration
 First we will create the pfSense VM with VMWare Workstation. Use the official pfSense CE .iso release. Choose the following configuration for set-up:
 ```
-1. 2 NICs are needed: have the first one be Bridged, and the second Host-Only
+1. 2 NICs are needed:
+    - NIC 1: Bridged
+    - NIC 2: Host-Only
 2. 2BG RAM
-3. 20GB storage space
+3. 20 GB storage space
 4. 2 processors
 ```
 Once the VM boots up, pfSense will ask some configuration options. The ones you need to pay attention to are:
 ```
 1. Auto UFS
-2. MBR
+2. MBR parition scheme
 ```
 After the installation and initial bootup, pfSense will prompt you will a numbered menu. You are in the right spot.
+
+##### Set the LAN IP:
 Find the subnet associated with the virtual NIC:
 ```
-1. Windows cmd -> ipconfig
+1. In Windows cmd -> ipconfig
 2. Look for VMNet1 NIC (VMWare uses the 192.168.83.0/24 subnet by default, but double check)
-3. Choose to Set Interface IPs from pfSense home screen. And choose the LAN interface (in this instance it is em1)
-4. Change the LAN interface on pfSense to an IP within VMNet1 NIC subnet (in this instance it will be 192.168.83.100/24)
+3. In pfSense menu, choose *Set Interface IPs*. Set the LAN interface (in this instance it is em1)
+4. Choose an IP that is within VMNet1 NIC subnet (in this instance it will be 192.168.83.100/24)
 ```
 ![VMNet1 NIC output](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-28%20145426.png)
 ![pfSense IPs](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-28%20145701.png)
@@ -37,20 +41,19 @@ The Ubuntu Server VM will be created with VMWare Workstation. Use the official U
 ```
 Once it boots up and you reach Network Configurations:
 ```
-1. You will choose an IP within the subnet of the VMNet1 NIC. In this instance it will be 192.168.83.10/24
+1. You will choose an IP within the subnet of the VMNet1 NIC (in this instance it will be 192.168.83.10/24)
 2. The gateway will be the IP of the pfSense LAN - 192.168.83.100
-3. Ping the default gateway and a name server (8.8.8.8 for instance)
+3. Define a name server (8.8.8.8 for instance)
 ```
 To populate the IP's of the Ubuntu Server, you may need to install net-tools:
 ```
 1. sudo apt install net-tools
-2. ifconfig /all
+2. ifconfig -a
 ```
 Next, let's install SNMP on the Ubuntu server. We will also need to allow SNMP on pfSense in future steps.
 Inside Ubuntu Server VM:
 ```
 sudo apt install snmp snmp-mibs-downloader
-snmpwalk -v2c -c public 192.168.83.100
 ```
 Alternatively, you can edit the /etc/snmp/snmp.conf file to make the output more readable.
 ```
@@ -105,7 +108,7 @@ pip install --upgrade pip
 pip install netmiko paramiko scp
 deactivate
 ```
-Now we must create a Python script for testing. VS Code is a good option for writing code. Below is a sample Paramiko Python script.
+Now we must create a Paramiko Python script for testing. VS Code is a good option for writing code. Below is a sample Paramiko Python script.
 ```
 #This script parses device inforamation using Python and Paramiko
 import paramiko
