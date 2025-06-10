@@ -1,4 +1,5 @@
 ### Windows Server Creation & ADDS Initial Set-Up
+This section covers creating a Windows Server 2025 domain controller for our Active Directory lab environment.
 First we will need to create the Windows Server 2025 VM. Choose the following configuration for set-up:
 1. VM Configuration:
 ```
@@ -40,9 +41,9 @@ d. Check Active Directory Domain Services and Add Feature
 e. Skip through the next optional features for now, and install
 ```
 ![yellow flag picture](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20151452.png)  
-6. When the installation succeeds and the VM restarts, look for a yellow flag in the top right corner and choose "Promotoe this server to a domain controller". And choose the following:
+6. When the installation succeeds and the VM restarts, look for a yellow flag in the top right corner and choose "Promote this server to a domain controller". And choose the following:
 ```
-a. Add new forest, and choose a relavent name. In this instance we will choose testlab.local
+a. Add new forest, and choose a relevant name. In this instance we will choose testlab.local
 b. Keep both DNS server and Global Catalog checked
 c. DSRM password: choose the same password as you have been for this lab
 d. Keep rest of the settings default
