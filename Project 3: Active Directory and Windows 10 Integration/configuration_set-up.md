@@ -38,3 +38,13 @@ c. Ensure the DC01 IP address is 192.168.83.150 (the static one we set)
 d. Check Active Directory Domain Services and Add Feature
 e. Skip through the next optional features for now, and install
 ```
+[insert yellow flag picture]
+When the installation succeeds and the VM restarts, look for a yellow flag in the top right corner and choose "Promotoe this server to a domain controller". And choose the following:
+```
+a. Add new forest, and choose a relavent name. In this instance we will choose testlab.local
+b. Keep both DNS server and Global Catalog checked
+c. DSRM password: choose the same password as you have been for this lab
+d. Keep rest of the settings default
+e. You should see that all prerequisites pass
+```
+
