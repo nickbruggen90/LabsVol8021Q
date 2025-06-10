@@ -28,8 +28,8 @@ b. Choose IPv4 Properties and input the following static IP information:
       Default Gateway: 192.168.83.100 (pfSense)
       DNS: leave blank for now
 ```
-Restart the PC to ensure the static IP was set.
-[insert cmd ipconfig]
+Restart the PC to ensure the static IP was set.  
+[insert cmd ipconfig]  
 5. Now we will add Active Directory Domain Services. In Server Manager choose:
 ```
 Add roles and features
