@@ -47,6 +47,9 @@ a. Add new forest, and choose a relevant name. In this instance we will choose t
 b. Keep both DNS server and Global Catalog checked
 c. DSRM password: choose the same password as you have been for this lab
 d. Keep rest of the settings default
-e. You should see that all prerequisites pass
+e. You should see that all prerequisites pass. And upon reboot, you should see AD DS and DNS roles.
 ```
+7. Now we can go back into the IPv4 settings (step 4) and assign a DNS server, which will be this server itself. So set DNS to 127.0.0.1 and save.
 
+### Creating Test Users and Groups
+1.
