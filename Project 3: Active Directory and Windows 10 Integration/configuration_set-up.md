@@ -32,9 +32,9 @@ Restart the PC to ensure the static IP was set.
 [insert cmd ipconfig]  
 5. Now we will add Active Directory Domain Services. In Server Manager choose:
 ```
-Add roles and features
-Role-based or feature-based installation
-Ensure the DC01 IP address is 192.168.83.150 (the static one we set)
-Check Active Directory Domain Services and Add Feature
-Skip through the next optional features for now, and install
+a. Add roles and features
+b. Role-based or feature-based installation
+c. Ensure the DC01 IP address is 192.168.83.150 (the static one we set)
+d. Check Active Directory Domain Services and Add Feature
+e. Skip through the next optional features for now, and install
 ```
