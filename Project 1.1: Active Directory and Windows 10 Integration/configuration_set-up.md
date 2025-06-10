@@ -14,7 +14,7 @@ a. It will ask you for a license key, choose "I don't have a license". You get 1
 b. Choose the version of Windows Server you downloaded (2019, 2022, 2025). In this case, it is Windows Server 2025.  
 c. And choose the Standard version, NON-CORE.
 ```
-![license key screenshot](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20140539.png)
+![license key screenshot](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20140539.png)  
 3. Once the server boots up, restart the VM and log in as Administrator. First thing you should do is change the password for Administrator. (For this lab I recommend using the same password throughout for simplicity).  
 
 4. Rename PC and Set Static IP:  
