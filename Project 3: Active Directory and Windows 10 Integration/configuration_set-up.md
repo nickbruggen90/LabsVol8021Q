@@ -1,6 +1,6 @@
 ### Windows Server Creation & ADDS Initial Set-Up
 First we will need to create the Windows Server 2025 VM. Choose the following configuration for set-up:
-1. VM Configuration:
+1. *VM Configuration:*
 ```
 NIC: Host-Only
 RAM: 4GB
@@ -8,7 +8,7 @@ Disk Space: 40GB
 CPUs: 1, 2 core
 Name: DC01
 ```
-2. License Key:
+2. *License Key:*
 ```
 a. It will ask you for a license key, choose "I don't have a license". You get 180 day trial.  
 b. Choose the version of Windows Server you downloaded (2019, 2022, 2025). In this case, it is Windows Server 2025.  
@@ -16,7 +16,7 @@ c. And choose the Standard version, NON-CORE.
 ```
 [insert license key screenshot]  
 3. Once the server boots up, restart the VM and log in as Administrator. First thing you should do is change the password for Administrator. (For this lab I recommend using the same password throughout for simplicity).  
-4. Rename PC and Set Static IP.  
+4. *Rename PC and Set Static IP:*   
 Use the search bar and search for "About Your PC" and in the top right choose "Rename this PC". Rename it DC01. Let the VM restart.  
 Configure the network settings:  
 ```
