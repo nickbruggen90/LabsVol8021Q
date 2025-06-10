@@ -51,5 +51,7 @@ e. You should see that all prerequisites pass. And upon reboot, you should see A
 ```
 7. Now we can go back into the IPv4 settings (step 4) and assign a DNS server, which will be this server itself. So set DNS to 127.0.0.1 and save.
 
+---
+
 ### Creating Test Users and Groups
 1.
