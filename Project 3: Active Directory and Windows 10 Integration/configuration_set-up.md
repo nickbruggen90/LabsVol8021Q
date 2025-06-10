@@ -14,7 +14,7 @@ a. It will ask you for a license key, choose "I don't have a license". You get 1
 b. Choose the version of Windows Server you downloaded (2019, 2022, 2025). In this case, it is Windows Server 2025.  
 c. And choose the Standard version, NON-CORE.
 ```
-[insert license key screenshot]
+[insert license key screenshot]  
 3. Once the server boots up, restart the VM and log in as Administrator. First thing you should do is change the password for Administrator. (For this lab I recommend using the same password throughout for simplicity).
 4. Rename PC and Set Static IP.  
 Use the search bar and search for "About Your PC" and in the top right choose "Rename this PC". Rename it DC01. Let the VM restart.  
