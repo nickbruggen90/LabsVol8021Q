@@ -54,4 +54,18 @@ e. You should see that all prerequisites pass. And upon reboot, you should see A
 ---
 
 ### Creating Test Users and Groups
+1. Here we will create test users/employee, add them to groups and assign policies to both the user and the group.
+```
+a. Search for Active Directory Users and Computers
+b. Right click testlab.local and create new Organizational Unit named "Employees"
+c. Choose a password, and uncheck "User must change password at next logon"
+d. Inside testlab.local creat a Group named "IT Support". Keep the Group Scope "Global" and Group Type "Security"
+e. Apply and Ok
+```
+![user creation pic](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20161150.png)
+![group creation pic](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20161543.png)
+
+---
+
+### Windows 10 Client Creation & Joining AD DS Domain
 1.
