@@ -23,10 +23,10 @@ Configure the network settings:
 ```
 a. Control Panel -> Network and Internet -> Network Sharing Center -> Change Adapter Settings -> right click on Ethernet0 and Properties  
 b. Choose IPv4 Properties and input the following static IP information:
-  IP Address: 192.168.83.150
-  Subnet Mask: 255.255.255.0
-  Default Gateway: 192.168.83.100 (pfSense)
-  DNS: leave blank for now
+      IP Address: 192.168.83.150
+      Subnet Mask: 255.255.255.0
+      Default Gateway: 192.168.83.100 (pfSense)
+      DNS: leave blank for now
 ```
 Restart the PC to ensure the static IP was set.
 [insert cmd ipconfig]
