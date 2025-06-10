@@ -14,7 +14,7 @@ a. It will ask you for a license key, choose "I don't have a license". You get 1
 b. Choose the version of Windows Server you downloaded (2019, 2022, 2025). In this case, it is Windows Server 2025.  
 c. And choose the Standard version, NON-CORE.
 ```
-[insert license key screenshot]  
+![license key screenshot](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20140539.png)
 3. Once the server boots up, restart the VM and log in as Administrator. First thing you should do is change the password for Administrator. (For this lab I recommend using the same password throughout for simplicity).  
 
 4. Rename PC and Set Static IP:  
@@ -29,7 +29,7 @@ b. Choose IPv4 Properties and input the following static IP information:
       DNS: leave blank for now
 ```
 Restart the PC to ensure the static IP was set.  
-[insert cmd ipconfig]  
+![cmd ipconfig](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20144719.png)
 5. Now we will add Active Directory Domain Services. In Server Manager choose:
 ```
 a. Add roles and features
@@ -38,7 +38,7 @@ c. Ensure the DC01 IP address is 192.168.83.150 (the static one we set)
 d. Check Active Directory Domain Services and Add Feature
 e. Skip through the next optional features for now, and install
 ```
-[insert yellow flag picture]  
+![yellow flag picture](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20151452.png)
 6. When the installation succeeds and the VM restarts, look for a yellow flag in the top right corner and choose "Promotoe this server to a domain controller". And choose the following:
 ```
 a. Add new forest, and choose a relavent name. In this instance we will choose testlab.local
