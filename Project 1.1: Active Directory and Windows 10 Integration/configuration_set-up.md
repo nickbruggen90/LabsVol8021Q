@@ -54,7 +54,7 @@ e. You should see that all prerequisites pass. And upon reboot, you should see A
 ---
 
 ### Creating Test Users and Groups
-1. Here we will create test users/employee, add them to groups and assign policies to both the user and the group.
+1. Here we will create  test user/employee and add them to a group.
 ```
 a. Search for Active Directory Users and Computers
 b. Right click testlab.local and create new Organizational Unit named "Employees"
