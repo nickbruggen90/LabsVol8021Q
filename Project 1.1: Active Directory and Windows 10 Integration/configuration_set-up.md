@@ -78,9 +78,10 @@ CPUs: 1, 2 core
 Name: CLIENT01
 ```
 2. Choose "I don't have a license key" and you will need to choose Windows 10 Pro (Windows 10 Home doesn't allow you to connect to AD DS domains).  
-3. Custom: Install Windows Only (advanced) and install. And choose the following:
-      a. I don't have internet
-      b. Continue with limited setup
-      c. PC Name: CLIENT01
-      d. Choose a password (for simplicity purposes, stick with the same password throughout this lab)
-      e. 
+3. Custom: Install Windows Only (advanced) and install. And choose the following:  
+      a. I don't have internet  
+      b. Continue with limited setup  
+      c. PC Name: CLIENT01  
+      d. Choose a password (for simplicity purposes, stick with the same password throughout this lab)  
+      e. I like to toggle No on all the privacy setting options, and not now to Cortana
+      f. 
