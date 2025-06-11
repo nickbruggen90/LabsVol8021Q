@@ -6,7 +6,7 @@ First we will need to create the Windows Server 2025 VM. Choose the following co
 NIC: Host-Only
 RAM: 4GB
 Disk Space: 40GB
-CPUs: 1 processor 2 core preferablly (1 processor 1 core will work)
+CPUs: 1 processor 2 core preferably (1 processor 1 core will work)
 Name: DC01
 ```
 2. License Key:  
