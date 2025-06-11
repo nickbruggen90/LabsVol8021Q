@@ -1,6 +1,6 @@
 ### Troubleshooting: Client Isn’t Receiving Group Policies Properly (lab and production)
 If GPOs are not updating to the client in the Active Directory domain (shown below), try the following troubleshooting steps.
-Regardless if your working in a lab environment or production, make sure the user is apart of the security group, and that group is added to the GPO.
+Regardless if your working in a lab environment or production, make sure the user is a part of the security group, and that group is added to the GPO.
 ![gpresults output](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20095437.png)
 ![user group verification](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20112029.png)
 ![group/GPO verification](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20102411.png)
@@ -42,7 +42,7 @@ Security Policies: every 16 hours regardless of
 ```
 If you require immediate policy updates, consider the following:
 ```
-a. Within Group Policy Management, some version allow a right-click and a drop down menu to select "Force Update Remotely"
+a. Within Group Policy Management, some versions allow a right-click and a drop down menu to select "Force Update Remotely"
 b. Use the Powershell command: Invoke-GPUpdate -Computer "CLIENT01" -Force
 c. SCCM/Intune offers a "Push Policy Update" option
 d. Reboot during maintenance hours
