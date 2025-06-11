@@ -89,7 +89,7 @@ Name: CLIENT01
       e. I like to toggle No on all the privacy setting options, and not now to Cortana
 ```
 4. Rename PC and Set Static IP:  
-Use the search bar and search for "About Your PC" and in the top right choose "Rename this PC". Rename it CLIENT1. Let the VM restart.
+Use the search bar and search for "About Your PC" and in the top right choose "Rename this PC". Rename it CLIENT01. Let the VM restart.
 (Alternatively, you can right click on This PC -> Properties -> Rename this PC)
 ![rename the pc](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20192952.png)
 5. Configure the network settings:  
