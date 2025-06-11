@@ -5,7 +5,7 @@ Regardless if your working in a lab environment or production, make sure the use
 ![user group verification](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20112029.png)
 ![group/GPO verification](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20102411.png)
 
-##### Lab Troubleshooting:
+#### Lab Troubleshooting:
 In a lab environment, or where you can easily access the client PC:
 1. Make sure the client PC is correct. In cmd run -
 ```
@@ -30,7 +30,7 @@ gpresults /r
 
 ---
 
-##### Production Troubleshooting:
+#### Production Troubleshooting:
 In production, Active Directory relies on automatic refresh timers. Below are some common time frames for polices:
 ```
 Computer Policies: every 90 minutes, with random 0-30 minute offsets
