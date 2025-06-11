@@ -102,7 +102,7 @@ b. Choose IPv4 Properties and input the following static IP information:
       DNS: 192.168.83.150 (DC01)
 ```
 Restart the PC to ensure the network settings were saved.  
-![cmd ipconfig](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20190509.png)
+![cmd ipconfig](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20190509.png)  
 6. *ping DC01* and *ping 192.168.83.150*
       a. Also perform nslook to ensure domain name/IP resolution
 ![ping results](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20190638.png)
