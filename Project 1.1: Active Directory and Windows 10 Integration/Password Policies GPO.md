@@ -19,5 +19,5 @@ Password must meet complexity requirements
 Relax minimum password length limits
 Store passwords using reversible encryption
 ```
-4. Now you must link the GPO to the domain.
+4. Now you must link the GPO to the domain. Return to Group Policy Management. Right click on testlab.local and Link and Existing GPO.
 ![link GPO](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20205313.png)
