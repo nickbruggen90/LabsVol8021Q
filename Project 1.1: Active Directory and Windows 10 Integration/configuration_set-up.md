@@ -78,7 +78,7 @@ Disk Space: 40GB
 CPUs: 1, 2 core
 Name: CLIENT01
 ```
-2. Choose "I don't have a license key" and you will need to choose Windows 10 Pro (Windows 10 Home doesn't allow you to connect to AD DS domains).
+2. Choose "I don't have a license key" and you will need to choose Windows 10 Pro (Windows 10 Home doesn't allow you to connect to AD DS domains).  
 ![license key screenshot](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20183710.png)
 3. Custom: Install Windows Only (advanced) and install. And choose the following:
 ```
