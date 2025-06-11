@@ -18,9 +18,9 @@ whoami
 ```
 nltest /dsgetdc:testlab.local
 ```
-![nltest results](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20102535.png)
+![nltest results](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20102535.png)  
 3. Verify Group Policy Client is "Running" and set to "Automatic". Search for run and type in "services.msc" and look for Group Policy Client.
-![services.msc output](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20102619.png)
+![services.msc output](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20102619.png)  
 4. Return to the domain controller (DC01) and within Group Policy Management ensure the GPO is "Enabled" and "Enforced".
 ![DC enabled/enforced](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20102731.png)
 
