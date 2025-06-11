@@ -106,7 +106,7 @@ Restart the PC to ensure the network settings were saved.
 6. *ping DC01* and *ping 192.168.83.150*
       a. Also perform nslook to ensure domain name/IP resolution
 ![ping results](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20190638.png)
-![nslookup results](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20190708.png)
+![nslookup results](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20190708.png)  
 7. Return to step 4, in the About this PC section, and scroll to the bottom and find Rename This PC (Advanced)
 ```
 a. Select the Change button to change its domain (or workgroup)
