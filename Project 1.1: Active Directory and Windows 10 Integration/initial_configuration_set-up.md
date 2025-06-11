@@ -6,7 +6,7 @@ First we will need to create the Windows Server 2025 VM. Choose the following co
 NIC: Host-Only
 RAM: 4GB
 Disk Space: 40GB
-CPUs: 1, 2 core
+CPUs: 1 processor 2 core preferablly (1 processor 1 core will work)
 Name: DC01
 ```
 2. License Key:  
@@ -75,7 +75,7 @@ Upon the first bootup you will need to press any key to make it load from the CD
 NIC: Host-Only
 RAM: 2GB
 Disk Space: 40GB
-CPUs: 1, 2 core
+CPUs: 1 processor 1 core
 Name: CLIENT01
 ```
 2. Choose "I don't have a license key" and you will need to choose Windows 10 Pro (Windows 10 Home doesn't allow you to connect to AD DS domains).  
