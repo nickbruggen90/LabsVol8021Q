@@ -68,4 +68,15 @@ e. Apply and Ok
 ---
 
 ### Windows 10 Client Creation & Joining AD DS Domain
-1.
+1. Now we will need to create the Client Windows VM to act as an employee/user connecting to the AD DS domain.
+Upon the first bootup you will need to press any key to make it load from the CD (ISO).
+```
+NIC: Host-Only
+RAM: 2GB
+Disk Space: 40GB
+CPUs: 1, 2 core
+Name: CLIENT01
+```
+2. Choose "I don't have a license key" and you will need to choose Windows 10 Pro (Windows 10 Home doesn't allow you to connect to AD DS domains).  
+3. Custom: Install Windows Only (advanced) and install  
+4. 
