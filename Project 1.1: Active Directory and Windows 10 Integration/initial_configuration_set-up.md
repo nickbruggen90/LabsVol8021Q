@@ -117,3 +117,9 @@ d. Restart the VM and choose Other User in the bottom left corner, and login as 
 ![admin login domain](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20191406.png)
 ![sucessful domain login](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20191546.png)
 ![jsmith login](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20191709.png)
+
+---
+
+### Confirmation
+Return to DC01 and search for Active Directory Domain Services Users and Computers -> testlab.local -> Computers -> and you should see CLIENT01 listed.  
+![confirmation](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20202550.png)
