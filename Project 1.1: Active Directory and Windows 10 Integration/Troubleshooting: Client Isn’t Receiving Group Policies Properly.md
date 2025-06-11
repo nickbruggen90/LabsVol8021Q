@@ -24,7 +24,7 @@ nltest /dsgetdc:testlab.local
 4. Return to the domain controller (DC01) and within Group Policy Management ensure the GPO is "Enabled" and "Enforced".
 ![DC enabled/enforced](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20102731.png)
 
-When in a lab environment, you can return to the CLIENT01 PC and force a GPO update and see the applied policies in cmd with -
+5. When in a lab environment, you can return to the CLIENT01 PC and force a GPO update and verify the policies were applied in cmd with -
 ```
 gpupdate /force
 gpresults /r
