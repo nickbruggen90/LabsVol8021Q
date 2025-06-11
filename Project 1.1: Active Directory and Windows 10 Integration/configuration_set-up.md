@@ -20,7 +20,8 @@ c. And choose the Standard version, NON-CORE.
 
 
 4. Rename PC and Set Static IP:  
-Use the search bar and search for "About Your PC" and in the top right choose "Rename this PC". Rename it DC01. Let the VM restart.  
+Use the search bar and search for "About Your PC" and in the top right choose "Rename this PC". Rename it DC01. Let the VM restart.
+(Alternatively, you can right click on This PC -> Properties -> Rename this PC)
 Configure the network settings:  
 ```
 a. Control Panel -> Network and Internet -> Network Sharing Center -> Change Adapter Settings -> right click on Ethernet0 and Properties  
@@ -77,11 +78,42 @@ Disk Space: 40GB
 CPUs: 1, 2 core
 Name: CLIENT01
 ```
-2. Choose "I don't have a license key" and you will need to choose Windows 10 Pro (Windows 10 Home doesn't allow you to connect to AD DS domains).  
-3. Custom: Install Windows Only (advanced) and install. And choose the following:  
+2. Choose "I don't have a license key" and you will need to choose Windows 10 Pro (Windows 10 Home doesn't allow you to connect to AD DS domains).
+![license key screenshot](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20183710.png)
+3. Custom: Install Windows Only (advanced) and install. And choose the following:
+```
       a. I don't have internet  
       b. Continue with limited setup  
       c. PC Name: CLIENT01  
       d. Choose a password (for simplicity purposes, stick with the same password throughout this lab)  
       e. I like to toggle No on all the privacy setting options, and not now to Cortana
-      f. 
+```
+4. Rename PC and Set Static IP:  
+Use the search bar and search for "About Your PC" and in the top right choose "Rename this PC". Rename it CLIENT1. Let the VM restart.
+(Alternatively, you can right click on This PC -> Properties -> Rename this PC)
+![rename the pc](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20192952.png)
+5. Configure the network settings:  
+```
+a. Control Panel -> Network and Internet -> Network Sharing Center -> Change Adapter Settings -> right click on Ethernet0 and Properties  
+b. Choose IPv4 Properties and input the following static IP information:
+      IP Address: 192.168.83.151
+      Subnet Mask: 255.255.255.0
+      Default Gateway: 192.168.83.100 (pfSense)
+      DNS: 192.168.83.150 (DC01)
+```
+Restart the PC to ensure the network settings were saved.  
+![cmd ipconfig](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20190509.png)
+6. *ping DC01* and *ping 192.168.83.150*
+      a. Also perform nslook to ensure domain name/IP resolution
+![ping results](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20190638.png)
+![nslookup results](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20190708.png)
+7. Return to step 4, in the About this PC section, and scroll to the bottom and find Rename This PC (Advanced)
+```
+a. Select the Change button to change its domain (or workgroup)
+b. Member of: Domain: testlab.local (NOT workgroup)
+c. User Name: Administrator, Password: the password you chose for the Administrator account
+d. Restart the VM and choose Other User in the bottom left corner, and login as testlab\jsmith
+```
+![admin login domain](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20191406.png)
+![sucessful domain login](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20191546.png)
+![jsmith login](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-10%20191709.png)
