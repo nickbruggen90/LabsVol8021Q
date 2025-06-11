@@ -13,7 +13,7 @@ In a lab environment, or where you can easily access the client PC:
 ```
 whoami
 ```
-![whoami results](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20102455.png)
+![whoami results](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20102455.png)  
 2. Verify it is accessing the correct domain controller, and is populating the correct information for that controller. In cmd run -
 ```
 nltest /dsgetdc:testlab.local
