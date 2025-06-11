@@ -1,6 +1,7 @@
 ### Troubleshooting: Client Isn’t Receiving Group Policies Properly (lab and production)
 If GPOs are not updating to the client in the Active Directory domain (shown below), try the following troubleshooting steps.
 Regardless if your working in a lab environment or production, make sure the user is apart of the security group, and that group is added to the GPO.
+![gpresults output](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20095437.png)
 ![user group verification](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20112029.png)
 ![group/GPO verification](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20102411.png)
 
@@ -11,19 +12,14 @@ In a lab environment, or where you can easily access the client PC:
 whoami
 ```
 ![whoami results](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20102455.png)
-2. Check what GPOs are being applied to the user. In cmd run -
-```
-gpresults /r
-```
-![gpresults output](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20095437.png)
-3. Verify it is accessing the correct domain controller, and is populating the correct information for that controller. In cmd run -
+2. Verify it is accessing the correct domain controller, and is populating the correct information for that controller. In cmd run -
 ```
 nltest /dsgetdc:testlab.local
 ```
 ![nltest results](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20102535.png)
-4. Verify Group Policy Client is "Running" and set to "Automatic". Search for run and type in "services.msc" and look for Group Policy Client.
+3. Verify Group Policy Client is "Running" and set to "Automatic". Search for run and type in "services.msc" and look for Group Policy Client.
 ![services.msc output](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20102619.png)
-5. Return to the domain controller (DC01) and within Group Policy Management ensure the GPO is "Enabled" and "Enforced".
+4. Return to the domain controller (DC01) and within Group Policy Management ensure the GPO is "Enabled" and "Enforced".
 ![DC enabled/enforced](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20102731.png)
 
 When in a lab environment, you can return to the CLIENT01 PC and force a GPO update and see the applied policies in cmd with -
