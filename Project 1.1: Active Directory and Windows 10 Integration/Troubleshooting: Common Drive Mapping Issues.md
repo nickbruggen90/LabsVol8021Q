@@ -5,7 +5,7 @@ Problem: GPO configured but drive not mapping?
 gpupdate /force
 gpresult /r
 ```
-![gpresult output](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20125147.png)
+![gpresult output](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20125147.png)  
 2. Verify the folder is present and viewable. In cmd run:
 ```
 dir \\DC01\Wallpapers
