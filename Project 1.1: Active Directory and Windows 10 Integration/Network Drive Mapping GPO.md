@@ -24,5 +24,5 @@ toggle both "Show This Drive"
 ![new drive creation](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20180805.png)
 5. Now you must link the GPO to the domain. Return to Group Policy Management. Right click on testlab.local and Link and Existing GPO.
 ![link GPO](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20181141.png)  
-6. Confirm Z: is accessible on CLIENT01.
+6. Confirm Z: is accessible on CLIENT01.  
 ![confirmation of Z:](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20124816.png)
