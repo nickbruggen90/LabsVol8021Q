@@ -10,12 +10,12 @@ gpresult /r
 ```
 dir \\DC01\Wallpapers
 ```
-![dir output](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20124224.png)
+![dir output](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20124224.png)  
 2.1. Alternatively, you can run the Powershell command:
 ```
 Get-WmiObject -Class Win32_LogicalDisk | Where-Object {$_.DriveType -eq 4}
 ```
-![powershell output](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20125106.png)
+![powershell output](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20125106.png)  
 2.2. As a third option, you can run the findstring command inside cmd:
 ```
 gpresult /r | findstr -i "drive"
