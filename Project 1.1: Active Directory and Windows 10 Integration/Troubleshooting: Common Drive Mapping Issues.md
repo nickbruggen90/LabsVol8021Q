@@ -23,7 +23,7 @@ gpresult /r | findstr -i "drive"
 ![gpresults findstr output](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20125225.png)  
 3. Inside DC01 confirm the folder is being shared with the right settings:
 ```
-a. Naviate to This PC ->
+a. Navigate to This PC ->
 b. Right click on Wallpapers folder ->
 c. Advanced Sharing button ->
 d. Check "Share This Folder" -> click Permissions
