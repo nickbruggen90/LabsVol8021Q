@@ -2,9 +2,10 @@
 
 | Lab Title                 | Description                                  | Status   |
 |--------------------------|----------------------------------------------|----------|
-| `NetOps Lab Project 1:`          | pfSense ↔ Ubuntu logging + Python SSH        | 🧩 WIP   |
-| `WAN Edge Automation Lab Project 2`   |        | 🧩 WIP    |
-| `VPN + NetOps Automation + Simulated NOC Project 3`   | Site-to-site VPN + automation                | 🧪 Planned|
+| `Project 1: Network Monitoring`          | pfSense ↔ Ubuntu logging + Python SSH        | ✅ Complete   |
+| `Project 1.1: Active Directory as an Endpoint`          | pfSense ↔ Ubuntu logging + Python SSH        | ✅ Complete   |
+| `Project 2: WAN Edge Automation Lab`   |        | 🧩 WIP    |
+| `Project 3: VPN + NetOps Automation + Simulated NOC`   | Site-to-site VPN + automation                | 🧪 Planned |
 ---
 
 ## 🛠️ Tools & Platforms Used
@@ -16,5 +17,8 @@
 - Wireshark
 - LibreNMS
 - VMware Workstation Pro (host-only / bridged)
+- Active Directory
+- Windows Server 2025
+- Windows 10 Pro
 
 ---
