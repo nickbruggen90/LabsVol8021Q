@@ -25,18 +25,9 @@ Design and implement a simulated branch-to-HQ VPN lab using pfSense, paired with
 
 ---
 
-## ✅ Key Skills Demonstrated
-- VPN tunnel configuration and validation (IPsec/OpenVPN)
-- Ansible playbook design for NetOps workflows
-- SNMP and Syslog event integration
-- Bash scripting for simulated RMM/PSA response
-- Full-stack network visibility and troubleshooting
-
----
-
 ## 🗂️ Future Integration Potential
 - Real RMM platforms (e.g., NinjaOne)
 - PSA platforms like HaloPSA
-- NETCONF/RESTCONF for richer telemetry
-- Email/webhook escalation and service mapping
+- NETCONF/RESTCONF for telemetry
+- Email escalation and service mapping
 
