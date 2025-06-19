@@ -49,8 +49,3 @@
 * **Task Scheduler:** Automated maintenance and policy deployment
 * **Event Viewer:** Log analysis and security monitoring
 * **Remote Desktop/PowerShell:** Remote access and troubleshooting
-
----
-
-*Lab completed: [Date]*  
-*Documentation: [Your Name]*
