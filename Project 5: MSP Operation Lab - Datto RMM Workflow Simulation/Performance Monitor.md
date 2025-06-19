@@ -30,75 +30,58 @@ Client_C_Warning_Monitoring: Scheduled maintenance needed
 Client_C_Performance_Baselines: Trend analysis and reporting
 ```
 ```
-## **Critical Response Sets (Immediate Action)**
+1. Client_A_Critical_Response
+  a. Processor(_Total)\% Processor Time > 90
+  b. Memory\Available MBytes < 500
+  c. LogicalDisk(C:)\% Free Space < 10
 
-### **Client_A_Critical_Response**
-- **Processor(_Total)\% Processor Time** → > 90
-- **Memory\Available MBytes** → < 500  
-- **LogicalDisk(C:)\% Free Space** → < 10
-- **Sample Interval:** 15 seconds
+2. Client_B_Critical_Response
+  a. Processor(_Total)\% Processor Time > 90
+  b. Memory\Available MBytes < 500
+  c. LogicalDisk(C:)\% Free Space < 10
 
-### **Client_B_Critical_Response** 
-- **Processor(_Total)\% Processor Time** → > 90
-- **Memory\Available MBytes** → < 500
-- **LogicalDisk(C:)\% Free Space** → < 10
-- **Sample Interval:** 15 seconds
+3. Client_C_Critical_Response
+  a. Processor(_Total)\% Processor Time > 90
+  b. Memory\Available MBytes < 500
+  c LogicalDisk(C:)\% Free Space < 10
 
-### **Client_C_Critical_Response**
-- **Processor(_Total)\% Processor Time** → > 90
-- **Memory\Available MBytes** → < 500
-- **LogicalDisk(C:)\% Free Space** → < 10
-- **Sample Interval:** 15 seconds
+4. Client_A_Warning_Monitoring
+  a. Processor(_Total)\% Processor Time > 75
+  b. Memory\Available MBytes < 1000
+  c. LogicalDisk(C:)\% Free Space < 20
+  d. LogicalDisk(C:)\Avg. Disk Queue Length > 2
 
----
+5. Client_B_Warning_Monitoring
+  a. Processor(_Total)\% Processor Time > 75
+  b. Memory\Available MBytes < 1000
+  c. LogicalDisk(C:)\% Free Space < 20
+  d. LogicalDisk(C:)\Avg. Disk Queue Length > 2
 
-## **Warning Monitoring Sets (Scheduled Maintenance)**
+6. Client_C_Warning_Monitoring
+  a. Processor(_Total)\% Processor Time > 75
+  b. Memory\Available MBytes < 1000
+  c. LogicalDisk(C:)\% Free Space < 20
+  d. LogicalDisk(C:)\Avg. Disk Queue Length > 2
 
-### **Client_A_Warning_Monitoring**
-- **Processor(_Total)\% Processor Time** → > 75
-- **Memory\Available MBytes** → < 1000
-- **LogicalDisk(C:)\% Free Space** → < 20
-- **LogicalDisk(C:)\Avg. Disk Queue Length** → > 2
-- **Sample Interval:** 30 seconds
+7. Client_A_Performance_Baselines
+  a. Network Interface(*)\Bytes Total/sec → No alert (monitoring only)
+  b. System\Processor Queue Length → No alert (monitoring only)
+  c. Memory\Pages/sec → No alert (monitoring only)
+  d. LogicalDisk(*)\% Disk Time → No alert (monitoring only)
 
-### **Client_B_Warning_Monitoring**
-- **Processor(_Total)\% Processor Time** → > 75
-- **Memory\Available MBytes** → < 1000
-- **LogicalDisk(C:)\% Free Space** → < 20
-- **LogicalDisk(C:)\Avg. Disk Queue Length** → > 2
-- **Sample Interval:** 30 seconds
 
-### **Client_C_Warning_Monitoring**
-- **Processor(_Total)\% Processor Time** → > 75
-- **Memory\Available MBytes** → < 1000
-- **LogicalDisk(C:)\% Free Space** → < 20
-- **LogicalDisk(C:)\Avg. Disk Queue Length** → > 2
-- **Sample Interval:** 30 seconds
+8. Client_B_Performance_Baselines
+  a. Network Interface(*)\Bytes Total/sec → No alert (monitoring only)
+  b. System\Processor Queue Length → No alert (monitoring only)
+  c. Memory\Pages/sec → No alert (monitoring only)
+  d. LogicalDisk(*)\% Disk Time → No alert (monitoring only)
 
----
 
-## **Performance Baseline Sets (Trend Analysis)**
-
-### **Client_A_Performance_Baselines**
-- **Network Interface(*)\Bytes Total/sec** → No alert (monitoring only)
-- **System\Processor Queue Length** → No alert (monitoring only)
-- **Memory\Pages/sec** → No alert (monitoring only)
-- **LogicalDisk(*)\% Disk Time** → No alert (monitoring only)
-- **Sample Interval:** 60 seconds
-
-### **Client_B_Performance_Baselines**
-- **Network Interface(*)\Bytes Total/sec** → No alert (monitoring only)
-- **System\Processor Queue Length** → No alert (monitoring only)
-- **Memory\Pages/sec** → No alert (monitoring only)
-- **LogicalDisk(*)\% Disk Time** → No alert (monitoring only)
-- **Sample Interval:** 60 seconds
-
-### **Client_C_Performance_Baselines**
-- **Network Interface(*)\Bytes Total/sec** → No alert (monitoring only)
-- **System\Processor Queue Length** → No alert (monitoring only)
-- **Memory\Pages/sec** → No alert (monitoring only)
-- **LogicalDisk(*)\% Disk Time** → No alert (monitoring only)
-- **Sample Interval:** 60 seconds
+9. Client_C_Performance_Baselines
+  a. Network Interface(*)\Bytes Total/sec → No alert (monitoring only)
+  b. System\Processor Queue Length → No alert (monitoring only)
+  c. Memory\Pages/sec → No alert (monitoring only)
+  d. LogicalDisk(*)\% Disk Time → No alert (monitoring only)
 ```
 
 
