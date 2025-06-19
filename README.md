@@ -11,15 +11,17 @@
 
 ## 🛠️ Tools & Platforms Used
 
-- Cisco IOS (via emulators or hardware)
+- Cisco IOS
 - pfSense
-- Ubuntu Server (CLI)
-- Python (Netmiko, Paramiko, etc.)
+- Ubuntu Server
+- Python (Netmiko, Paramiko)
 - Wireshark
 - LibreNMS
-- VMware Workstation Pro (host-only / bridged)
+- VMware Workstation Pro
 - Active Directory
 - Windows Server 2025
 - Windows 10 Pro
+- Znuny/OTRS
+- Docker
 
 ---
