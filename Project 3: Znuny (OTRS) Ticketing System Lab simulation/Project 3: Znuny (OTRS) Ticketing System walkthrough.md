@@ -21,3 +21,8 @@ Admin Panel → Agents ↔ Groups:
 ![permissions 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%203%3A%20Znuny%20(OTRS)%20Ticketing%20System%20Lab%20simulation/Images/Screenshot%202025-06-19%20024128.png)
 ![permissions 2](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%203%3A%20Znuny%20(OTRS)%20Ticketing%20System%20Lab%20simulation/Images/Screenshot%202025-06-15%20072829.png)
 
+Admin Panel Customers:
+![customers 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%203%3A%20Znuny%20(OTRS)%20Ticketing%20System%20Lab%20simulation/Images/Screenshot%202025-06-19%20024612.png)
+![customers 2](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%203%3A%20Znuny%20(OTRS)%20Ticketing%20System%20Lab%20simulation/Images/Screenshot%202025-06-15%20074305.png)
+![customers 3](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%203%3A%20Znuny%20(OTRS)%20Ticketing%20System%20Lab%20simulation/Images/Screenshot%202025-06-15%20074818.png)
+
