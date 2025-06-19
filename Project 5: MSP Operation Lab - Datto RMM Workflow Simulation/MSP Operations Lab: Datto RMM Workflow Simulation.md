@@ -31,7 +31,6 @@
 * CPU Usage > 75% sustained
 * Available Memory < 1 GB
 * Disk Free Space < 20%
-* High disk queue length > 2
 
 ### Data Collector Sets Created
 * **Client_A_Critical_Response:** Immediate action needed
