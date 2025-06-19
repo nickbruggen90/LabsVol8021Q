@@ -2,10 +2,11 @@
 
 | Lab Title                 | Description                                  | Status   |
 |--------------------------|----------------------------------------------|----------|
-| `Project 1: Network Monitoring`          | pfSense ↔ Ubuntu logging + Python SSH        | ✅ Complete   |
-| `Project 1.1: Active Directory as an Endpoint`          | pfSense ↔ Ubuntu logging + Python SSH        | ✅ Complete   |
-| `Project 2: WAN Edge Automation Lab`   |        | 🧩 WIP    |
-| `Project 3: VPN + NetOps Automation + Simulated NOC`   | Site-to-site VPN + automation                | 🧪 Planned |
+| `Project 1: NetOps Monitoring & Python Automation`          | pfSense ↔ Ubuntu logging + Python SSH        | ✅ Complete   |
+| `Project 1.1: Active Directory Inegration`          | pfSense ↔ Ubuntu logging + Python SSH        | ✅ Complete   |
+| `Project 2: WAN Edge Automation Lab (VPN + SD-WAN + Ansible)`   |        | 🧩 WIP    |
+| `Project 3: Znuny (OTRS) Ticketing System Lab simulation`          | Znuny/OTRS + VMWare Workstation    | ✅ Complete   |
+| `Project 4: VPN + NetOps Automation + Simulated NOC`   | Site-to-site VPN + automation                | 🧪 Planned |
 ---
 
 ## 🛠️ Tools & Platforms Used
