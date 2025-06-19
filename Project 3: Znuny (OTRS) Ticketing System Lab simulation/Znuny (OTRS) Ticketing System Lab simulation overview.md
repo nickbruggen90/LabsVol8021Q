@@ -10,7 +10,6 @@ Build an enterprise-grade help desk simulation demonstrating MSP ticketing workf
 | **Agent Hierarchy** | L1, SUP-L2, NET-L2 with tiered permissions       |
 | **Queue System**    | Specialized routing (NET-OPS, IT-SUPPORT, etc.)   |
 | **Customer Base**   | Multi-department enterprise users (5 departments) |
-| **Ticket States**   | Professional workflow states and escalation paths |
 
 > *System configured to mirror real MSP operations with proper documentation standards and business impact assessment.*
 
