@@ -29,6 +29,77 @@ Client_C_Critical_Response: Immediate action needed
 Client_C_Warning_Monitoring: Scheduled maintenance needed
 Client_C_Performance_Baselines: Trend analysis and reporting
 ```
+```
+## **Critical Response Sets (Immediate Action)**
+
+### **Client_A_Critical_Response**
+- **Processor(_Total)\% Processor Time** → > 90
+- **Memory\Available MBytes** → < 500  
+- **LogicalDisk(C:)\% Free Space** → < 10
+- **Sample Interval:** 15 seconds
+
+### **Client_B_Critical_Response** 
+- **Processor(_Total)\% Processor Time** → > 90
+- **Memory\Available MBytes** → < 500
+- **LogicalDisk(C:)\% Free Space** → < 10
+- **Sample Interval:** 15 seconds
+
+### **Client_C_Critical_Response**
+- **Processor(_Total)\% Processor Time** → > 90
+- **Memory\Available MBytes** → < 500
+- **LogicalDisk(C:)\% Free Space** → < 10
+- **Sample Interval:** 15 seconds
+
+---
+
+## **Warning Monitoring Sets (Scheduled Maintenance)**
+
+### **Client_A_Warning_Monitoring**
+- **Processor(_Total)\% Processor Time** → > 75
+- **Memory\Available MBytes** → < 1000
+- **LogicalDisk(C:)\% Free Space** → < 20
+- **LogicalDisk(C:)\Avg. Disk Queue Length** → > 2
+- **Sample Interval:** 30 seconds
+
+### **Client_B_Warning_Monitoring**
+- **Processor(_Total)\% Processor Time** → > 75
+- **Memory\Available MBytes** → < 1000
+- **LogicalDisk(C:)\% Free Space** → < 20
+- **LogicalDisk(C:)\Avg. Disk Queue Length** → > 2
+- **Sample Interval:** 30 seconds
+
+### **Client_C_Warning_Monitoring**
+- **Processor(_Total)\% Processor Time** → > 75
+- **Memory\Available MBytes** → < 1000
+- **LogicalDisk(C:)\% Free Space** → < 20
+- **LogicalDisk(C:)\Avg. Disk Queue Length** → > 2
+- **Sample Interval:** 30 seconds
+
+---
+
+## **Performance Baseline Sets (Trend Analysis)**
+
+### **Client_A_Performance_Baselines**
+- **Network Interface(*)\Bytes Total/sec** → No alert (monitoring only)
+- **System\Processor Queue Length** → No alert (monitoring only)
+- **Memory\Pages/sec** → No alert (monitoring only)
+- **LogicalDisk(*)\% Disk Time** → No alert (monitoring only)
+- **Sample Interval:** 60 seconds
+
+### **Client_B_Performance_Baselines**
+- **Network Interface(*)\Bytes Total/sec** → No alert (monitoring only)
+- **System\Processor Queue Length** → No alert (monitoring only)
+- **Memory\Pages/sec** → No alert (monitoring only)
+- **LogicalDisk(*)\% Disk Time** → No alert (monitoring only)
+- **Sample Interval:** 60 seconds
+
+### **Client_C_Performance_Baselines**
+- **Network Interface(*)\Bytes Total/sec** → No alert (monitoring only)
+- **System\Processor Queue Length** → No alert (monitoring only)
+- **Memory\Pages/sec** → No alert (monitoring only)
+- **LogicalDisk(*)\% Disk Time** → No alert (monitoring only)
+- **Sample Interval:** 60 seconds
+```
 
 
 4. For now, right click on Monitoring Tools → Performance Monitor and choose New → Data Collector Set. And give it an appropriate name.
