@@ -4,6 +4,7 @@
 ```
 a. Data Collector Sets → User Defined → Right-click → New → Data Collector Set
 b. Name it something appropriate, in this instance we will choose Client_A_Alerts
+c. Ensure 
 c. Tick "Performance Counter Alert"
 d. We can choose what alerts to define here, in this instance we will choose the following for Critical Alerts:
   1a. CPU Usage > 90% sustained
