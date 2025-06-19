@@ -10,5 +10,5 @@ Admin Panel:
 ![admin panel 4](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%203%3A%20Znuny%20(OTRS)%20Ticketing%20System%20Lab%20simulation/Images/Screenshot%202025-06-15%20063650.png)
 ![admin panel 5](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%203%3A%20Znuny%20(OTRS)%20Ticketing%20System%20Lab%20simulation/Images/Screenshot%202025-06-15%20063656.png)
 
-Admin Panel ↔ Queues:
+Admin Panel → Queues:
 ![admin panel queues](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%203%3A%20Znuny%20(OTRS)%20Ticketing%20System%20Lab%20simulation/Images/Screenshot%202025-06-19%20023546.png)
