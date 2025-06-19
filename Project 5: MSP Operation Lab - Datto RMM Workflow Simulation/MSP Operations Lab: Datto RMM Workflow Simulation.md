@@ -2,7 +2,7 @@
 
 ---
 
-**Key Accomplishments:**
+## Key Accomplishments:
 * Configured multi-client monitoring scenarios with industry-standard alert thresholds
 * Simulated critical L1/L2 workflows including system health monitoring
 * Demonstrated understanding of proactive monitoring that prevents issues before clients notice them
