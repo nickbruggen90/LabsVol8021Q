@@ -1,4 +1,4 @@
-# 🧪 Project 3 Overview – VPN + NetOps Automation + Simulated NOC
+# 🧪 Project 4 Overview – VPN + NetOps Automation + Simulated NOC
 
 ## 🎯 Objective
 Design and implement a simulated branch-to-HQ VPN lab using pfSense, paired with NetOps automation and NOC-style monitoring workflows. This lab demonstrates secure tunnel connectivity, device telemetry collection, and reactive automation using real-world tools and simulated RMM/PSA logic.
