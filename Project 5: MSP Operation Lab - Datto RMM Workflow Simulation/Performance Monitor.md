@@ -10,7 +10,7 @@ d. We can choose what alerts to define here, in this instance we will choose the
   1b. Available Memory < 500 MB
   1c. Disk Free Space < 10%
   1d. Unexpected system reboots
-e. We can choose what alerts to define here, in this instance we will choose the following for Warning Alerts:
+e. And we will choose the following for Warning Alerts:
   1a. CPU Usage > 75% sustained
   1b. Available Memory < 1 GB
   1c. Disk Free Space < 20%
