@@ -10,7 +10,7 @@ Build a complete Windows Server 2025 Active Directory Domain Services environmen
 | **Windows 10 Pro**  | Domain-joined client workstation (CLIENT01)       |
 | **Active Directory** | User/computer management and authentication        |
 | **Group Policy**     | Centralized security and configuration management  |
-| **DNS Integration**  | Domain name resolution and service location       |
+| **VMWare Workstation Pro**  | Hypervisor       |
 
 > *Complete enterprise domain environment with realistic user scenarios and security policies.*
 
