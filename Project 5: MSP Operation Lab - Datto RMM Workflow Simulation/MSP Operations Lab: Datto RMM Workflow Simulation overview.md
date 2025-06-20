@@ -17,17 +17,15 @@
 ### Task Scheduler (Automation)
 **Automated Maintenance by Client Tier:**
 - **Daily:** Disk cleanup, service monitoring, security scans
-- **Weekly:** System file checks, optimization, compliance audits  
 - **Monthly:** Full system health reports and security assessments
 
 ### Event Viewer (Reactive Troubleshooting)
 **Custom Views for Each Client:**
-- **Critical Events:** System crashes, service failures, security breaches
-- **Security Audit:** Failed logins, account changes, privilege escalation
+- **Critical Events:** System crashes, security breaches
+- **Security Audit:** Failed logins, account changes
 - **Performance Issues:** Application crashes, disk errors, network problems
 
 ## Tools Utilized
-* **Performance Monitor** → Real-time monitoring & alerting
-* **Task Scheduler** → Automated maintenance & policy deployment  
-* **Event Viewer** → Log analysis & security monitoring
-* **PowerShell** → Automation & remote management
+* **Performance Monitor** → Real-time monitoring and alerting
+* **Task Scheduler** → Automated maintenance 
+* **Event Viewer** → Log analysis and security monitoring
