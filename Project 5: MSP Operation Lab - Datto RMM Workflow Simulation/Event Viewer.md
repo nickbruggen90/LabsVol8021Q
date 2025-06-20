@@ -45,7 +45,6 @@ a. Event Viewer → Custom Views → Create Custom View
 b. Filter: By log
 c. Select Event logs:
    - Windows Logs: Security, System
-   - Applications and Services Logs: Microsoft-Windows-Security-Auditing/Admin
 d. Event level: Critical, Error, Warning
 e. Event IDs: 4624, 4625, 4634, 4648, 4720, 4726, 4732, 4756
    (Logon success/failure, account management, privilege changes)
