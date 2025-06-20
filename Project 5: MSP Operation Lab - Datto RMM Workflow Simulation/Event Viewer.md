@@ -33,7 +33,6 @@ a. Event Viewer → Custom Views → Create Custom View
 b. Filter: By log
 c. Select Event logs:
    - Windows Logs: System, Application
-   - Applications and Services Logs: Microsoft-Windows-Kernel-General/Admin
 d. Event level: Critical, Error, Warning
 e. Time range: Last 24 hours
 f. Name: "Client_B_System_Health"
