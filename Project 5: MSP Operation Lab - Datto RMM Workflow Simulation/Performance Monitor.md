@@ -98,33 +98,36 @@ Client_C_Performance_Baselines: Trend analysis and reporting
 Here are example parameters based on industry standards:  
 Set 1: "Client_A_Critical_Systems"
 ```
-CPU Monitoring:
+a. CPU Monitoring:
 Processor(_Total)\% Processor Time
 Processor(_Total)\% User Time
 System\Processor Queue Length
-Memory Monitoring:
+
+b. Memory Monitoring:
 Memory\Available MBytes
 Memory\% Committed Bytes In Use
 Memory\Pages/sec
-Disk Performance:
+
+c. Disk Performance:
 LogicalDisk(C:)\% Free Space
 LogicalDisk(C:)\Avg. Disk Queue Length
 LogicalDisk(C:)\% Disk Time
 ```
 Set 2: "Client_B_Network_Services"
 ```
-Network Monitoring:
+a. Network Monitoring:
 Network Interface(*)\Bytes Total/sec
 Network Interface(*)\Packets/sec
 Network Interface(*)\Current Bandwidth
-System Health:
+
+b. System Health:
 System\System Up Time
 System\Context Switches/sec
 Process(_Total)\Handle Count
 ```
 Set 3: "Client_C_Security_Focus"
 ```
-Security & Services:
+a. Security & Services:
 Process(lsass)\% Processor Time (authentication)
 Process(winlogon)\Handle Count
 Server\Sessions Errored Out
