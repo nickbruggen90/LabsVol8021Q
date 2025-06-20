@@ -17,7 +17,7 @@ e. And we will choose the following for Warning Alerts:
 ```
 ![alerts 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20131627.png)
 ![alert 2](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20131707.png)  
-4. We can create the following Data Collector Sets and define the appropriate parameters
+4. We can create the following Data Collector Sets and define the appropriate parameters. Below is example:
 ```
 Client_A_Critical_Response: Immediate action needed
 Client_A_Warning_Monitoring: Scheduled maintenance needed
@@ -85,7 +85,12 @@ Client_C_Performance_Baselines: Trend analysis and reporting
 ```
 
 
-4. For now, right click on Monitoring Tools → Performance Monitor and choose New → Data Collector Set. And give it an appropriate name.
+4. This step will guide you through how to apply and set the desired parameters.
+```
+1. Right click on Monitoring Tools →
+2. Performance Monitor and choose New → Data Collector Set.
+3. Assign  it an appropriate name.\
+```
 ![new data collector set](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20122100.png)
 ![data collector set name](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20122129.png)
-5. 
+6. 
