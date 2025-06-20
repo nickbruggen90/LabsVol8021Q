@@ -1,12 +1,5 @@
 # MSP Operations Lab: Datto RMM Workflow Simulation
 
-## Key Accomplishments:
-* Configured multi-client monitoring with industry-standard alert thresholds (CPU >90% critical, >75% warning)
-* Simulated MSP workflows including proactive monitoring, automated maintenance, and incident response
-* Demonstrated business understanding - different client tiers receive appropriate service levels
-* Created enterprise documentation showing how Windows tools translate to RMM concepts
-* Proved technical competency with actual implementations, not just theory
-
 ## Lab Environment
 **Three Client Scenarios (Different MSP Service Levels):**
 * **Client A (Basic):** Small office - essential monitoring only
