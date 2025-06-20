@@ -16,7 +16,7 @@ e. And we will choose the following for Warning Alerts:
   1b. Available Memory < 1 GB
   1c. Disk Free Space < 20%
 ```
-![alerts 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20131627.png)
+![alerts 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-20%20024320.png)
 ![alert 2](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20131707.png)  
 4. We can create the following Data Collector Sets and define the appropriate parameters. Below is example based on industry standards (refer to my Naming Convention worksheet for naming convention examples):
 ```
