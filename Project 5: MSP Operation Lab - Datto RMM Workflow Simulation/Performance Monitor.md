@@ -95,7 +95,7 @@ Client_C_Performance_Baselines: Trend analysis and reporting
 2. Choose New → Data Collector Set
 3. Assign it an appropriate name
 ```
-Here are example parameters based on industry standards:
+Here are example parameters based on industry standards:  
 Set 1: "Client_A_Critical_Systems"
 ```
 CPU Monitoring:
