@@ -128,7 +128,7 @@ Process(_Total)\Handle Count
 Set 3: "Client_C_Security_Focus"
 ```
 a. Security & Services:
-Process(lsass)\% Processor Time (authentication)
+Process(lsass)\% Processor Time
 Process(winlogon)\Handle Count
 Server\Sessions Errored Out
 ```
