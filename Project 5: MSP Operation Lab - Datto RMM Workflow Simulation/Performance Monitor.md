@@ -18,7 +18,7 @@ e. And we will choose the following for Warning Alerts:
 ```
 ![alerts 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-20%20024320.png)
 ![alert 2](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20131707.png)  
-4. We can create the following Data Collector Sets and define the appropriate parameters. Below is example based on industry standards (refer to my Naming Convention worksheet for naming convention examples):
+4. We can create the following Data Collector Sets and define the appropriate parameters for each. Below is example based on industry standards (refer to my Naming Convention worksheet for naming convention examples):
 ```
 Client_A_Critical_Response: Immediate action needed
 Client_A_Warning_Monitoring: Scheduled maintenance needed
