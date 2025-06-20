@@ -108,21 +108,7 @@ Get-ScheduledTask | Select-Object TaskName, State, Author
 # View specific task details
 Get-ScheduledTask -TaskName "Client_B_Daily_DiskCleanup" | Format-List
 
-# Create a new scheduled task via PowerShell
-$Action = New-ScheduledTaskAction -Execute 'cleanmgr.exe' -Argument '/d C: /sagerun:1'
-$Trigger = New-ScheduledTaskTrigger -Daily -At 2:00AM
-Register-ScheduledTask -Action $Action -Trigger $Trigger -TaskName "PowerShell_DiskCleanup" -Description "Automated cleanup via PowerShell"
 ```
 ![powershell output 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-20%20041502.png)
 
-8. Business Value - MSP Automation Benefits:
-```
-Critical Tier Tasks: Immediate response to system issues (service restarts, disk space alerts)
-Warning Tier Tasks: Scheduled maintenance during off-hours (weekly scans, optimization)
-Baseline Tier Tasks: Proactive system health (monthly audits, compliance checks)
-
-This automation prevents "my computer is slow" calls by maintaining systems proactively.
-Different client tiers receive appropriate levels of automated maintenance based on their SLA.
-Scheduled tasks run during off-hours to minimize business disruption.
-Automated remediation reduces manual intervention and improves response times.
 ```
