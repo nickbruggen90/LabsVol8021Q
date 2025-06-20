@@ -49,6 +49,7 @@ c. Check the items you want automated cleanup to include:
    4a. System cache and log files
 d. Click OK to save Profile 1
 e. Repeat for different profiles: /sageset:2 (aggressive), /sageset:3 (conservative)
+f. Repeating Step b. will show the applied parameters as well
 ```
 
 4. Example Task Creation - Client_B_Daily_DiskCleanup:
