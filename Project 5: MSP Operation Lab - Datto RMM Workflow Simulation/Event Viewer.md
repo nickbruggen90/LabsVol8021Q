@@ -28,6 +28,7 @@ Client_C_System_Forensics: Detailed system changes and administrative actions
 ```
 
 3. Example Custom View Creation - Client_B_System_Health:
+(Name field is input after you OK the parameters)
 ```
 a. Event Viewer → Custom Views → Create Custom View
 b. Filter: By log
@@ -38,6 +39,8 @@ e. Time range: Last 24 hours
 f. Name: "Client_B_System_Health"
 g. Description: "Critical system and application issues for professional tier monitoring"
 ```
+![custom view 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-20%20082843.png)
+![custom view 2](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-20%20082922.png)
 
 4. Example Custom View Creation - Client_C_Security_Audit:
 ```
@@ -51,6 +54,9 @@ f. Time range: Last 7 days
 g. Name: "Client_C_Security_Audit"
 h. Description: "Security events and compliance monitoring for premium clients"
 ```
+![custom view 3](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-20%20083706.png)
+![custom view 4](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-20%20083318.png)
+![custom view 5](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-20%20083730.png)
 
 5. Event Log Subscription for Centralized Monitoring:
 ```
