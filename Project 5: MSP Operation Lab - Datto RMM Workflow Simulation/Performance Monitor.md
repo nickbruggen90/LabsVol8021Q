@@ -89,11 +89,41 @@ Client_C_Performance_Baselines: Trend analysis and reporting
 ![parameters/values 2](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20133718.png)
 ![parameters/values 3](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20133756.png)
 ![parameters/values 4](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20134029.png)
-6. This step will guide you through how to apply monitor-based Collector Sets rather than alert-based.
+6. This step will guide you through how to apply monitor-based Collector Sets rather than alert-based. We will create three collector sets based around different needs: Critical Systems, Network Services, Security Focused.
 ```
 1. Right click on Monitoring Tools → Performance Monitor
 2. Choose New → Data Collector Set
 3. Assign it an appropriate name
+```
+Here are example parameters based on industry standards:
+```
+Set 1: "Client_A_Critical_Systems"
+CPU Monitoring:
+Processor(_Total)\% Processor Time
+Processor(_Total)\% User Time
+System\Processor Queue Length
+Memory Monitoring:
+Memory\Available MBytes
+Memory\% Committed Bytes In Use
+Memory\Pages/sec
+Disk Performance:
+LogicalDisk(C:)\% Free Space
+LogicalDisk(C:)\Avg. Disk Queue Length
+LogicalDisk(C:)\% Disk Time
+Set 2: "Client_B_Network_Services"
+Network Monitoring:
+Network Interface(*)\Bytes Total/sec
+Network Interface(*)\Packets/sec
+Network Interface(*)\Current Bandwidth
+System Health:
+System\System Up Time
+System\Context Switches/sec
+Process(_Total)\Handle Count
+Set 3: "Client_C_Security_Focus"
+Security & Services:
+Process(lsass)\% Processor Time (authentication)
+Process(winlogon)\Handle Count
+Server\Sessions Errored Out
 ```
 ![data collector set 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20122100.png)
 ![data collector set 2](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20122129.png)
