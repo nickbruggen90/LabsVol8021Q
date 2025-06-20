@@ -44,7 +44,7 @@ Client_C_Performance_Baselines: Trend analysis and reporting
 3. Client_C_Critical_Response
   a. Processor(_Total)\% Processor Time > 90
   b. Memory\Available MBytes < 500
-  c LogicalDisk(C:)\% Free Space < 10
+  c. LogicalDisk(C:)\% Free Space < 10
 
 4. Client_A_Warning_Monitoring
   a. Processor(_Total)\% Processor Time > 75
