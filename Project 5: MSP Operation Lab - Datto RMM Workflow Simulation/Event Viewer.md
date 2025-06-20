@@ -1,18 +1,8 @@
 ### Event Viewer (Logging & Troubleshooting)
 1. Press Windows+R and search eventvwr.msc (this is a native Windows logging tool comparable to Datto RMM's "Event Log Monitoring" and "Reports" modules).
 
-2. Under Event Viewer you can view system logs, create custom views, and set up log subscriptions for centralized monitoring. This step will demonstrate how to create custom views for different client monitoring needs:
-
-```
-a. Event Viewer → Custom Views → Right-click → Create Custom View
-b. Name it something appropriate based on client tier and log type
-c. Choose log sources (System, Application, Security, etc.)
-d. Filter by event level (Critical, Error, Warning, Information)
-e. Set time range and event IDs if needed
-f. Save for recurring use
-```
-
-3. We can create the following custom views based on MSP client tiers and troubleshooting needs:
+2. Under Event Viewer you can view system logs, create custom views, and set up log subscriptions for centralized monitoring. This step will demonstrate how to create custom views for different client monitoring needs.  
+We can create the following custom views based on MSP client tiers and troubleshooting needs:
 
 **Client A (Basic Tier) - Essential Error Monitoring:**
 ```
@@ -37,7 +27,7 @@ Client_C_Advanced_Threats: Suspicious activities, malware detection, intrusion a
 Client_C_System_Forensics: Detailed system changes and administrative actions
 ```
 
-4. Example Custom View Creation - Client_B_System_Health:
+3. Example Custom View Creation - Client_B_System_Health:
 ```
 a. Event Viewer → Custom Views → Create Custom View
 b. Filter: By log
@@ -50,7 +40,7 @@ f. Name: "Client_B_System_Health"
 g. Description: "Critical system and application issues for professional tier monitoring"
 ```
 
-5. Example Custom View Creation - Client_C_Security_Audit:
+4. Example Custom View Creation - Client_C_Security_Audit:
 ```
 a. Event Viewer → Custom Views → Create Custom View
 b. Filter: By log
@@ -65,7 +55,7 @@ g. Name: "Client_C_Security_Audit"
 h. Description: "Security events and compliance monitoring for premium clients"
 ```
 
-6. Event Log Subscription for Centralized Monitoring:
+5. Event Log Subscription for Centralized Monitoring:
 ```
 a. Event Viewer → Subscriptions → Create Subscription
 b. Subscription name: "Client_A_Critical_Events"
@@ -76,7 +66,7 @@ f. Computer groups: Add target client machines
 g. Configure advanced delivery optimization and retry settings
 ```
 
-7. Key Event IDs for MSP Monitoring:
+6. Key Event IDs for MSP Monitoring:
 ```
 System Log:
 - Event ID 6008: Unexpected system shutdown
