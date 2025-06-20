@@ -89,7 +89,7 @@ Client_C_Performance_Baselines: Trend analysis and reporting
 ![parameters/values 2](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20133718.png)
 ![parameters/values 3](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20133756.png)
 ![parameters/values 4](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20134029.png)
-6. This step will guide you through how to apply and set the desired parameters:
+6. This step will guide you through how to apply monitor-based Collector Sets rather than alert-based.
 ```
 1. Right click on Monitoring Tools → Performance Monitor
 2. Choose New → Data Collector Set
