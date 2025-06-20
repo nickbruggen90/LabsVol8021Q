@@ -4,7 +4,7 @@
 2. Under Data Collector Sets you can view (read the properties) of the User Defined (user created) sets or create Alert-based Collector Sets. This step will demonstrate how to create an alert-based collector set:
 ```
 a. Data Collector Sets → User Defined → Right-click → New → Data Collector Set
-b. Name it something appropriate, in this instance we will choose Client_A_Alerts
+b. Name it something appropriate, in this instance we will choose Client_A_Critical_Response
 c. Tick "Performance Counter Alert"
 d. We can choose what alerts to define here, in this instance we will choose the following for Critical Alerts:
   1a. CPU Usage > 90% sustained
