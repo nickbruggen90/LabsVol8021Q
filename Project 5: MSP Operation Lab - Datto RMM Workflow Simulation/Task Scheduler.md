@@ -36,9 +36,10 @@ Client_C_Weekly_ComplianceCheck: System file and registry validation
 Client_C_Monthly_FullSystemAudit: Complete security and performance audit
 ```
 
-IMPORTANT: Setting Up Disk Cleanup Profiles First
+## **IMPORTANT: Setting Up Disk Cleanup Profiles First**
 Before creating automated tasks, you must define cleanup profiles using sageset:
 
+```
 a. Open Command Prompt as Administrator
 b. Run: cleanmgr /sageset:1
 c. Check the items you want automated cleanup to include:
@@ -49,6 +50,7 @@ c. Check the items you want automated cleanup to include:
    ✅ System cache and log files
 d. Click OK to save Profile 1
 e. Repeat for different profiles: /sageset:2 (aggressive), /sageset:3 (conservative)
+```
 
 4. Example Task Creation - Client_B_Daily_DiskCleanup:
 ```
