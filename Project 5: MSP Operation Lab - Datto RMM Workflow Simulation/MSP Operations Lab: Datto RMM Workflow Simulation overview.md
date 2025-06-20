@@ -17,7 +17,7 @@
 * **Client B:** Professional services (higher uptime requirements)
 * **Client C:** Remote workers (security-focused monitoring)
 
-## Monitoring Configuration
+## Performance Monitoring Configuration
 
 ### Alert Thresholds (Industry Standard)
 
@@ -42,6 +42,14 @@
 * **Client_C_Critical_Response:** Immediate action needed
 * **Client_C_Warning_Monitoring:** Scheduled maintenance needed
 * **Client_C_Performance_Baselines:** Trend analysis and reporting
+
+## Task Scheduler Configuration
+
+### Task Scheduler Parameters
+
+* /sageset:1 = Basic cleanup (temp files, recycle bin)
+* /sageset:2 = Aggressive cleanup (includes system files)
+* /sageset:3 = Conservative cleanup (minimal items)
 
 ## Tools Utilized
 * **Performance Monitor:** Real-time system monitoring and alerting
