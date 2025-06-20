@@ -47,7 +47,6 @@ c. Select Event logs:
    - Windows Logs: Security, System
 d. Event level: Critical, Error, Warning
 e. Event IDs: 4624, 4625, 4634, 4648, 4720, 4726, 4732, 4756
-   (Logon success/failure, account management, privilege changes)
 f. Time range: Last 7 days
 g. Name: "Client_C_Security_Audit"
 h. Description: "Security events and compliance monitoring for premium clients"
