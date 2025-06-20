@@ -5,7 +5,7 @@
 
 ```
 a. Task Scheduler → Task Scheduler Library → Right-click → Create Basic Task
-b. Name it something appropriate based on client and function
+b. Name it something appropriate based on client and function (refer to Step 3 and my Naming Convention worksheet)
 c. Choose trigger frequency (Daily, Weekly, Monthly)
 d. Define the action (Start a program, script, or command)
 e. Set conditions and settings for reliability
@@ -35,6 +35,20 @@ Client_C_Daily_ServiceMonitor: Monitor and restart security services
 Client_C_Weekly_ComplianceCheck: System file and registry validation
 Client_C_Monthly_FullSystemAudit: Complete security and performance audit
 ```
+
+IMPORTANT: Setting Up Disk Cleanup Profiles First
+Before creating automated tasks, you must define cleanup profiles using sageset:
+
+a. Open Command Prompt as Administrator
+b. Run: cleanmgr /sageset:1
+c. Check the items you want automated cleanup to include:
+   ✅ Temporary files
+   ✅ Temporary Internet Files  
+   ✅ Recycle Bin
+   ✅ Downloads folder (optional - be careful with client data)
+   ✅ System cache and log files
+d. Click OK to save Profile 1
+e. Repeat for different profiles: /sageset:2 (aggressive), /sageset:3 (conservative)
 
 4. Example Task Creation - Client_B_Daily_DiskCleanup:
 ```
