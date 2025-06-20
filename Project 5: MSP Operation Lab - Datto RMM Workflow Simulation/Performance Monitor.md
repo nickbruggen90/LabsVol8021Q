@@ -125,7 +125,8 @@ System\System Up Time
 System\Context Switches/sec
 Process(_Total)\Handle Count
 ```
-Set 3: "Client_C_Security_Focus"
+Set 3: "Client_C_Security_Focus"  
+(lsass and winlogon are instances you can choose, similar to C: drive in Step 5)
 ```
 a. Security & Services:
 Process(lsass)\% Processor Time
