@@ -46,8 +46,7 @@ c. Check the items you want automated cleanup to include:
    1a. Temporary files
    2a. Temporary Internet Files  
    3a. Recycle Bin
-   4a. Downloads folder (optional - be careful with client data)
-   5a. System cache and log files
+   4a. System cache and log files
 d. Click OK to save Profile 1
 e. Repeat for different profiles: /sageset:2 (aggressive), /sageset:3 (conservative)
 ```
