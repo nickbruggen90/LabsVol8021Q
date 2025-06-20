@@ -1,6 +1,5 @@
 ### Performance Monitor
-1. Press Windows+R and search perfmon.exe (this is a native Windows performance monitoring tool comparable to Datto RMMs "Monitoring" module.
-
+1. Press Windows+R and search perfmon.exe (this is a native Windows performance monitoring tool comparable to Datto RMMs "Monitoring" module).  
 2. Under Data Collector Sets you can view (read the properties) of the User Defined (user created) sets or create Alert-based Collector Sets. This step will demonstrate how to create an alert-based collector set:
 ```
 a. Data Collector Sets → User Defined → Right-click → New → Data Collector Set
