@@ -84,7 +84,12 @@ Client_C_Performance_Baselines: Trend analysis and reporting
   c. Memory\Pages/sec → No alert (monitoring only)
   d. LogicalDisk(*)\% Disk Time → No alert (monitoring only)
 ```
-5. This step will guide you through how to apply and set the desired parameters:
+5. Now we can refer back to Step 4 with the outlined parameters and set the corresponding values. You are given the choice of Above or Below and the alert threshold in numeric value (notice in the third picture below, when choosing "% Free Disk" you must define the partition to monitor, in this case it is C:\):  
+![parameters/values 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20133610.png)
+![parameters/values 2](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20133718.png)
+![parameters/values 3](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20133756.png)
+![parameters/values 4](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20134029.png)
+6. This step will guide you through how to apply and set the desired parameters:
 ```
 1. Right click on Monitoring Tools → Performance Monitor
 2. Choose New → Data Collector Set
@@ -92,8 +97,3 @@ Client_C_Performance_Baselines: Trend analysis and reporting
 ```
 ![new data collector set](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20122100.png)
 ![data collector set name](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20122129.png)
-6. Now we can refer back to Step 4 with the outlined parameters and set the corresponding values. You are given the choice of Above or Below and the alert threshold in numeric value (notice in the third picture below, when choosing "% Free Disk" you must define the partition to monitor, in this case it is C:\):  
-![parameters/values 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20133610.png)
-![parameters/values 2](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20133718.png)
-![parameters/values 3](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20133756.png)
-![parameters/values 4](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20134029.png)
