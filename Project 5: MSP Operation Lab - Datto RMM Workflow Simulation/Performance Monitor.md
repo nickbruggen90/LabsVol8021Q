@@ -83,9 +83,7 @@ Client_C_Performance_Baselines: Trend analysis and reporting
   c. Memory\Pages/sec → No alert (monitoring only)
   d. LogicalDisk(*)\% Disk Time → No alert (monitoring only)
 ```
-
-
-4. This step will guide you through how to apply and set the desired parameters.
+5. This step will guide you through how to apply and set the desired parameters.
 ```
 1. Right click on Monitoring Tools →
 2. Performance Monitor and choose New → Data Collector Set.
