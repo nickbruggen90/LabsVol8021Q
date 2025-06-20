@@ -87,7 +87,7 @@ Client_C_Performance_Baselines: Trend analysis and reporting
 ```
 1. Right click on Monitoring Tools →
 2. Performance Monitor and choose New → Data Collector Set.
-3. Assign  it an appropriate name.\
+3. Assign  it an appropriate name
 ```
 ![new data collector set](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20122100.png)
 ![data collector set name](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-19%20122129.png)
