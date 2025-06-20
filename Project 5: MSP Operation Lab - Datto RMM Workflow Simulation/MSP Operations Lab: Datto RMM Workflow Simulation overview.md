@@ -26,18 +26,8 @@
 - **Security Audit:** Failed logins, account changes, privilege escalation
 - **Performance Issues:** Application crashes, disk errors, network problems
 
-## Business Value
-**Prevents "My Computer is Slow" Calls:**
-- Proactive monitoring catches issues before users notice
-- Automated maintenance runs during off-hours  
-- Different service levels match client SLA requirements
-- Centralized logging enables quick root cause analysis
-
-## Tools Mastered
+## Tools Utilized
 * **Performance Monitor** → Real-time monitoring & alerting
 * **Task Scheduler** → Automated maintenance & policy deployment  
 * **Event Viewer** → Log analysis & security monitoring
 * **PowerShell** → Automation & remote management
-
----
-**Result:** Complete MSP operations workflow demonstrating readiness for L1/L2 technician role with understanding of monitoring, automation, and troubleshooting in multi-client environments.
