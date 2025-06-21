@@ -4,7 +4,6 @@
 | `Project 1.1: Active Directory Integration`          | ✅ Complete   |
 | `Project 2: WAN Edge Automation Lab (VPN + SD-WAN + Ansible)`   | 🧩 WIP    |
 | `Project 3: Znuny (OTRS) Ticketing System Lab simulation`          | ✅ Complete   |
-| `Project 4: VPN + NetOps Automation + Simulated NOC`   | 🧪 Planned |
 | `Project 5: MSP Operation Lab - Datto RMM Workflow Simulation`   | ✅ Complete   |
 ---
 ## 🛠️ Tools & Platforms Used
