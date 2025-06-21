@@ -1,15 +1,13 @@
-| Lab Title                 | Description                                  | Status   |
-|--------------------------|----------------------------------------------|----------|
-| `Project 1: NetOps Monitoring & Python Automation`          | pfSense ↔ Ubuntu logging + Python SSH        | ✅ Complete   |
-| `Project 1.1: Active Directory Integration`          | VMWare Workstation       | ✅ Complete   |
-| `Project 2: WAN Edge Automation Lab (VPN + SD-WAN + Ansible)`   |        | 🧩 WIP    |
-| `Project 3: Znuny (OTRS) Ticketing System Lab simulation`          | Znuny/OTRS + VMWare Workstation    | ✅ Complete   |
-| `Project 4: VPN + NetOps Automation + Simulated NOC`   |                 | 🧪 Planned |
-| `Project 5: MSP Operation Lab - Datto RMM Workflow Simulation`   |                 | ✅ Complete   |
+| Lab Title                 | Status   |
+|--------------------------|----------|
+| `Project 1: NetOps Monitoring & Python Automation`          | ✅ Complete   |
+| `Project 1.1: Active Directory Integration`          | ✅ Complete   |
+| `Project 2: WAN Edge Automation Lab (VPN + SD-WAN + Ansible)`   | 🧩 WIP    |
+| `Project 3: Znuny (OTRS) Ticketing System Lab simulation`          | ✅ Complete   |
+| `Project 4: VPN + NetOps Automation + Simulated NOC`   | 🧪 Planned |
+| `Project 5: MSP Operation Lab - Datto RMM Workflow Simulation`   | ✅ Complete   |
 ---
-
 ## 🛠️ Tools & Platforms Used
-
 - Cisco IOS
 - pfSense
 - Ubuntu Server
@@ -22,5 +20,4 @@
 - Windows 10 Pro
 - Znuny/OTRS
 - Docker
-
 ---
