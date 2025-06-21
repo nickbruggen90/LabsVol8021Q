@@ -1,5 +1,3 @@
-## 🌐 Current Labs
-
 | Lab Title                 | Description                                  | Status   |
 |--------------------------|----------------------------------------------|----------|
 | `Project 1: NetOps Monitoring & Python Automation`          | pfSense ↔ Ubuntu logging + Python SSH        | ✅ Complete   |
