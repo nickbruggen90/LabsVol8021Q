@@ -35,6 +35,7 @@ Build an enterprise-grade help desk simulation demonstrating MSP ticketing workf
 5. **State Management:** Professional workflow including pending-vendor, escalated, in-progress
 6. **Documentation:** Enterprise-standard ticket details with impact statements and troubleshooting steps
 
+---
 ### SLA Configuration
 | Priority | Response Time | Resolution Time |
 |----------|---------------|-----------------|
