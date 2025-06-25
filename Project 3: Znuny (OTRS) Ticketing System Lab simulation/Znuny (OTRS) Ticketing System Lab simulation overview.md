@@ -2,6 +2,19 @@
 ### 🎯 Objective  
 Build an enterprise-grade help desk simulation demonstrating MSP ticketing workflows, role-based access controls, multi-client management, and professional incident response procedures using Znuny Community Edition.
 
+## Project Goals
+
+- Deploy and configure Znuny ticketing system from scratch
+- Implement ITIL-aligned workflow processes
+- Configure user roles and permissions
+- Set up automated email notifications
+- Create custom ticket queues and SLAs
+- Demonstrate practical IT service desk capabilities
+
+## 🖥️ Lab Environment
+
+- **TurnKey OTRS** - Pre-configured virtual appliance
+
 ---
 ## 🧱 Lab Components  
 | Component           | Purpose                                            |
@@ -21,3 +34,10 @@ Build an enterprise-grade help desk simulation demonstrating MSP ticketing workf
 4. **Role Permissions:** Tiered access ensuring appropriate escalation and oversight
 5. **State Management:** Professional workflow including pending-vendor, escalated, in-progress
 6. **Documentation:** Enterprise-standard ticket details with impact statements and troubleshooting steps
+
+### SLA Configuration
+| Priority | Response Time | Resolution Time |
+|----------|---------------|-----------------|
+| High     | 1 hour        | 4 hours         |
+| Medium   | 4 hours       | 24 hours        |
+| Low      | 24 hours      | 72 hours        |
