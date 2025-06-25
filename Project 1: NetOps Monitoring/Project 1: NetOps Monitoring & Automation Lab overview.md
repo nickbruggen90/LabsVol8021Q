@@ -1,11 +1,11 @@
-# 🧪 **Project 1: NetOps Monitoring & Automation Lab**
+# **Project 1: NetOps Monitoring & Automation Lab**
 
-### 🎯 Objective  
+### Objective  
 Build a virtual lab simulating a secure network environment with centralized logging, SNMP telemetry, packet analysis, and Python-driven automation workflows using pfSense, Ubuntu, rsyslog, Paramiko, and Wireshark.
 
 ---
 
-## 🧱 Lab Components  
+## Lab Components  
 
 | Component           | Purpose                                            |
 |---------------------|----------------------------------------------------|
@@ -19,7 +19,7 @@ Build a virtual lab simulating a secure network environment with centralized log
 
 ---
 
-## 🔄 Workflow Overview  
+## Workflow Overview  
 
 1. pfSense acts as the central firewall and telemetry source  
 2. Ubuntu receives logs over Syslog (UDP 514) and stores them in `/var/log/pfsense.log`  
