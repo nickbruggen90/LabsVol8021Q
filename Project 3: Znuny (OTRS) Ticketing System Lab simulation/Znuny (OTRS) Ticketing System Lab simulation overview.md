@@ -1,5 +1,5 @@
-# 🎫 **Project 3: Znuny/OTRS Ticketing System Lab**
-### 🎯 Objective  
+# **Project 3: Znuny/OTRS Ticketing System Lab**
+### Objective  
 Build an enterprise-grade help desk simulation demonstrating MSP ticketing workflows, role-based access controls, multi-client management, and professional incident response procedures using Znuny Community Edition.
 
 ## Project Goals
@@ -11,12 +11,12 @@ Build an enterprise-grade help desk simulation demonstrating MSP ticketing workf
 - Create custom ticket queues and SLAs
 - Demonstrate practical IT service desk capabilities
 
-## 🖥️ Lab Environment
+## 🖥Lab Environment
 
 - **TurnKey OTRS** - Pre-configured virtual appliance
 
 ---
-## 🧱 Lab Components  
+## Lab Components  
 | Component           | Purpose                                            |
 |---------------------|----------------------------------------------------|
 | **Znuny/OTRS CE**   | Core ticketing system and workflow engine         |
@@ -27,7 +27,7 @@ Build an enterprise-grade help desk simulation demonstrating MSP ticketing workf
 > *System configured to mirror real MSP operations with proper documentation standards and business impact assessment.*
 
 ---
-## 🔄 Workflow Overview  
+## Workflow Overview  
 1. **Customer Management:** Department-based user structure (ACCT-WILSON, HR-JONES, etc.)
 2. **Ticket Creation:** 5 professional scenarios covering Critical to Low priority incidents  
 3. **Queue Routing:** Automatic assignment based on issue type and expertise required
