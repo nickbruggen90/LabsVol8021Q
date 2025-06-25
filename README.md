@@ -6,7 +6,7 @@
 | `Project 3: Znuny (OTRS) Ticketing System`          | ✅ Complete   |
 | `Project 5: MSP Operation Lab - Datto RMM Workflow Simulation`   | ✅ Complete   |
 ---
-## 🛠️ Tools & Platforms Used
+## Tools & Platforms Used
 - Cisco IOS
 - pfSense
 - Ubuntu Server
