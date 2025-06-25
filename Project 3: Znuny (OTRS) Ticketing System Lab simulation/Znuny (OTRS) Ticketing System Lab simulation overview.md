@@ -11,7 +11,7 @@ Build an enterprise-grade help desk simulation demonstrating MSP ticketing workf
 - Create custom ticket queues and SLAs
 - Demonstrate practical IT service desk capabilities
 
-## 🖥Lab Environment
+## Lab Environment
 
 - **TurnKey OTRS** - Pre-configured virtual appliance
 
