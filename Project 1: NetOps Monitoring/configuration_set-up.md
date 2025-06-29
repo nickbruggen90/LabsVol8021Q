@@ -100,7 +100,7 @@ id
 sudo umount /mnt/hgfs
 sudo mount -t fuse.vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other,uid=1000,gid=1000
 ```
-*Command ‘id’ will bring up something like thisuid=1000(ubuntu) gid=1000(ubuntu) groups=1000(ubuntu),...*
+*Command ‘id’ will bring up something like this - uid=1000(ubuntu) gid=1000(ubuntu) groups=1000(ubuntu),...*
 
 ---
 
