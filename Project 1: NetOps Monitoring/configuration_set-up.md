@@ -221,10 +221,10 @@ source ~/netops-venv/bin/activate
 python3 -c "import paramiko; print('test test test')"
 python3 python.py
 ```
-Paramiko:  
+Paramiko output:  
 ![paramiko 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-31%20081524.png)
 
-Python:
+Python output:
 ![python output 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-31%20091301.png)
 
 ---
