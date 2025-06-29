@@ -181,7 +181,7 @@ Syslog:
 ```
 1. Status tab -> System Logs -> Settings
 2. Enable remote syslog server, and use the IP of the Ubuntu server and allow for Syslog UDP 514
-3. 192.168.83.10:514
+3. 192.168.83.50:514
 ```
 ![syslog gui 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-31%20082535.png)
 
