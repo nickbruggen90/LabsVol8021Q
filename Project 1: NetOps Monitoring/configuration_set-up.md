@@ -94,6 +94,13 @@ Inside Ubuntu we must also mount the shared folder.
 sudo mkdir -p /mnt/hgfs
 sudo vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other
 ```
+If you run into permissions issues accessing the shared folder, you would need to unmount and remount, try:
+```
+id
+sudo umount /mnt/hgfs
+sudo mount -t fuse.vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other,uid=1000,gid=1000
+```
+*Command ‘id’ will bring up something like thisuid=1000(ubuntu) gid=1000(ubuntu) groups=1000(ubuntu),...*
 
 ---
 
