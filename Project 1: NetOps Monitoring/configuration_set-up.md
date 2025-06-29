@@ -229,4 +229,4 @@ python.py output:
 
 ---
 
-### In version 1.1 we will add a LibreNMS Docker for a GUI NMS.
+
