@@ -12,7 +12,6 @@
 - Ubuntu Server
 - Python (Netmiko, Paramiko)
 - Wireshark
-- LibreNMS
 - VMware Workstation Pro
 - Active Directory
 - Windows Server 2025
