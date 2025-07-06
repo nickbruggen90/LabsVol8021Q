@@ -1,6 +1,6 @@
 # **Project 3: Znuny/OTRS Ticketing System Lab**
 ### Objective  
-Build an enterprise-grade help desk simulation demonstrating MSP ticketing workflows, role-based access controls, multi-client management, and professional incident response procedures using Znuny Community Edition.
+Stand-alone enterprise-grade help desk simulation demonstrating MSP ticketing workflows, role-based access controls, multi-client management, and professional incident response procedures using Znuny Community Edition.
 
 ## Project Goals
 
