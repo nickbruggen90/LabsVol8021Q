@@ -2,7 +2,7 @@
 |--------------------------|----------|
 | `Project 1: NetOps Monitoring & Python Automation`          | ✅ Complete   |
 | `Project 1.1: Active Directory Integration`          | ✅ Complete   |
-| `Project 1.2: WAN Edge Automation Lab (VPN + SD-WAN + Ansible)`   | 🧩 WIP    |
+| `Project 1.2: NetData NMS Integration`   | 🧩 WIP    |
 | `Project 2: Znuny (OTRS) Ticketing System`          | ✅ Complete   |
 | `Project 3: MSP Operation Lab - Datto RMM Workflow Simulation`   | ✅ Complete   |
 ---
