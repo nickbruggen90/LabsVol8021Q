@@ -10,7 +10,7 @@ c. Choose trigger frequency (Daily, Weekly, Monthly)
 d. Define the action (Start a program, script, or command)
 e. Set conditions and settings for reliability
 ```
-![create task 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-20%20040559.png)
+![create task 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%203%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-20%20040559.png)
 
 3. We can create the following automated tasks based on MSP client tiers and industry standards:
 
@@ -52,7 +52,7 @@ d. Click OK to save Profile 1
 e. Repeat for different profiles: /sageset:2 (aggressive), /sageset:3 (conservative)
 f. Repeating Step b. will show the applied parameters as well
 ```
-![creating sageset 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-20%20035754.png)
+![creating sageset 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%203%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-20%20035754.png)
 
 4. Example Task Creation - Client_B_Daily_DiskCleanup:
 ```
@@ -67,10 +67,10 @@ f. Action: Start a program
 g. Conditions: Only run if computer is idle for 10 minutes and uncheck "Stop if the computer ceases to be idle"
 h. Settings: Allow task to be run on demand, restart if fails
 ```
-![create task 2](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-20%20040638.png)
-![create task 3](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-20%20040736.png)
-![create task 4](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-20%20040934.png)
-![create task 5](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-20%20041116.png)
+![create task 2](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%203%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-20%20040638.png)
+![create task 3](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%203%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-20%20040736.png)
+![create task 4](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%203%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-20%20040934.png)
+![create task 5](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%203%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-20%20041116.png)
 
 5. Example Task Creation - Client_B_Weekly_SystemOptimization:
 ```
@@ -97,7 +97,7 @@ e. Action: Start a program
 f. Conditions: Run whether user is logged on or not
 g. Settings: Run with highest privileges, restart on failure
 ```
-![confirmation](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-20%20041130.png)
+![confirmation](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%203%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-20%20041130.png)
 
 
 7. You can use the following PowerShell commands to view and manage scheduled tasks programmatically:
@@ -109,6 +109,6 @@ Get-ScheduledTask | Select-Object TaskName, State, Author
 Get-ScheduledTask -TaskName "Client_B_Daily_DiskCleanup" | Format-List
 
 ```
-![powershell output 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%205%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-20%20041502.png)
+![powershell output 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%203%3A%20MSP%20Operation%20Lab%20-%20Datto%20RMM%20Workflow%20Simulation/Images/Screenshot%202025-06-20%20041502.png)
 
 ```
