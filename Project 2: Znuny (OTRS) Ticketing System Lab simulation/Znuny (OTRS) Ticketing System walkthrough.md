@@ -1,5 +1,5 @@
 ### Initial Dashboard
-![welcome dashboard](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%203%3A%20Znuny%20(OTRS)%20Ticketing%20System%20Lab%20simulation/Images/Screenshot%202025-06-19%20025236.png)
+![welcome dashboard](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%202%3A%20Znuny%20(OTRS)%20Ticketing%20System%20Lab%20simulation/Images/Screenshot%202025-06-19%20025236.png)
 *Main welcome dashboard showing the clean interface and navigation options*
 
 ### Admin Panel Overview
