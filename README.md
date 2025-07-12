@@ -7,6 +7,7 @@
 | `Project 1.3: VPN Integration`   | 🧩 WIP    |
 | `Project 1.4: SPLUNK (SIEM) Integration`   | 🧩 WIP    |
 | `Project 1.5: Surcata (IDS/IPS) Integration`   | 🧩 WIP    |
+| **─────────────────────** | **─────** |
 | `Project 2: Znuny (OTRS) Ticketing System`          | ✅ Complete   |
 | `Project 3: MSP Operation Lab - Datto RMM Workflow Simulation`   | ✅ Complete   |
 ---
