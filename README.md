@@ -1,3 +1,4 @@
+![Project 1 Topology](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/topology.svg)
 | Lab Title                 | Status   |
 |--------------------------|----------|
 | `Project 1: NetOps Monitoring & Python Automation`          | ✅ Complete   |
