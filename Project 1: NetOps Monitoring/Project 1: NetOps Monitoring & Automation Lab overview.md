@@ -1,4 +1,4 @@
-# **Project 1: NetOps Monitoring & Automation Lab**
+# **Project 1: pfSense + NetOps Foundation**
 
 ### Objective  
 Build a virtual lab simulating a secure network environment with centralized logging, SNMP telemetry, packet analysis, and Python-driven automation workflows using pfSense, Ubuntu, rsyslog, Paramiko, and Wireshark.
