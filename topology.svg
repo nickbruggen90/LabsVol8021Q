@@ -284,21 +284,10 @@
   <rect x="70" y="740" width="25" height="18" class="client-box"/>
   <text x="105" y="753" class="text-small" style="font-size: 12px;">Client Workstation</text>
   
-  <line x1="70" y1="765" x2="95" y2="765" class="wan-connection"/>
-  <text x="105" y="770" class="text-small" style="font-size: 12px;">WAN Connection</text>
+  <line x1="240" y1="705" x2="265" y2="705" stroke="#dc2626" stroke-width="4" fill="none"/>
+  <text x="275" y="710" class="text-small" style="font-size: 12px;">WAN Connection</text>
 
-  <line x1="220" y1="765" x2="245" y2="765" class="connection"/>
-  <text x="255" y="770" class="text-small" style="font-size: 12px;">LAN Connection</text>
-
-  <!-- Enhanced Network Information -->
-  <rect x="450" y="650" width="320" height="130" fill="white" stroke="#e5e7eb" stroke-width="2" rx="12" filter="url(#dropshadow)"/>
-  <text x="610" y="675" text-anchor="middle" class="label-text" style="font-size: 16px;">Network Configuration</text>
-  
-  <text x="470" y="695" class="text-small" style="font-size: 11px; font-weight: 600;">Network Topology:</text>
-  <text x="470" y="710" class="text-small" style="font-size: 11px;">• WAN Gateway: 192.168.19.2</text>
-  <text x="470" y="725" class="text-small" style="font-size: 11px;">• Branch 1 Subnet: 192.168.83.0/24</text>
-  <text x="470" y="740" class="text-small" style="font-size: 11px;">• Branch 2 Subnet: 192.168.84.0/24</text>
-  <text x="470" y="755" class="text-small" style="font-size: 11px;">• DHCP Assignment: WAN interfaces</text>
-  <text x="470" y="770" class="text-small" style="font-size: 11px;">• Services: AD, rsyslog, NetData monitoring</text>
+  <line x1="240" y1="730" x2="265" y2="730" class="connection"/>
+  <text x="275" y="735" class="text-small" style="font-size: 12px;">LAN Connection</text>
 
 </svg>
