@@ -1,6 +1,6 @@
 ### Troubleshooting: Common Drive Mapping Issues
 Problem: GPO configured but drive not mapping?
-1. Verify GPO is applied on CLIENT01 (in this output you will see "Network Drive Mappings". If you do not, try the following troubleshooting steps.
+1. Verify GPO is applied on CLIENT01 (in this output you will see "Network Drive Mappings". If you do not, try these following troubleshooting steps.)
 ```
 gpupdate /force
 gpresult /r
