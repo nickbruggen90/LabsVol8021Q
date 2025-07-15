@@ -38,7 +38,7 @@ In production, Active Directory relies on automatic refresh timers. Below are so
 Computer Policies: every 90 minutes, with random 0-30 minute offsets
 User Policies: every 90 minutes
 Domain Controllers: every 5 minutes
-Security Policies: every 16 hours regardless of
+Security Policies: every 16 hours regardless
 ```
 If you require immediate policy updates, consider the following:
 ```
