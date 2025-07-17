@@ -1,7 +1,7 @@
 ![Project 1 Topology](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/topology.svg)
 | Lab Title                 | Status   |
 |--------------------------|----------|
-| `Project 1: pfSense + NetOps Foundation`          | ✅ Complete   |
+| `Project 1: modular pfSense + NetOps Foundation`          | ✅ Complete   |
 | `Project 1.1: Active Directory Integration`          | ✅ Complete   |
 | `Project 1.2: NetData NMS Integration`   | 🧩 WIP    |
 | `Project 1.3: VPN Integration`   | 🧩 WIP    |
