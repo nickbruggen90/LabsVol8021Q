@@ -4,7 +4,7 @@
 | `Project 1: modular pfSense + NetOps Foundation`          | ✅ Complete   |
 | `Project 1.1: Active Directory Integration`          | ✅ Complete   |
 | `Project 1.2: NetData NMS Integration`   | 🧩 WIP    |
-| `Project 1.3: VPN Integration`   | 🧩 WIP    |
+| `Project 1.3: muktipleVPN Integration`   | 🧩 WIP    |
 | `Project 1.4: SPLUNK (SIEM) Integration`   | 🧩 WIP    |
 | `Project 1.5: StrongSwan Integration`   | 🧩 WIP    |
 | `Project 1.6: Sophos Integration`   | 🧩 WIP    |
