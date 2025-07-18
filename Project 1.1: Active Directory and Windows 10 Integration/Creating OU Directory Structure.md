@@ -4,7 +4,7 @@
 ```
 Right-click → New → Organizational Unit
 ```
-3. Here are some examples ways to organize your domain. This first example is a mixed/hybrid of the ones that proceed. Something like this is more common in real environments.
+3. Here are some examples of ways to organize your domain. This first example is a mixed/hybrid of the ones that proceed. Something like this is more common in real environments.
 ```
    testlab.local
 ├── Corporate
