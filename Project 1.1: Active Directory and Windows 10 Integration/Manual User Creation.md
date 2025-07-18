@@ -12,7 +12,7 @@ Full name: Michael J Rodriguez
 User logon name: michael.rodriguez@testlab.local 
 User logon name (pre-Windows 2000): TESTLAB\michael.rodriguez
 ```
-[new user pic](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20095427.png)
+![new user pic](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20095427.png)
 4. b. Here is an example of a standard **Password** parameters:
 ```
 Set temporary password: TempPass123!
@@ -21,7 +21,7 @@ Set temporary password: TempPass123!
 ❌ Uncheck "Password never expires"
 ❌ Uncheck "Account is disabled"
 ```
-[passwords](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20095443.png)
+![passwords](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20095443.png)
 5. After you apply the **Password** parameters, navigate to the newly created user under the OU it was created under.  
 Right-click the user → Properties
 7. a. Here is an example of the **General** tab:
@@ -31,21 +31,21 @@ Office: Building A, Floor 2, Room 205
 Telephone: (555) 234-5678
 Email: michael.rodriguez@test.lab
 ```
-[general tab](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20095536.png)
+![general tab](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20095536.png)
 7. b. Here is an example of the **Account** tab:
 ```
 Verify User logon name: michael.rodriguez@testlab.local
 Account options: Normal account
 Account expires: Never
 ```
-[account tab](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20095701.png)
+![account tab](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20095701.png)
 7. c. Here is an example of the **Profile** tab: !!!!!!LINK TO “CREATING A SHARED NETWORK FOLDER”
 *If you get an error that looks like this [link, not pic], then follow this troubleshooting guide*
 ```
 Profile path: \\DC01\Profiles$\michael.rodriguez
 Home folder: Connect Z: to \\DC01\Users$\michael.rodriguez
 ```
-[profile tab](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20102423.png)
+![profile tab](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20102423.png)
 7. d. Here is an example of the **Organizational** tab:
 ```
 Title: Regional Sales Manager
