@@ -1,7 +1,7 @@
 ### Manual User Creation
 1. Open Active Directory Users and Computers
 2. In this instance we will create a new user in Sales. You can find the repo on OU Creation here.
-3. Right click the Sales OU → New → User
+3. Right click the Sales OU → New → User  
 Here is an example of the New User parameters:
 ```
 First name: Michael
