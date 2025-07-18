@@ -38,7 +38,7 @@ Verify User logon name: michael.rodriguez@testlab.local
 Account options: Normal account
 Account expires: Never
 ```
-![account tab](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20095701.png)
+![account tab](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20095701.png)  
 7. c. Here is an example of the **Profile** tab: !!!!!!LINK TO “CREATING A SHARED NETWORK FOLDER”
 *If you get an error that looks like this [link, not pic], then follow this troubleshooting guide*
 ```
