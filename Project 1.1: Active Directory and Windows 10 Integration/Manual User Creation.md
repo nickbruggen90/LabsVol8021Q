@@ -45,7 +45,7 @@ Account expires: Never
 Profile path: \\DC01\Profiles$\michael.rodriguez
 Home folder: Connect Z: to \\DC01\Users$\michael.rodriguez
 ```
-![profile tab](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20102423.png)
+![profile tab](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20102423.png)  
 7. d. Here is an example of the **Organizational** tab:
 ```
 Title: Regional Sales Manager
