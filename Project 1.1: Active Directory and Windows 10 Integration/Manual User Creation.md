@@ -19,5 +19,5 @@ Set temporary password: TempPass123!
 ❌ Uncheck "Password never expires"
 ❌ Uncheck "Account is disabled"
 ```
-5. After you apply the **Password** parameters, navigate to the newly created user under the OU it was created under. Right-click the user → Properties
+5. After you apply the **Password** parameters, navigate to the newly created user under the OU it was created under.  Right-click the user → Properties
 6. a. Here is an example of the **General** tab:
