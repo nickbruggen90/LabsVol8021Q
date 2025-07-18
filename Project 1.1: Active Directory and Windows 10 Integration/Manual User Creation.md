@@ -12,7 +12,7 @@ Full name: Michael J Rodriguez
 User logon name: michael.rodriguez@testlab.local 
 User logon name (pre-Windows 2000): TESTLAB\michael.rodriguez
 ```
-![new user pic](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20095427.png)
+![new user pic](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20095427.png)  
 4. b. Here is an example of a standard **Password** parameters:
 ```
 Set temporary password: TempPass123!
