@@ -2,7 +2,7 @@
 1. Navigate to the main Active Directory Users and Computers and extend the domain you are working with. In this case it is testlab.local
 2. Right-clicking on the domain allows you to create an OU (Organizational Unit).  
 ```
-New → Organizational Unit
+Right-click → New → Organizational Unit
 ```
 3. Here are some examples ways to organize your domain. This first example is a mixed/hybrid of the ones that proceed. Something like this is more common in real environments.
 ```
