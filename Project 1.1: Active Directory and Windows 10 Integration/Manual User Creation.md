@@ -1,7 +1,7 @@
 ### Manual User Creation
 1. Open Active Directory Users and Computers
 [ADUC pic]
-2. In this instance we will create a new user in Sales. You can find the repo on OU Creation !!!!!!here.
+2. In this instance we will create a new user in Sales. You can find the repo on [OU Creation here](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1:%20Active%20Directory%20and%20Windows%2010%20Integration/Creating%20OU%20Directory%20Structure.md).
 3. Right click the Sales OU → New → User  
 4. a. Here is an example of the **New User** parameters:
 ```
