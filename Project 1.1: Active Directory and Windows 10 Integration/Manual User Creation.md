@@ -31,7 +31,7 @@ Office: Building A, Floor 2, Room 205
 Telephone: (555) 234-5678
 Email: michael.rodriguez@test.lab
 ```
-![general tab](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20095536.png)
+![general tab](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20095536.png)  
 7. b. Here is an example of the **Account** tab:
 ```
 Verify User logon name: michael.rodriguez@testlab.local
