@@ -21,7 +21,7 @@ Set temporary password: TempPass123!
 ❌ Uncheck "Password never expires"
 ❌ Uncheck "Account is disabled"
 ```
-![passwords](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20095443.png)
+![passwords](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20095443.png)  
 5. After you apply the **Password** parameters, navigate to the newly created user under the OU it was created under.  
 Right-click the user → Properties
 7. a. Here is an example of the **General** tab:
