@@ -40,7 +40,7 @@ Account expires: Never
 ```
 ![account tab](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20095701.png)  
 5. c. Here is an example of the **Profile** tab:
-*If you get an error that looks like this [link, not pic], then follow [this troubleshooting guide](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Quickguide%3A%20Network%20Share%20Creation%20%26%20Troubleshooting)*
+*If you get an error that looks like [this](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20110507.png), then follow [this troubleshooting guide](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Quickguide%3A%20Network%20Share%20Creation%20%26%20Troubleshooting)*
 ```
 Profile path: \\DC01\Profiles$\michael.rodriguez
 Home folder: Connect Z: to \\DC01\Users$\michael.rodriguez
