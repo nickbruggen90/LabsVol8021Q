@@ -4,9 +4,10 @@
 - 192.168.19.2 - WAN Gateway
 - 192.168.19.128 - pfSense Branch 2 WAN (DHCP)
 - 192.168.19.129 - pfSense Branch 1 WAN (DHCP)
+- 192.168.19.135 - Sophos XG Firewall WAN (DHCP)
 
 ## Branch 1 Network (192.168.83.0/24)
-- 192.168.83.50 - Ubuntu Server (rsyslog, NetData, Suricata)
+- 192.168.83.50 - Ubuntu Server (rsyslog, NetData)
 - 192.168.83.51 - Kali Client
 - 192.168.83.52 - Ubuntu Client
 - 192.168.83.100 - pfSense Branch 1 LAN
