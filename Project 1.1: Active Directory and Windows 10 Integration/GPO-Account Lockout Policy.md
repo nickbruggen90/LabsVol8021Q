@@ -4,11 +4,11 @@
 ![group policy management](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20194312.png)
 3. Right click on the newly created GPO and "Edit". Here you can adjust a wide variety of account settings and permissiongs. In this walkthrough we will look at the account lockout options.
 ```
-a. Computer Configurations ->
-b. Policies ->
-c. Windows Settings ->
-d. Security Settings ->
-e. Account Policies ->
+a. Computer Configurations → 
+b. Policies → 
+c. Windows Settings → 
+d. Security Settings → 
+e. Account Policies → 
 f. Account Lockout Policies
 ```
 4. Edit the following fields:
