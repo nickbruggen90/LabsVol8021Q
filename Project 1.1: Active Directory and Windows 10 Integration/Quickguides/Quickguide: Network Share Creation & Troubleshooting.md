@@ -11,7 +11,7 @@ Quick troubleshooting guide for creating and fixing network shares in Active Dir
 5. ✅ Check "Share this folder"
 6. Choose the share name as: Users$ ($ makes it hidden)
 7. Choose Permissions
-8. Add the appropriate users or accounts. In this instance we will add all the Administrator accounts, and Jackie Brown, a fictional employee to demonstrate privelege access.
+8. Add the appropriate users or accounts. In this instance we will add all the Administrator accounts. You can navigate to an employee inside of the Users folder, follow this step but add the employee as well for instance.
 9. Choose full control REAEDDDDD, WRITE ETTCC
 10. Apply, ok and confirm all changes
 
