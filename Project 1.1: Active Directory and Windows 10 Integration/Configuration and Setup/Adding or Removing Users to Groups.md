@@ -4,8 +4,8 @@
 3. Right-click the group → Properties → Members tab
 4. You will see the properties window for the group. Click "Add"
 5. You can search for the members you want to add to the group. In this instance it will be Jackie Brown.
-![jackie brown](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-19%20145440.png)
-6. The member willl populate in the Members tab now.
+![jackie brown](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-19%20145440.png)  
+6. The member willl populate in the Members tab now.  
 ![members tab](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-19%20134332.png)
 
 ---
