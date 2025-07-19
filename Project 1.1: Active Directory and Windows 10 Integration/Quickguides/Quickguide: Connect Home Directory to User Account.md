@@ -1,4 +1,4 @@
-### Quickguide: Network Share Creation & Troubleshooting
+### Quickguide: Connect Home Directory to User Account
 #### Overview
 Quick troubleshooting guide for creating and fixing network shares in Active Directory environments. Covers the most common issues when setting up home directories, shared drives, and network resources.
 
