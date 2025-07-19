@@ -13,6 +13,7 @@ Quick troubleshooting guide for creating and fixing network shares in Active Dir
 7. Choose Permissions
 8. Add the appropriate users or accounts. In this instance we will add all the Administrator accounts. You can navigate to an employee inside of the Users folder, follow this step but add the employee as well for instance.
 9. Choose full change, change, read
+[permissions](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20191422.png)
 10. Apply, ok and confirm all changes
 
 ---
