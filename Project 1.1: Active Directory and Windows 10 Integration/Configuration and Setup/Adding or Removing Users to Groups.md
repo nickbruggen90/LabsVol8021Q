@@ -11,6 +11,6 @@
 ---
 ### Verification
 1. Navigate to the Active Directory User and Computers
-2. Locate the user/employee in question
-3. Right-click → Properties → Members Of tab
+2. Locate the user/employee in question  
+3. Right-click → Properties → Members Of tab  
 ![members of tab](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-19%20134432.png)
