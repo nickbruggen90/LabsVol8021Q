@@ -1,6 +1,7 @@
 ### Quickguide: Fixing Network Share Permissions
 #### Overview
 Quick troubleshooting guide for creating and fixing network shares in Active Directory environments. Covers the most common issues when setting up home directories, shared drives, and network resources.
+![error](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20110507.png)
 
 ---
 #### Share Creation Process
