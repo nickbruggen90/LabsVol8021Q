@@ -1,5 +1,5 @@
 ### Set NTFS Permissions on the Folder
-1. Navigate to the folder storing your users/employees home directory. Use Windows+R and search '\\[domain controller name]\[home directory folder]\'. To find the hostname, use cmd with the command "hostname".
+1. Navigate to the folder storing your users/employees home directory. Use Windows+R and search `\\[domain controller name]\[home directory folder]\`. To find the hostname, use cmd with the command "hostname".
 ```
 \\DC01\Users$
 ```
