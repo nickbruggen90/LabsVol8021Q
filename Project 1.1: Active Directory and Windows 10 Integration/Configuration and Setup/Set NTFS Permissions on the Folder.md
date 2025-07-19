@@ -6,7 +6,7 @@
 2. Right-click on the user/employee home directory → Security tab  
 ![users$ directory](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20123248.png)  
 3. Click Advanced towards the bottom
-4. Disable Inheritance (This essentially isolates the folders permissions from the parent directory it's nested in. Lock down each employee’s home directory so only the owner and Domain Admins have access, while keeping the parent share wide open for mapping.)
+4. Disable Inheritance (This essentially isolates the folders permissions from the parent directory it's nested in. Lock down each employee’s home directory so only the owner and Domain Admins have access, while keeping the parent share wide open for mapping.)  
 ![disable inheritance](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20123330.png)  
 ![remove inheritance](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20123341.png)  
 5. Now we will add the appropriate permissions so only Administrators, the employee themselves, and you can add additional permissions as required. This is the concept of least privilege access.
