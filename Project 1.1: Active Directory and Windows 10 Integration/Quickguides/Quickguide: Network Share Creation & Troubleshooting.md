@@ -16,4 +16,3 @@ Quick troubleshooting guide for creating and fixing network shares in Active Dir
 10. Apply, ok and confirm all changes
 
 ---
-#### 
