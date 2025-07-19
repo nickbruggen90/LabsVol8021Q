@@ -3,3 +3,5 @@
 ```
 \\DC01\Users$
 ```
+To find the hostname, use cmd and search "hostname"
+2. 
