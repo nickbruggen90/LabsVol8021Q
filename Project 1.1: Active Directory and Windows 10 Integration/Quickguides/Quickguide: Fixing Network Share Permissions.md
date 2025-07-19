@@ -4,14 +4,6 @@ Quick troubleshooting guide for creating and fixing network shares in Active Dir
 ![error](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20110507.png)
 
 ---
-#### Create the User's Home Folder
-1. On DC01, open File Explorer
-2. Navigate to \\DC01\Users$ (or locally to C:\Users)
-3. Right-click in empty space → New → Folder
-4. Name the folder: [username] (e.g., michael.rodriguez)
-5. Press Enter to create
-
----
 #### Allow Permission
 1. Navigate to desired shared folder location. In this instance it will be C:
 2. Create the folder. In this tutorial we will use the Users folder as an example. (Note: full path: *C:\Users*)
@@ -26,3 +18,9 @@ Quick troubleshooting guide for creating and fixing network shares in Active Dir
 10. Apply, ok and confirm all changes
 
 ---
+#### Create the User's Home Folder
+1. On DC01, open File Explorer
+2. Navigate to \\DC01\Users$ (or locally to C:\Users)
+3. Right-click in empty space → New → Folder
+4. Name the folder: [username] (e.g., michael.rodriguez)
+5. Press Enter to create
