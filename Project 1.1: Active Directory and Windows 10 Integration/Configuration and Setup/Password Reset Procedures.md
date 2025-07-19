@@ -1,5 +1,6 @@
 ### Password Reset Procedures
-```When to Use:  
+```
+When to Use:  
 Individual password reset requests  
 Forgotten password scenarios  
 Urgent access needs  
