@@ -1,5 +1,5 @@
 ### Adding/Removing Users to Groups
-1. Navigate to Active Directory Users and Computers
+1. Navigate to **Active Directory Users and Computers**
 2. Locate the group in the leftside OU structure. Or you can search for it also.
 3. *Right-click the group → Properties → Members tab*
 4. You will see the properties window for the group. Click "Add"
