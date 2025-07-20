@@ -32,7 +32,7 @@ Type: User Configuration policy
 ```
 #### GPO Configuration
 ##### Control Panel Restrictions
-1. Navigate to **Group Policy Management**, *Right-click GPO → Edit
+1. Navigate to **Group Policy Management**, *Right-click GPO → Edit*
 2. In the left panel, *Computer Configuration → Policies → Administrative Templates → Control Panel*
 3. *Double-click "Prohibit access to Control Panel and PC settings" → Enable → OK*
 ##### Configure Drive Restrictions
