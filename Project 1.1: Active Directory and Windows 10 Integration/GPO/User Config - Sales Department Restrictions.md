@@ -1,5 +1,6 @@
 ### User Config - Sales Department Restrictions
 ##### Purpose: Configure user environment and restrictions for Sales department
+
 ```
 Target: Users in Company > Users > Sales OU (kenny.rogers, michael.rodriguez)
 Type: User Configuration policy
