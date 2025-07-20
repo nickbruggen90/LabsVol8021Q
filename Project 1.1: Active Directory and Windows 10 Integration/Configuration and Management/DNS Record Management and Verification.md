@@ -10,7 +10,7 @@
 ```
 Name: fileserver
 IP Address: 192.168.83.149
-✅Check "Create Associated Pointer (PTR) record"
+✅Check: "Create Associated Pointer (PTR) record"
 ```
 ![fileserver dns](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-20%20132824.png)
 
