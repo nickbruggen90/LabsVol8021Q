@@ -2,7 +2,7 @@
 ##### Purpose: Configure user environment and restrictions for Sales department
 
 ```
-Target: Users in Company > Users > Sales OU (jackie.brown, michael.rodriguez)
+Target: Users in Company → Users → Sales OU (jackie.brown, michael.rodriguez)
 Type: User Configuration policy
 ```
 
