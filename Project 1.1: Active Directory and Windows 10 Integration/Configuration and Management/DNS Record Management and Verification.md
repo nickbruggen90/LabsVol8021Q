@@ -1,7 +1,7 @@
 ### DNS Record Management and Verification
 ##### Configuration
 1. Navigate to *Run → dnsmgmt.msc*
-2. In the left column, *DC01 → Forward Lookup Zone → testlab.local
+2. In the left column, *DC01 → Forward Lookup Zone → testlab.local*
 ![dsnmgmt.msc](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-20%20132415.png)
 3. Here you can create DNS records (A, AAAA, CNAME, MX)
 4. In this instance we will create a DNS A record, which points a FQDN to an IPv4 address.
