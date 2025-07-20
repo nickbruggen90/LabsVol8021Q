@@ -36,10 +36,15 @@ Type: User Configuration policy
 1. Navigate to **Group Policy Management**, *Right-click GPO → Edit*
 2. In the left panel, *Computer Configuration → Policies → Administrative Templates → Control Panel*
 3. *Double-click "Prohibit access to Control Panel and PC settings" → Enable → OK*
+![GPO1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-20%20094011.png)
+![GPO2](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-20%20094047.png)
+
 ##### Configure Drive Restrictions
 1. Navigate to **Group Policy Management**, *Right-click GPO → Edit*
 2. In the left panel, *Computer Configuration → Policies → Administrative Templates → Windows Components → File Explorer*
 3. *Double-click "Hide these specified drives in My Computer" → Enable → Choose combination: Restrict C and D drives only → OK* (NOTE: Choosing "Restrict A, B, C and D drives" option is essentially the same thing, as A: and B: drives are usually not in operation.)
+![GPO3](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-20%20094502.png)
+![GPO4](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-20%20094726.png)
 ##### Configure Start Menu Restrictions
 1. Navigate to **Group Policy Management**, *Right-click GPO → Edit*
 2. In the left panel, *Computer Configuration → Policies → Administrative Templates → Start Menu and Task Bar*
