@@ -49,8 +49,15 @@ Type: User Configuration policy
 1. Navigate to **Group Policy Management**, *Right-click GPO → Edit*
 2. In the left panel, *Computer Configuration → Policies → Administrative Templates → Start Menu and Task Bar*
 3. *Double-click "Prevent changes to Task Bar and Start Menu Settings" → Enable → OK*
+![GPO5](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-20%20094836.png)
+
 ---
 #### Link to OU
 1. Navigate to **Group Policy Management**
 2. *Right-click `Sales` OU → Link an Existing GPO*
 3. Select the GPO. In this instance it is "User Config - Sales Department Restrictions" then "OK"
+![link GPO1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-20%20095102.png)
+4. Right-click on the GPO to confirm it was Enabled and Linked
+![link GPO2](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-20%20095124.png)
+
+
