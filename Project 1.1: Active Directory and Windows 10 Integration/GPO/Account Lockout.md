@@ -1,6 +1,6 @@
 ### Account Lockout Policy
-1. Within Group Policy Management under testlab.local right click Group Policy Objects.
-2. Choose "new" and name it "Account Lockout Policy"
+1. Navigate to Group Policy Management
+2. Locate root domain, in this instance it is testlab.local. Right-click → Create a GPO in this domain, and Link it here → name it "Account Lockout Policy"
 ![group policy management](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20194312.png)
 3. *Right click on the newly created GPO → Edit*. Here you can adjust a wide variety of account settings and permissions. In this walkthrough we will look at the account lockout options.
 ```
