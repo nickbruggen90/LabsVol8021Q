@@ -25,4 +25,4 @@ Installation: Computer startup
 ``` 
 12. Pressing OK will take you back to the "Computer Config - Software Installation - Adobe Reader" GPO Editor
 13. Choose Computer Configuration → Policies → Software Settings → Right-click Software Installation → New → Package
-14. In this simulation we will use "File location: \\DC01\Software$\AdobeReader.msi", in your lab or production choose the desired executable
+14. In this simulation we will use File location: `\\DC01\Software$\AdobeReader.msi`, in your lab or production choose the desired executable
