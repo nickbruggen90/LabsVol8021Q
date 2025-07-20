@@ -16,7 +16,7 @@ IP Address: 192.168.83.149
 
 ---
 ##### Verification
-1. On the client side,navigate to `cmd`
+1. On the client side, navigate to `cmd`
 2. Use the following commands to verify the DNS records are working:
 ```
 nslookup DC01
