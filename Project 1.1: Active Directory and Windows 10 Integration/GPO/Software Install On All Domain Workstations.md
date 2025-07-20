@@ -8,7 +8,7 @@ OU Type: Computer Configuration (installs regardless of who logs in)
 
 1. Create a folder to host the applications. In this instance, we will create `SoftwareDistribution` inside `C:`
 2. *Right-click → Properties → Sharing tab*
-3. Click `"Advanced Sharing"` button <small>([Walkthrough on How to Share](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1:%20Active%20Directory%20and%20Windows%2010%20Integration/Quickguides/Quickguide:%20Fixing%20Network%20Share%20Permissions_.md))</small>
+3. Click `"Advanced Sharing"` button <sup>([Walkthrough on How to Share](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1:%20Active%20Directory%20and%20Windows%2010%20Integration/Quickguides/Quickguide:%20Fixing%20Network%20Share%20Permissions_.md))</sup>
 4. Tick `"Share This Folder"` and choose `Software$` as the share name
 5. We will need to add permissions. Click the `"Permissions"` button in the same window as Share This Folder
 6. Remove any existing groups or users, and add `"Domain Admins"` with Full Control and `"Domain Users"` with Read-only capabilities
