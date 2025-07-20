@@ -19,7 +19,7 @@ Configure Start menu restrictions
 2. Inside `Group Policy Objects` OU, *Right-click → New*
 3. For this demonstration we will *name it "User Config - Sales Department Restrictions" → click OK*
 4. Back inside **Group Policy Management**, *Right-click newly created GPO → Edit → Action → Properties → Comment tab*
-5. Here is an example comment. This documents in detail changes, etc for future reference.
+5. Here is an example comment. This documents in detail the changes made, etc for future reference.
 ```
 User environment restrictions and configurations for Sales department.
 - Disables Control Panel access
