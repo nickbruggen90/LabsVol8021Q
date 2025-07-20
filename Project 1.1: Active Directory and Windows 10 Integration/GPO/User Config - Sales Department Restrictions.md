@@ -60,4 +60,10 @@ Type: User Configuration policy
 4. Right-click on the GPO to confirm it was Enabled and Linked
 ![link GPO2](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-20%20095124.png)
 
+---
+#### Verification
+1. Go to the client computer and try to perform an action against the restricted settings. You should see an error similar to this:
+![error pic](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-20%20100004.png)
+
+
 
