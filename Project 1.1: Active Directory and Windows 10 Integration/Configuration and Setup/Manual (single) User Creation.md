@@ -41,8 +41,8 @@ Account expires: Never
 5. c. Here is an example of the **Profile** tab:  
 ##### *If you get an error that looks like [this](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20110507.png), then follow [this troubleshooting guide](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1:%20Active%20Directory%20and%20Windows%2010%20Integration/Quickguides/Quickguide:%20Fixing%20Network%20Share%20Permissions_.md)*
 ```
-Profile path: `\\DC01\Profiles$\%username%`
-Home folder: Connect `Z:` to `\\DC01\Users$\%username%`
+Profile path: \\DC01\Profiles$\%username%
+Home folder: Connect Z: to \\DC01\Users$\%username%
 ```
 ![profile tab](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20102423.png)  
 5. d. Here is an example of the **Organizational** tab:
