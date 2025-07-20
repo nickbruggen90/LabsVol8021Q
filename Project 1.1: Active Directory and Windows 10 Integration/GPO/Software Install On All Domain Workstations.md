@@ -25,6 +25,6 @@ Target: All computers in Workstations OU
 Installation: Computer startup
 ``` 
 ![comment section](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-20%20073733.png)  
-12. Pressing `OK` will take you back to the "Computer Config - Software Installation - Adobe Reader" GPO Editor
-13. Choose *Computer Configuration → Policies → Software Settings → Right-click Software Installation → New → Package*
-14. In this simulation we will use File location: `\\DC01\Software$\AdobeReader.msi`, in your lab or production choose the desired executable
+12. Pressing `OK` will take you back to the "Computer Config - Software Installation - Adobe Reader" GPO Editor  
+13. Choose *Computer Configuration → Policies → Software Settings → Right-click Software Installation → New → Package*  
+14. In this simulation we will use File location: `\\DC01\Software$\AdobeReader.msi`, in your lab or production choose the desired executable  
