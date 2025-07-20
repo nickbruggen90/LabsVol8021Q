@@ -23,4 +23,5 @@ Created: [Today's Date]
 Target: All computers in Workstations OU
 Installation: Computer startup
 ``` 
-12. Back in the "Computer Config - Software Installation - Adobe Reader" GPO Editor, choose Computer Configuration → Policies → Software Settings → Right-click Software Installation → New → Package
+12. Pressing OK will take you back to the "Computer Config - Software Installation - Adobe Reader" GPO Editor
+13. Choose Computer Configuration → Policies → Software Settings → Right-click Software Installation → New → Package
