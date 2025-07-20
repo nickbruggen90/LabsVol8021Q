@@ -30,6 +30,7 @@ Created: [Today's Date]
 Target: Sales OU users only
 Type: User Configuration policy
 ```
+![comment section](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-20%20093844.png)
 #### GPO Configuration
 ##### Control Panel Restrictions
 1. Navigate to **Group Policy Management**, *Right-click GPO → Edit*
