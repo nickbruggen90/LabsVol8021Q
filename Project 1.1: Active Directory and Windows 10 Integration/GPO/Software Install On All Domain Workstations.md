@@ -6,8 +6,8 @@ OU Type: Computer Configuration (installs regardless of who logs in)
 ```
 ---
 
-1. Create a folder to host the applications. In this instance, we will create SoftwareDistribution inside C:
-2. Right-click → Properties → Sharing tab
+1. Create a folder to host the applications. In this instance, we will create `SoftwareDistribution` inside `C:`
+2. *Right-click → Properties → Sharing tab*
 3. Click "Advanced Sharing" button
 4. Tick "Share This Folder" and choose Software$ as the share name
 5. We will need to add permissions. Click the "Permissions" button in the same window as Share This Folder
