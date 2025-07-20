@@ -38,6 +38,6 @@ Type: User Configuration policy
 ##### Configure Drive Restrictions
 1. Navigate to **Group Policy Management**, *Right-click GPO → Edit
 2. In the left panel, *Computer Configuration → Policies → Administrative Templates → Windows Components → File Explorer*
-3. *Double-click "Hide these specified drives in My Computer"* → Enable → Choose combination: Restrict C and D drives only → OK* (NOTE: Choosing "Restrict A, B, C and D drives" option is essentially the same thing, as A: and B: drives are usually not in operation.)
+3. *Double-click "Hide these specified drives in My Computer" → Enable → Choose combination: Restrict C and D drives only → OK* (NOTE: Choosing "Restrict A, B, C and D drives" option is essentially the same thing, as A: and B: drives are usually not in operation.)
 4. 
 
