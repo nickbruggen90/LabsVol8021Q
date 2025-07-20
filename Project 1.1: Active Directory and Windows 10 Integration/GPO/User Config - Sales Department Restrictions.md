@@ -12,5 +12,7 @@ Hide specific drives (restrict access to system drives)
 Set folder redirection for Documents folder
 Configure Start menu restrictions
 ```
+---
+
 1. Navigate to Group Policy Management. Run → gpmc.msc
 2. 
