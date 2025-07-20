@@ -1,3 +1,4 @@
+[Click Here for ASCII Vesion]
 ![Project 1 Topology](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/topology.svg)
 | Lab Title                 | Status   |
 |--------------------------|----------|
