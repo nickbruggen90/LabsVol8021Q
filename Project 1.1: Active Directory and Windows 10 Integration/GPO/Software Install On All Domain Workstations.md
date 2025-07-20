@@ -13,6 +13,7 @@ OU Type: Computer Configuration (installs regardless of who logs in)
 5. We will need to add permissions. Click the `"Permissions"` button in the same window as Share This Folder
 6. Remove any existing groups or users, and add `"Domain Admins"` with Full Control and `"Domain Users"` with Read-only capabilities
 7. Next we need to navigate to **Group Policy Management**. *Run → gpmc.msc* (or locate it in the start menu apps, or search)
+![group policy management](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-20%20073712.png)
 8. In this instance we will create a Global GPO. It will be inherited by all child directories underneath it.
 9. *Right-click → Create a GPO in this domain, and Link it here*
 10. Name it `"Computer Config - Software Installation - Adobe Reader"`. Then you will see it populate under the root domain.
