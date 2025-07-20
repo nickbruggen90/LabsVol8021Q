@@ -1,5 +1,5 @@
 ### Manual User Creation
-1. Open Active Directory Users and Computers
+1. Open **Active Directory Users and Computers**
 ![ADUC pic](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20090405.png)
 2. In this instance we will create a new user in Sales. You can find the repo on [OU Creation and Directory Structure here](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1:%20Active%20Directory%20and%20Windows%2010%20Integration/Creating%20OU%20Directory%20Structure.md).
 3. *Right click the Sales OU → New → User*  
@@ -22,8 +22,7 @@ Set temporary password: TempPass123!
 ❌ Uncheck "Account is disabled"
 ```
 ![passwords](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20095443.png)  
-5. After you apply the **Password** parameters, navigate to the newly created user under the OU it was created under.  
-Right-click the user → Properties  
+5. After you apply the **Password** parameters, navigate to the newly created user under the OU it was created under. *Right-click the user → Properties*  
 5. a. Here is an example of the **General** tab:
 ```
 Description: Regional Sales Manager - Sales
@@ -42,8 +41,8 @@ Account expires: Never
 5. c. Here is an example of the **Profile** tab:  
 ##### *If you get an error that looks like [this](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20110507.png), then follow [this troubleshooting guide](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1:%20Active%20Directory%20and%20Windows%2010%20Integration/Quickguides/Quickguide:%20Fixing%20Network%20Share%20Permissions_.md)*
 ```
-Profile path: \\DC01\Profiles$\%username%
-Home folder: Connect Z: to \\DC01\Users$\%username%
+Profile path: `\\DC01\Profiles$\%username%`
+Home folder: Connect `Z:` to `\\DC01\Users$\%username%`
 ```
 ![profile tab](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20102423.png)  
 5. d. Here is an example of the **Organizational** tab:
