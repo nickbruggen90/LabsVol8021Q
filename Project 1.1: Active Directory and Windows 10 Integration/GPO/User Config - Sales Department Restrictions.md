@@ -15,7 +15,7 @@ Configure Start menu restrictions
 ```
 ---
 #### GPO Creation and Initial Settings
-1. Navigate to Group Policy Management. *Run → gpmc.msc*
+1. Navigate to **Group Policy Management**. *Run → gpmc.msc*
 2. Inside `Group Policy Objects` OU, *Right-click → New*
 3. For this demonstration we will name it "User Config - Sales Department Restrictions" → click OK
 4. Back inside Group Policy Management, *Right-click newly created GPO → Edit → Action → Properties → Comment tab*
