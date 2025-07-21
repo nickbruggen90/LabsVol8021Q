@@ -5,8 +5,8 @@ Refer here for IPAM.
 ```
 1. Inside VMWare Workstation Pro choose *Edit → Virtual Network Editor*
 2. Click and highlight `VMNet1` and "Change Settings" towards the bottom.
-3. Tick "Host-only"
-4. Uncheck "Use local DHCP service to distribute IP address to VMs"
+3. ✅Tick "Host-only"
+4. ❎Uncheck "Use local DHCP service to distribute IP address to VMs"
 5. Define the Subnet IP as `192.168.83.224` and Subnet Mask as `192.168.83.248`
 
 ---
