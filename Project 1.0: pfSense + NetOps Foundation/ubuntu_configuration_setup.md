@@ -14,7 +14,7 @@ b. The gateway will be the IP of the VLANs default gateway - 192.168.83.1
 c. 8.8.8.8 will be the DNS server for this lab
 ```
 
-3. Install net-tools. This installs network related CLI commands.
+3. Install `net-tools`. This installs network related CLI commands.
 ```
 a. sudo apt install net-tools
 b. ifconfig -a
