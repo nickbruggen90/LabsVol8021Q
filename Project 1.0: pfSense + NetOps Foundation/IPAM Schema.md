@@ -136,4 +136,63 @@
 | BR2_LNX_CLI (em3) | VMnet10 | 192.168.84.33/27 | Linux Clients | Yes (.45-.62) |
 
 ---
+# Lab Naming Convention Chart
+
+## 🏷️ **Interface Naming Format**
+```
+[BRANCH]_[ENVIRONMENT]_[ROLE]
+```
+
+---
+
+## **Component Breakdown**
+
+### **Branch Identifiers**
+| Code | Description |
+|---|---|
+| **BR1** | Branch 1 (Primary Lab) |
+| **BR2** | Branch 2 (Secondary Lab) |
+| **SPH** | Sophos (Firewall Testing) |
+
+### **Environment Types**
+| Code | Description |
+|---|---|
+| **LNX** | Linux Systems |
+| **WIN** | Windows Systems |
+| **NET** | Network/Infrastructure |
+
+### **Role Designations**
+| Code | Description |
+|---|---|
+| **SRV** | Servers |
+| **CLI** | Clients/Workstations |
+| **MGMT** | Management |
+| **GUEST** | Guest Network |
+
+---
+
+## **Interface Names**
+
+### **Branch 1 (Primary Lab)**
+| Interface Name | Purpose | Subnet |
+|---|---|---|
+| **BR1_LNX_SRV** | Linux Servers | 192.168.83.0/28 |
+| **BR1_LNX_CLI** | Linux Clients | 192.168.83.32/27 |
+| **BR1_WIN_SRV** | Windows Servers | 192.168.83.64/28 |
+| **BR1_WIN_CLI** | Windows Clients | 192.168.83.96/27 |
+
+### **Branch 2 (Secondary Lab)**
+| Interface Name | Purpose | Subnet |
+|---|---|---|
+| **BR2_LNX_CLI** | Linux Clients | 192.168.84.32/27 |
+
+### **Future Expansion Examples**
+| Interface Name | Purpose |
+|---|---|
+| **BR1_NET_MGMT** | Branch 1 Management |
+| **BR1_NET_GUEST** | Branch 1 Guest Network |
+| **BR2_WIN_SRV** | Branch 2 Windows Servers |
+| **SPH_NET_TEST** | Sophos Test Network |
+
+---
 This IPAM serves as the master blueprint for the complete Project 1.0+ build-out.
