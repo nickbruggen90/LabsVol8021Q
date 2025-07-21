@@ -24,7 +24,7 @@ b. ifconfig -a
 ```
 sudo apt install snmp snmp-mibs-downloader
 ```
-`For human-readable format, you can edit the /etc/snmp/snmp.conf file to make the output more readable.`
+`For human-readable format, you can edit the /etc/snmp/snmp.conf file to make the output more readable → `
 ```
 Commend out #mibs :
 ![mibs output 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-29%20185249.png)
