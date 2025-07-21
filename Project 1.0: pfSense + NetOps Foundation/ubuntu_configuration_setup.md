@@ -31,7 +31,7 @@ Commend out #mibs :
 ![mibs output 2](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-29%20185400.png)
 ```
 
-Next, lets install Syslog and confirm it's active. Likewise, we will need to allow it on pfSense in future steps.
+5. Next, lets install Syslog and confirm it's active. Similar with SNMP, we will need to allow it on pfSense in future steps.
 ```
 sudo apt update
 sudo apt install rsyslog
