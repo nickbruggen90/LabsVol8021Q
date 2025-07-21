@@ -6,26 +6,28 @@
 Host-Only network adapter
 The default on the rest is fine
 ```
+
 2. Once it boots up and you reach `Network Configurations`:
 ```
 a. You will choose an IP within the subnet of the VMNet1 NIC. In this instance it will be 192.168.83.2/28)
 b. The gateway will be the IP of the VLANs default gateway - 192.168.83.1
 c. 8.8.8.8 will be the DNS server for this lab
 ```
+
 3. Install net-tools. This installs network related CLI commands.
 ```
 a. sudo apt install net-tools
 b. ifconfig -a
 ```
-3. Next, let's install SNMP on the Ubuntu server. We will also need to allow SNMP on pfSense in future steps. Inside Ubuntu Server VM:
-```
-sudo apt install snmp snmp-mibs-downloader
+
+4. Next, let's install SNMP on the Ubuntu server. We will also need to allow SNMP on pfSense in future steps. Inside Ubuntu Server VM:
+`sudo apt install snmp snmp-mibs-downloader`
 `For human-readable format, you can edit the /etc/snmp/snmp.conf file to make the output more readable.`
 #mibs :
-```
 ![mibs output 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-29%20185249.png)
 ![mibs output 2](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-29%20185400.png)
-  
+
+
 Next, lets install Syslog and confirm it's active. Likewise, we will need to allow it on pfSense in future steps.
 ```
 sudo apt update
