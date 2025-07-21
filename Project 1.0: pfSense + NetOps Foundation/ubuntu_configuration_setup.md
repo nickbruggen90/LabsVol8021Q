@@ -141,4 +141,4 @@ except Exception as e:
 4. Return to Ubuntu CLI to confirm script is in the appropriate place.  
 `ls -la /mnt/hgfs/"name of shared folder"`  
 5. Save this test script as `python.py`
-6. Now we need to return to the pfSense GUI to allow Syslog, SNMP and SSH connections.
+6. [Now we need to return to the pfSense GUI to allow Syslog, SNMP and SSH connections.]LINK!!
