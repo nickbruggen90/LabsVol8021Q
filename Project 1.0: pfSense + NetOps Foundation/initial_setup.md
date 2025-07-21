@@ -9,6 +9,8 @@ Refer here for IPAM.
 4. Uncheck "Use local DHCP service to distribute IP address to VMs"
 5. Define the Subnet IP as `192.168.83.224` and Subnet Mask as `192.168.83.248`
 
+---
+
 ### VM Creation
 1. First we will create the pfSense VM with VMWare Workstation. Use the official pfSense CE .iso release. Choose the following configuration for set-up:
 ```
@@ -24,6 +26,8 @@ Refer here for IPAM.
 Auto UFS
 MBR partition scheme
 ```
+
+---
 
 ### pfSense Configuration
 1. After the installation and initial bootup, pfSense CLI will prompt you will a numbered menu.
