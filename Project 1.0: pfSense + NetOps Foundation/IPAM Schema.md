@@ -1,136 +1,161 @@
-# Lab IPAM Schema - Current and Planned Devices Only
-
-## 🌐 **Lab Overview**
+# IPAM Schema - Lab Build Plan
 **Current Networks:** 4 segments (Management/WAN + 3 branches)  
 **Architecture:** Multi-VMnet approach (no VLAN tagging)  
-**Current Focus:** Branch 1 implementation and device migration
 
 ---
 
-## 📋 **VMnet Allocation - Current Lab**
+## **VMnet Allocation**
 
-| VMnet | Branch | Purpose | Subnet | Gateway | DHCP | pfSense Interface | Status |
-|---|---|---|---|---|---|---|---|
-| **VMnet0** | All | WAN/Internet | Bridged | - | No | WAN interfaces | Active |
-| **VMnet1** | Branch 1 | Infrastructure | 192.168.83.224/29 | 192.168.83.226 | No | em1 (LAN) | **Active** |
-| **VMnet2** | Branch 1 | Linux Servers | 192.168.83.0/28 | 192.168.83.1 | No | em2 (OPT1) | **Active** |
-| **VMnet3** | Branch 1 | Linux Clients | 192.168.83.32/27 | 192.168.83.33 | Yes | em3 (OPT2) | Planned |
-| **VMnet4** | Branch 1 | Windows Servers | 192.168.83.64/28 | 192.168.83.65 | No | em4 (OPT3) | Planned |
-| **VMnet5** | Branch 1 | Windows Clients | 192.168.83.96/27 | 192.168.83.97 | Yes | em5 (OPT4) | Planned |
-| **VMnet8** | Branch 2 | Infrastructure | 192.168.84.224/29 | 192.168.84.226 | No | em1 (LAN) | Future |
-| **VMnet10** | Branch 2 | Linux Clients | 192.168.84.32/27 | 192.168.84.33 | Yes | em3 (OPT2) | Future |
-| **VMnet15** | Sophos | Infrastructure | 192.168.85.224/29 | 192.168.85.226 | No | em1 (LAN) | Future |
-
----
-
-## 🏢 **Branch 1 - Primary Lab (192.168.83.0/24)**
-
-### **VMnet1: Infrastructure (192.168.83.224/29) - ACTIVE**
-| IP Address | Device | Purpose | Status |
-|---|---|---|---|
-| 192.168.83.225 | VMware Host Adapter | Management | Auto |
-| 192.168.83.226 | pfSense Branch 1 LAN | Router/Firewall | **Active** |
-
-### **VMnet2: Linux Servers (192.168.83.0/28) - ACTIVE**
-| IP Address | Device | Purpose | Status |
-|---|---|---|---|
-| 192.168.83.1 | pfSense OPT1 Gateway | Gateway | **Active** |
-| 192.168.83.2 | Ubuntu Server | Linux Infrastructure | **Active** |
-
-### **VMnet3: Linux Clients (192.168.83.32/27) - PLANNED**
-| IP Address | Device | Purpose | Status |
-|---|---|---|---|
-| 192.168.83.33 | pfSense OPT2 Gateway | Gateway | Planned |
-| 192.168.83.34 | Kali Linux | Penetration Testing | **Migrate from .51** |
-| 192.168.83.35 | Ubuntu Client | Linux Workstation | **Migrate from .52** |
-| 192.168.83.45-62 | DHCP Pool | Dynamic Clients | Planned |
-
-### **VMnet4: Windows Servers (192.168.83.64/28) - PLANNED**
-| IP Address | Device | Purpose | Status |
-|---|---|---|---|
-| 192.168.83.65 | pfSense OPT3 Gateway | Gateway | Planned |
-| 192.168.83.66 | Windows Server 2025 | Domain Controller | **Migrate from .150** |
-
-### **VMnet5: Windows Clients (192.168.83.96/27) - PLANNED**
-| IP Address | Device | Purpose | Status |
-|---|---|---|---|
-| 192.168.83.97 | pfSense OPT4 Gateway | Gateway | Planned |
-| 192.168.83.98 | Windows 10 Client | Domain Workstation | **Migrate from .151** |
-| 192.168.83.110-126 | DHCP Pool | Dynamic Clients | Planned |
+| VMnet | Branch | Purpose | Subnet | Gateway | DHCP | pfSense Interface |
+|---|---|---|---|---|---|---|
+| **VMnet0** | All | WAN/Internet | Bridged | - | No | WAN interfaces |
+| **VMnet1** | Branch 1 | Infrastructure | 192.168.83.224/29 | 192.168.83.226 | No | em1 (LAN) |
+| **VMnet2** | Branch 1 | Linux Servers | 192.168.83.0/28 | 192.168.83.1 | No | em2 (BR1_LNX_SRV) |
+| **VMnet3** | Branch 1 | Linux Clients | 192.168.83.32/27 | 192.168.83.33 | Yes | em3 (BR1_LNX_CLI) |
+| **VMnet4** | Branch 1 | Windows Servers | 192.168.83.64/28 | 192.168.83.65 | No | em4 (BR1_WIN_SRV) |
+| **VMnet5** | Branch 1 | Windows Clients | 192.168.83.96/27 | 192.168.83.97 | Yes | em5 (BR1_WIN_CLI) |
+| **VMnet8** | Branch 2 | Infrastructure | 192.168.84.224/29 | 192.168.84.226 | No | em1 (LAN) |
+| **VMnet10** | Branch 2 | Linux Clients | 192.168.84.32/27 | 192.168.84.33 | Yes | em3 (BR2_LNX_CLI) |
+| **VMnet15** | Sophos | Infrastructure | 192.168.85.224/29 | 192.168.85.226 | No | em1 (LAN) |
 
 ---
 
-## 🏢 **Branch 2 - Secondary Lab (192.168.84.0/24)**
+## **Branch 1 - (192.168.83.0/24)**
 
-### **VMnet8: Infrastructure (192.168.84.224/29) - FUTURE**
-| IP Address | Device | Purpose | Status |
-|---|---|---|---|
-| 192.168.84.226 | pfSense Branch 2 LAN | Router/Firewall | Future |
+### **VMnet1: Infrastructure (192.168.83.224/29)**
+| IP Address | Device | Purpose |
+|---|---|---|
+| 192.168.83.225 | VMware Host Adapter | Management |
+| 192.168.83.226 | pfSense Branch 1 LAN | Router/Firewall |
 
-### **VMnet10: Linux Clients (192.168.84.32/27) - FUTURE**
-| IP Address | Device | Purpose | Status |
-|---|---|---|---|
-| 192.168.84.33 | pfSense OPT2 Gateway | Gateway | Future |
-| 192.168.84.35 | Ubuntu Client | Linux Workstation | **Migrate from .52** |
+### **VMnet2: Linux Servers (192.168.83.0/28)**
+| IP Address | Device | Purpose |
+|---|---|---|
+| 192.168.83.1 | pfSense BR1_LNX_SRV Gateway | Gateway |
+| 192.168.83.2 | Ubuntu Server | Linux Infrastructure |
+
+### **VMnet3: Linux Clients (192.168.83.32/27)**
+| IP Address | Device | Purpose |
+|---|---|---|
+| 192.168.83.33 | pfSense BR1_LNX_CLI Gateway | Gateway |
+| 192.168.83.34 | Kali Linux | Penetration Testing |
+| 192.168.83.35 | Ubuntu Client | Linux Workstation |
+| 192.168.83.45-62 | DHCP Pool | Dynamic Clients |
+
+### **VMnet4: Windows Servers (192.168.83.64/28)**
+| IP Address | Device | Purpose |
+|---|---|---|
+| 192.168.83.65 | pfSense BR1_WIN_SRV Gateway | Gateway |
+| 192.168.83.66 | Windows Server 2025 | Domain Controller |
+
+### **VMnet5: Windows Clients (192.168.83.96/27)**
+| IP Address | Device | Purpose |
+|---|---|---|
+| 192.168.83.97 | pfSense BR1_WIN_CLI Gateway | Gateway |
+| 192.168.83.98 | Windows 10 Client | Domain Workstation |
+| 192.168.83.110-126 | DHCP Pool | Dynamic Clients |
 
 ---
 
-## 🛡️ **Sophos Lab (192.168.85.0/24)**
+## **Branch 2 - (192.168.84.0/24)**
 
-### **VMnet15: Infrastructure (192.168.85.224/29) - FUTURE**
-| IP Address | Device | Purpose | Status |
-|---|---|---|---|
-| 192.168.85.226 | Sophos XG LAN | Firewall Testing | Future |
+### **VMnet8: Infrastructure (192.168.84.224/29)**
+| IP Address | Device | Purpose |
+|---|---|---|
+| 192.168.84.226 | pfSense Branch 2 LAN | Router/Firewall |
 
----
-
-## 🔗 **WAN Network (192.168.19.0/24)**
-| IP Address | Device | Purpose | Status |
-|---|---|---|---|
-| 192.168.19.2 | WAN Gateway | Internet Router | Active |
-| 192.168.19.128 | pfSense Branch 2 WAN | WAN Interface | Active |
-| 192.168.19.129 | pfSense Branch 1 WAN | WAN Interface | **Active** |
-| 192.168.19.135 | Sophos XG WAN | WAN Interface | Active |
+### **VMnet10: Linux Clients (192.168.84.32/27)**
+| IP Address | Device | Purpose |
+|---|---|---|
+| 192.168.84.33 | pfSense BR2_LNX_CLI Gateway | Gateway |
+| 192.168.84.35 | Ubuntu Client | Linux Workstation |
 
 ---
 
-## 📋 **Device Migration Plan**
+## **Sophos Lab - (192.168.85.0/24)**
 
-### **Current Device Locations:**
-| Device | Current IP | Current Network | Target VMnet | Target IP | Priority |
-|---|---|---|---|---|---|
-| Ubuntu Server | 192.168.83.2 | VMnet2 | VMnet2 | 192.168.83.2 | ✅ **Complete** |
-| Kali Linux | 192.168.83.51 | Flat network | VMnet3 | 192.168.83.34 | **High** |
-| Ubuntu Client | 192.168.83.52 | Flat network | VMnet3 | 192.168.83.35 | **High** |
-| Windows Server 2025 | 192.168.83.150 | Flat network | VMnet4 | 192.168.83.66 | **High** |
-| Windows 10 Client | 192.168.83.151 | Flat network | VMnet5 | 192.168.83.98 | **High** |
-| Branch 2 Ubuntu | 192.168.84.52 | Flat network | VMnet10 | 192.168.84.35 | **Medium** |
+### **VMnet15: Infrastructure (192.168.85.224/29)**
+| IP Address | Device | Purpose |
+|---|---|---|
+| 192.168.85.226 | Sophos XG LAN | Firewall Testing |
 
-### **pfSense Configuration Status:**
-| Interface | VMnet | IP Address | Status | Firewall Rules |
+---
+
+## **WAN Network - (192.168.19.0/24)**
+| IP Address | Device | Purpose |
+|---|---|---|
+| 192.168.19.2 | WAN Gateway | Internet Router |
+| 192.168.19.128 | pfSense Branch 2 WAN | WAN Interface |
+| 192.168.19.129 | pfSense Branch 1 WAN | WAN Interface |
+| 192.168.19.135 | Sophos XG WAN | WAN Interface |
+
+---
+
+## **Device Deployment Plan**
+
+### **Branch 1 Device Assignments:**
+| Device | VMnet | IP Address | Purpose |
+|---|---|---|---|
+| pfSense Branch 1 | VMnet0/1/2/3/4/5 | Multi-homed | Router/Firewall |
+| Ubuntu Server | VMnet2 | 192.168.83.2 | Linux Infrastructure |
+| Kali Linux | VMnet3 | 192.168.83.34 | Penetration Testing |
+| Ubuntu Client | VMnet3 | 192.168.83.35 | Linux Workstation |
+| Windows Server 2025 | VMnet4 | 192.168.83.66 | Domain Controller |
+| Windows 10 Client | VMnet5 | 192.168.83.98 | Domain Workstation |
+
+### **Branch 2 Device Assignments:**
+| Device | VMnet | IP Address | Purpose |
+|---|---|---|---|
+| pfSense Branch 2 | VMnet0/8/10 | Multi-homed | Router/Firewall |
+| Ubuntu Client | VMnet10 | 192.168.84.35 | Linux Workstation |
+
+### **Sophos Lab Device Assignments:**
+| Device | VMnet | IP Address | Purpose |
+|---|---|---|---|
+| Sophos XG Firewall | VMnet0/15 | Multi-homed | Firewall Testing |
+
+---
+
+## **pfSense Configuration Requirements**
+
+### **Branch 1 pfSense Interfaces:**
+| Interface | VMnet | IP Address | Subnet | DHCP |
 |---|---|---|---|---|
-| WAN (em0) | VMnet0 | 192.168.19.129 | ✅ Active | Default |
-| LAN (em1) | VMnet1 | 192.168.83.226/29 | ✅ Active | Default |
-| OPT1 (em2) | VMnet2 | 192.168.83.1/28 | ✅ Active | ✅ OPT1 net to Any |
-| OPT2 (em3) | VMnet3 | - | ❌ Not configured | ❌ Pending |
-| OPT3 (em4) | VMnet4 | - | ❌ Not configured | ❌ Pending |
-| OPT4 (em5) | VMnet5 | - | ❌ Not configured | ❌ Pending |
+| WAN (em0) | VMnet0 | 192.168.19.129 | Bridged | No |
+| LAN (em1) | VMnet1 | 192.168.83.226/29 | Infrastructure | No |
+| BR1_LNX_SRV (em2) | VMnet2 | 192.168.83.1/28 | Linux Servers | No |
+| BR1_LNX_CLI (em3) | VMnet3 | 192.168.83.33/27 | Linux Clients | Yes (.45-.62) |
+| BR1_WIN_SRV (em4) | VMnet4 | 192.168.83.65/28 | Windows Servers | No |
+| BR1_WIN_CLI (em5) | VMnet5 | 192.168.83.97/27 | Windows Clients | Yes (.110-.126) |
+
+### **Branch 2 pfSense Interfaces:**
+| Interface | VMnet | IP Address | Subnet | DHCP |
+|---|---|---|---|---|
+| WAN (em0) | VMnet0 | 192.168.19.128 | Bridged | No |
+| LAN (em1) | VMnet8 | 192.168.84.226/29 | Infrastructure | No |
+| BR2_LNX_CLI (em3) | VMnet10 | 192.168.84.33/27 | Linux Clients | Yes (.45-.62) |
 
 ---
 
-## 📊 **Current Lab Statistics**
+## **Lab Statistics**
 
-### **Network Utilization:**
-| Network | Total IPs | Current Devices | Available | Next Priority |
+### **Network Capacity:**
+| Network | Total IPs | Planned Devices | Available | Utilization |
 |---|---|---|---|---|
-| Branch 1 | 256 | 2 | 254 | Migrate remaining 4 devices |
-| Branch 2 | 256 | 1 | 255 | Future expansion |
-| Sophos | 256 | 0 | 256 | Future testing |
+| Branch 1 | 256 | 6 | 250 | 2.3% |
+| Branch 2 | 256 | 2 | 254 | 0.8% |
+| Sophos | 256 | 1 | 255 | 0.4% |
 
-### **Implementation Status:**
-- ✅ **Working:** Ubuntu Server on VMnet2 with full connectivity
-- 🔄 **Next:** Configure VMnet3 and migrate Linux clients
-- 📋 **Planned:** VMnet4-5 for Windows environment
-- 🔮 **Future:** Branch 2 and Sophos lab expansion
+### **VMnet Resource Usage:**
+- **Total VMnets Required:** 9 (VMnet0,1,2,3,4,5,8,10,15)
+- **Branch 1 NICs:** 6 (WAN + 5 internal)
+- **Branch 2 NICs:** 3 (WAN + 2 internal)
+- **Sophos NICs:** 2 (WAN + 1 internal)
 
-This IPAM focuses only on what's actually in your lab or specifically planned for immediate implementation.
+### **Implementation Phases:**
+- **Phase 1:** Branch 1 core infrastructure (VMnet1-2)
+- **Phase 2:** Branch 1 client networks (VMnet3-5)
+- **Phase 3:** Branch 2 basic setup (VMnet8,10)
+- **Phase 4:** Sophos testing lab (VMnet15)
+
+This IPAM serves as the master blueprint for the complete lab build-out.
