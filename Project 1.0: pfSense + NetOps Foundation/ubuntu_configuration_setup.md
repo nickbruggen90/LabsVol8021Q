@@ -8,9 +8,9 @@ The default on the rest is fine
 ```
 2. Once it boots up and you reach `Network Configurations`:
 ```
-1. You will choose an IP within the subnet of the VMNet1 NIC. In this instance it will be `192.168.83.2/28`)
-2. The gateway will be the IP of the VLANs default gateway - `192.168.83.1`
-3. Define a name server (8.8.8.8 for instance)
+You will choose an IP within the subnet of the VMNet1 NIC. In this instance it will be 192.168.83.2/28)
+The gateway will be the IP of the VLANs default gateway - 192.168.83.1
+8.8.8.8 will be the DNS server for this lab
 ```
 To populate the IP's of the Ubuntu Server, you may need to install net-tools:
 ```
