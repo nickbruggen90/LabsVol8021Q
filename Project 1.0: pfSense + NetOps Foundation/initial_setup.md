@@ -32,4 +32,5 @@ MBR partition scheme
 ### pfSense Configuration
 1. After the installation and initial bootup, pfSense CLI will prompt you will a numbered menu.
 2. Choose *`Option 2` is to "Set Interface(s) IP Address" → LAN → no DHCP → static IP of `192.168.83.226`*
-3. 
+3. This will allow you to access the pfSense GUI. Inside your host machine browser access 192.168.83.226
+4. pfSense default username is 'admin' and password is 'pfsense'
