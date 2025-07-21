@@ -1,4 +1,4 @@
-'### Ubuntu Server Creation and Configuration
+### Ubuntu Server Creation and Configuration
 1. Create the Ubuntu VM inside **VMWare Workstation Pro**. Use the official Ubuntu Live Server .iso release.
 ```
 2 GB RAM
