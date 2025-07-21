@@ -1,4 +1,4 @@
-# IPAM Schema
+# IPAM Schema - Project 1.0+
 **Current Networks:** 4 segments (Management/WAN + 3 branches)  
 **Architecture:** Multi-VMnet approach (no VLAN tagging)  
 
@@ -136,26 +136,4 @@
 | BR2_LNX_CLI (em3) | VMnet10 | 192.168.84.33/27 | Linux Clients | Yes (.45-.62) |
 
 ---
-
-## **Lab Statistics**
-
-### **Network Capacity:**
-| Network | Total IPs | Planned Devices | Available | Utilization |
-|---|---|---|---|---|
-| Branch 1 | 256 | 6 | 250 | 2.3% |
-| Branch 2 | 256 | 2 | 254 | 0.8% |
-| Sophos | 256 | 1 | 255 | 0.4% |
-
-### **VMnet Resource Usage:**
-- **Total VMnets Required:** 9 (VMnet0,1,2,3,4,5,8,10,15)
-- **Branch 1 NICs:** 6 (WAN + 5 internal)
-- **Branch 2 NICs:** 3 (WAN + 2 internal)
-- **Sophos NICs:** 2 (WAN + 1 internal)
-
-### **Implementation Phases:**
-- **Phase 1:** Branch 1 core infrastructure (VMnet1-2)
-- **Phase 2:** Branch 1 client networks (VMnet3-5)
-- **Phase 3:** Branch 2 basic setup (VMnet8,10)
-- **Phase 4:** Sophos testing lab (VMnet15)
-
-This IPAM serves as the master blueprint for the complete lab build-out.
+This IPAM serves as the master blueprint for the complete Project 1.0+ build-out.
