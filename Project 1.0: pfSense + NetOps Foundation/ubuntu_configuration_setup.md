@@ -1,4 +1,4 @@
-### Ubuntu Server Creation and Configuration
+'### Ubuntu Server Creation and Configuration
 1. Create the Ubuntu VM inside **VMWare Workstation Pro**. Use the official Ubuntu Live Server .iso release.
 ```
 2 GB RAM
@@ -30,7 +30,7 @@ sudo apt install snmp snmp-mibs-downloader
 ##### After:
 ![mibs output 2](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-29%20185400.png)
 
-5. Next, lets install Syslog and confirm it's active. Similar with SNMP, we will need to allow it on pfSense in future steps.
+5. Next, let's install Syslog and confirm it's active. Similar with SNMP, we will need to allow it on pfSense in future steps.
 ```
 sudo apt update
 sudo apt install rsyslog
@@ -54,8 +54,8 @@ if ($fromhost-ip == '192.168.83.226') then /var/log/pfsense.log
 8. Restart Syslog with *sudo systemctl restart rsyslog* - and also power down the VM.
 9. While the VM is powered down, now is a good opportunity to create a shared folder between the VM and the host machine.
 ```
-a. Open VM settings in VMWare Workstation and locate the Options tab at the top
-b. Choose Share Folders and define the path
+a. Open VM settings in VMWare Workstation and locate the "Options" tab at the top
+b. Choose "Share Folders" and define the path
 ```
 ![shared folder 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-31%20075236.png)
 
