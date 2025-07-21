@@ -72,3 +72,75 @@ sudo umount /mnt/hgfs
 sudo mount -t fuse.vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other,uid=1000,gid=1000
 ```
 *Command ‘id’ will bring up something like this - uid=1000(ubuntu) gid=1000(ubuntu) groups=1000(ubuntu),...*
+
+---
+
+### Virtual Environment Creating and Installing Python
+`We will need to install Paramiko and SCP inside a virtual environment (VENV) to allow it to function.`
+1. First, inside the Ubuntu Server VM:
+```
+sudo apt install python3-venv -y
+python3 -m venv ~/netops-venv
+source ~/netops-venv/bin/activate
+which python
+pip install --upgrade pip
+pip install netmiko paramiko scp
+deactivate
+```
+
+2. Now we must create a Paramiko Python script for testing. VS Code is a fun option for writing code. Below is a sample Paramiko Python script:
+```
+#This script parses device inforamation using Python and Paramiko
+import paramiko
+
+hostname = '192.168.83.226'
+username = 'admin'
+password = 'pfsense'
+
+ssh = paramiko.SSHClient()
+ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+
+commands = [
+    'uptime',
+    'hostname',
+    'netstat -rn',
+    'df -h',
+    'ifconfig',
+]
+
+try:
+    print("Connecting to pfSense...")
+    ssh.connect(hostname, username=username, password=password)
+
+    for cmd in commands:
+        print(f"Executing command: {cmd}")
+        stdin, stdout, stderr = ssh.exec_command(cmd)
+
+        exit_status = stdout.channel.recv_exit_status()
+
+        if exit_status == 0:
+            output_lines = stdout.readlines()
+            if output_lines:
+                print("".join(output_lines))
+            else:
+                print("No output returned.")
+
+        else:
+            error_lines = stderr.readlines()
+            print(f"Command failed with exit status {exit_status}.")
+            print("".join(error_lines))
+                
+    ssh.close()
+    print("Connection closed.")
+
+except Exception as e:
+    print(f"An error occurred: {e}")
+```
+
+3. To execute this script, we need to add the script to the shared folder for accessibility and allow for SSH connections through pfSense.
+4. Return to Ubuntu CLI to confirm script is in the appropriate place.
+`ls -la /mnt/hgfs/"name of shared folder"`
+Let's save this test script as python.py 
+Now we need to return to the pfSense GUI to allow Syslog, SNMP and SSH connections.
+
+---
