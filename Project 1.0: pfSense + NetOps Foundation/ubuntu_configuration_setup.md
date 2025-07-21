@@ -21,7 +21,9 @@ b. ifconfig -a
 ```
 
 4. Next, let's install SNMP on the Ubuntu server. We will also need to allow SNMP on pfSense in future steps. Inside Ubuntu Server VM:
-`sudo apt install snmp snmp-mibs-downloader`
+```
+sudo apt install snmp snmp-mibs-downloader
+```
 `For human-readable format, you can edit the /etc/snmp/snmp.conf file to make the output more readable.`
 #mibs :
 ![mibs output 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-29%20185249.png)
