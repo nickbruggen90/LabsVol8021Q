@@ -20,7 +20,7 @@ a. sudo apt install net-tools
 b. ifconfig -a
 ```
 
-4. Next, let's install SNMP on the Ubuntu server. We will also need to allow SNMP on pfSense in future steps. Inside Ubuntu Server VM:
+4. Next, let's install SNMP on the Ubuntu server. We will also need to allow SNMP on pfSense in future steps. Inside the Ubuntu Server VM:
 ```
 sudo apt install snmp snmp-mibs-downloader
 ```
