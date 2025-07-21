@@ -12,18 +12,15 @@ a. You will choose an IP within the subnet of the VMNet1 NIC. In this instance i
 b. The gateway will be the IP of the VLANs default gateway - 192.168.83.1
 c. 8.8.8.8 will be the DNS server for this lab
 ```
-To populate the IP's of the Ubuntu Server, you may need to install net-tools:
+3. Install net-tools. This installs network related CLI commands.
 ```
-1. sudo apt install net-tools
-2. ifconfig -a
+a. sudo apt install net-tools
+b. ifconfig -a
 ```
-Next, let's install SNMP on the Ubuntu server. We will also need to allow SNMP on pfSense in future steps.
-Inside Ubuntu Server VM:
+3. Next, let's install SNMP on the Ubuntu server. We will also need to allow SNMP on pfSense in future steps. Inside Ubuntu Server VM:
 ```
 sudo apt install snmp snmp-mibs-downloader
-```
-Alternatively, you can edit the /etc/snmp/snmp.conf file to make the output more readable.
-```
+`For human-readable format, you can edit the /etc/snmp/snmp.conf file to make the output more readable.`
 #mibs :
 ```
 ![mibs output 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-29%20185249.png)
