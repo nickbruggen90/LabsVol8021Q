@@ -1,12 +1,12 @@
 ### pfSense Creation and Initial Configuration
-First we will create the pfSense VM with VMWare Workstation. Use the official pfSense CE .iso release. Choose the following configuration for set-up:
+1. First we will create the pfSense VM with VMWare Workstation. Use the official pfSense CE .iso release. Choose the following configuration for set-up:
 ```
-1. 2 NICs are needed:
-    - NIC 1: Bridged
-    - NIC 2: Host-Only
-2. 2 GB RAM
-3. 20 GB storage space
-4. 2 processors
+-2 NICs are needed:
+  - NIC 1: Bridged
+  - NIC 2: Host-Only
+-2 GB RAM
+-20 GB storage space
+-1 processor, 2 cores
 ```
 Once the VM boots up, pfSense will ask some configuration options. The ones you need to pay attention to are:
 ```
