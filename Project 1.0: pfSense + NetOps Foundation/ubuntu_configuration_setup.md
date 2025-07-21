@@ -24,12 +24,9 @@ b. ifconfig -a
 ```
 sudo apt install snmp snmp-mibs-downloader
 ```
-`For human-readable format, you can edit the /etc/snmp/snmp.conf file to make the output more readable → `
-```
-Commend out #mibs :
+`For human-readable format, you can comment out #mibs in the /etc/snmp/snmp.conf file → `
 ![mibs output 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-29%20185249.png)
 ![mibs output 2](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-29%20185400.png)
-```
 
 5. Next, lets install Syslog and confirm it's active. Similar with SNMP, we will need to allow it on pfSense in future steps.
 ```
