@@ -1,6 +1,6 @@
 ### Virtual Network Editor
-`Inside VMWare Workstation Pro we need to change the virtual NIC settings to fit the IPAM schema of this lab.  
-Refer here for IPAM.`
+`Inside VMWare Workstation Pro we need to change the virtual NIC settings to fit the IPAM schema of this lab.'  
+'Refer here for IPAM.`
 
 ### pfSense Creation and Initial Configuration
 First we will create the pfSense VM with VMWare Workstation. Use the official pfSense CE .iso release. Choose the following configuration for set-up:
