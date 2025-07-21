@@ -47,7 +47,7 @@ sudo vim /etc/rsyslog.d/10-pfsense.conf
 
 7. Add the following lines to the .conf file:
 ```
-if ($fromhost-ip == '192.168.83.100') then /var/log/pfsense.log
+if ($fromhost-ip == '192.168.83.226') then /var/log/pfsense.log
 & stop
 ```
 
