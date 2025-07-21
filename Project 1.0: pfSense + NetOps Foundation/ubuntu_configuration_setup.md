@@ -38,31 +38,34 @@ sudo systemctl status rsyslog
 ```
 ![syslog active 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-31%20071256.png)
 
-We must also create and define log files and directories.
+6. We must also create and define log files and directories.
 ```
 sudo mkdir /var/log
 sudo touch /var/log/pfsense.log
 sudo vim /etc/rsyslog.d/10-pfsense.conf
 ```
-Add the following lines to the .conf file:
+
+7. Add the following lines to the .conf file:
 ```
 if ($fromhost-ip == '192.168.83.100') then /var/log/pfsense.log
 & stop
 ```
-Restart Syslog with *sudo systemctl restart rsyslog* - and also power down and power back up the entire VM for good measure.
-While the VM is powered down, now is a good opportunity to create a shared folder between the VM and the host machine.
+
+8. Restart Syslog with *sudo systemctl restart rsyslog* - and also power down the VM.
+9. While the VM is powered down, now is a good opportunity to create a shared folder between the VM and the host machine.
 ```
-1. Open VM settings in VMWare Workstation and locate the Options tab at the top
-2. Choose Share Folders and define the path
+a. Open VM settings in VMWare Workstation and locate the Options tab at the top
+b. Choose Share Folders and define the path
 ```
 ![shared folder 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-31%20075236.png)
 
-Inside Ubuntu we must also mount the shared folder.
+9. Inside Ubuntu we must also mount the shared folder.
 ```
 sudo mkdir -p /mnt/hgfs
 sudo vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other
 ```
-If you run into permissions issues accessing the shared folder, you would need to unmount and remount, try:
+
+OPTIONAL: If you run into permissions issues accessing the shared folder, you would need to unmount and remount, try:
 ```
 id
 sudo umount /mnt/hgfs
