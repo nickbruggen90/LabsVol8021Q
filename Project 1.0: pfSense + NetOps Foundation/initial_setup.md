@@ -4,11 +4,12 @@ Inside VMWare Workstation Pro we need to change the virtual NIC settings to fit 
 Refer here for IPAM.
 ```
 1. Inside VMWare Workstation Pro choose *Edit → Virtual Network Editor*
-2. Click and highlight `VMNet1` and "Advanced Settings" towards the bottom.
-3. Uncheck "Use local DHCP service to distribute IP address to VMs"
-4. Define the Subnet IP as `192.168.83.224` and Subnet Mask as `192.168.83.248`
+2. Click and highlight `VMNet1` and "Change Settings" towards the bottom.
+3. Tick "Host-only"
+4. Uncheck "Use local DHCP service to distribute IP address to VMs"
+5. Define the Subnet IP as `192.168.83.224` and Subnet Mask as `192.168.83.248`
 
-### pfSense Creation and Initial Configuration
+### VM Creation
 1. First we will create the pfSense VM with VMWare Workstation. Use the official pfSense CE .iso release. Choose the following configuration for set-up:
 ```
 2 NICs are needed:
@@ -23,4 +24,8 @@ Refer here for IPAM.
 Auto UFS
 MBR partition scheme
 ```
-3. After the installation and initial bootup, pfSense CLI will prompt you will a numbered menu.
+
+### pfSense Configuration
+1. After the installation and initial bootup, pfSense CLI will prompt you will a numbered menu.
+2. Choose *`Option 2` is to "Set Interface(s) IP Address" → LAN → no DHCP → static IP of `192.168.83.226`*
+3. 
