@@ -1,4 +1,4 @@
-# IPAM Schema - Lab Build Plan
+# IPAM Schema
 **Current Networks:** 4 segments (Management/WAN + 3 branches)  
 **Architecture:** Multi-VMnet approach (no VLAN tagging)  
 
