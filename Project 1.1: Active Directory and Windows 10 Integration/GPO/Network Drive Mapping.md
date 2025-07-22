@@ -4,12 +4,12 @@
 ![group policy management](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20180955.png)
 3. *Right click on the newly created GPO → Edit*. Here you can adjust a wide variety of account settings and permissiongs. In this walkthrough we will set up a shared network drive.
 ```
-a. User Configuration ->
-b. Preferences ->
-c. Windows Settings ->
-d. Drive Maps ->
-e. right click on the empty space ->
-f. New -> Mapped Drives
+a. User Configuration → 
+b. Preferences → 
+c. Windows Settings → 
+d. Drive Maps → 
+e. right click on the empty space → 
+f. New → Mapped Drives
 ```
 ![new mapped drive](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images/Screenshot%202025-06-11%20122324.png)
 4. Next you will see a configuration pane. Fill out the following:
