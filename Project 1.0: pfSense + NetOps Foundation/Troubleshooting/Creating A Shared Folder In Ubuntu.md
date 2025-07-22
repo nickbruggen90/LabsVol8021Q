@@ -3,12 +3,12 @@
 2. Choose *Shared Folders → Always Enabled*  and define the path
 ![shared folder 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/Images/Screenshot%202025-05-31%20075236.png)
 
-Inside Ubuntu we must also mount the shared folder.
+3. Inside Ubuntu we must also mount the shared folder.
 ```
 sudo mkdir -p /mnt/hgfs
 sudo vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other
 ```
-If you run into permissions issues accessing the shared folder, you would need to unmount and remount, try:
+4. If you run into permissions issues accessing the shared folder, you would need to unmount and remount, try:
 ```
 id
 sudo umount /mnt/hgfs
