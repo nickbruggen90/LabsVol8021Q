@@ -1,3 +1,4 @@
+### Creating A Shared Folder In Ubuntu
 ```
 1. Open VM settings in VMWare Workstation and locate the Options tab at the top
 2. Choose Share Folders and define the path
