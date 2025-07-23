@@ -3,14 +3,14 @@
 |--------------------------|
 | `Project 1: Modular pfSense + NetOps Foundation`          |
 | `Project 1.1: Active Directory Integration`          |
-| **─────────────────────** | **─────** |
+| **─────────────────────** |
 | `Module 1: NetData NMS Integration`   |
 | `Module 2: Sophos Firewall Integration (DMZ Zone)`   |
-| **─────────────────────** | **─────** |
+| **─────────────────────** |
 | `Project 2: Znuny (OTRS) Ticketing System`          |
 | `Project 3: MSP Operation Lab - Datto RMM Workflow Simulation`   |
 | `Project 4: Enterprise Data Recovery & Imaging Lab`   |
-| **─────────────────────** | **─────** |
+| **─────────────────────** |
 | `Project 5: Cloud Integration & Hybrid Infrastructure`   |
 ---
 ## Tools & Platforms Used
