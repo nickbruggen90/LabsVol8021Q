@@ -1,4 +1,4 @@
-### User Config - Sales Department Restrictions
+### Quickguide: User Config - Sales Department Restrictions
 ##### Purpose: Configure user environment and restrictions for Sales department
 
 ```
