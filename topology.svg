@@ -87,9 +87,9 @@
   <text x="260" y="285" text-anchor="middle" class="text-large">pfSense Firewall</text>
   <text x="260" y="302" text-anchor="middle" class="text-medium">Branch Office 1</text>
   <text x="260" y="318" text-anchor="middle" class="ip-text">WAN: 192.168.19.129 (DHCP)</text>
-  <text x="260" y="332" text-anchor="middle" class="ip-text">LAN: 192.168.83.100</text>
+  <text x="260" y="332" text-anchor="middle" class="ip-text">LAN: 192.168.83.226</text>
 
-  <!-- Branch 2 pfSense - NO ICON -->
+  <!-- Branch 2 pfSense -->
   <rect x="760" y="260" width="160" height="90" class="router-box"/>
   <!-- Firewall shield icon - above -->
   <g transform="translate(840, 225)">
@@ -107,7 +107,7 @@
   <text x="840" y="285" text-anchor="middle" class="text-large">pfSense Firewall</text>
   <text x="840" y="302" text-anchor="middle" class="text-medium">Branch Office 2</text>
   <text x="840" y="318" text-anchor="middle" class="ip-text">WAN: 192.168.19.128 (DHCP)</text>
-  <text x="840" y="332" text-anchor="middle" class="ip-text">LAN: 192.168.84.100</text>
+  <text x="840" y="332" text-anchor="middle" class="ip-text">LAN: 192.168.84.226</text>
 
   <!-- Network Labels with styling -->
   <rect x="40" y="290" width="130" height="35" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2" rx="8" filter="url(#dropshadow)"/>
@@ -141,7 +141,7 @@
   
   <text x="105" y="485" text-anchor="middle" class="text-medium">Windows Server 2025</text>
   <text x="105" y="500" text-anchor="middle" class="text-medium">Active Directory</text>
-  <text x="105" y="515" text-anchor="middle" class="ip-text">192.168.83.150</text>
+  <text x="105" y="515" text-anchor="middle" class="ip-text">192.168.83.66</text>
 
   <!-- Ubuntu Server (rsyslog) -->
   <rect x="190" y="460" width="130" height="65" class="server-box"/>
@@ -168,9 +168,9 @@
     <ellipse cx="3" cy="12" rx="2" ry="3" fill="#f39c12"/>
   </g>
   
-  <text x="255" y="485" text-anchor="middle" class="text-medium">Ubuntu Server</text>
-  <text x="255" y="500" text-anchor="middle" class="text-medium">rsyslog + NetData</text>
-  <text x="255" y="515" text-anchor="middle" class="ip-text">192.168.83.50:8080</text>
+  <text x="255" y="485" text-anchor="middle" class="text-medium">Ubuntu Server rsyslog</text>
+  <text x="255" y="500" text-anchor="middle" class="ip-text">192.168.83.2</text>
+  <text x="255" y="515" text-anchor="middle" class="ip-text">NetData :19999</text>
 
   <!-- Windows 10 Client -->
   <rect x="340" y="460" width="110" height="65" class="client-box"/>
@@ -189,7 +189,7 @@
   
   <text x="395" y="485" text-anchor="middle" class="text-medium">Windows 10</text>
   <text x="395" y="500" text-anchor="middle" class="text-medium">Desktop</text>
-  <text x="395" y="515" text-anchor="middle" class="ip-text">192.168.83.151</text>
+  <text x="395" y="515" text-anchor="middle" class="ip-text">192.168.83.98</text>
 
   <!-- Kali Client -->
   <rect x="40" y="550" width="110" height="65" class="client-box"/>
@@ -213,7 +213,7 @@
   
   <text x="95" y="580" text-anchor="middle" class="text-medium">Kali Linux</text>
   <text x="95" y="595" text-anchor="middle" class="text-medium">Security Testing</text>
-  <text x="95" y="605" text-anchor="middle" class="ip-text">192.168.83.51</text>
+  <text x="95" y="605" text-anchor="middle" class="ip-text">192.168.83.34</text>
 
   <!-- Ubuntu Client 1 -->
   <rect x="170" y="550" width="110" height="65" class="client-box"/>
@@ -233,7 +233,7 @@
   
   <text x="225" y="580" text-anchor="middle" class="text-medium">Ubuntu Desktop</text>
   <text x="225" y="595" text-anchor="middle" class="text-medium">Client</text>
-  <text x="225" y="605" text-anchor="middle" class="ip-text">192.168.83.52</text>
+  <text x="225" y="605" text-anchor="middle" class="ip-text">192.168.83.35</text>
 
   <!-- Branch 2 Devices -->
   <!-- Ubuntu Client 2 -->
@@ -254,7 +254,7 @@
   
   <text x="840" y="490" text-anchor="middle" class="text-medium">Ubuntu Desktop</text>
   <text x="840" y="505" text-anchor="middle" class="text-medium">Client</text>
-  <text x="840" y="515" text-anchor="middle" class="ip-text">192.168.84.52</text>
+  <text x="840" y="515" text-anchor="middle" class="ip-text">192.168.84.35</text>
 
   <!-- Enhanced Connections -->
   <line x1="600" y1="155" x2="260" y2="260" class="wan-connection"/>
