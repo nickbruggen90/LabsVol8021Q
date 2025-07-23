@@ -1,6 +1,5 @@
 <sup>[ASCII Version]</sup> <sup>[IP Matrix]</sup>
 ![Project 1 Topology](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/topology.svg)
-| Lab Title                 |
 |--------------------------|
 | `Project 1: Modular pfSense + NetOps Foundation`          |
 | `Project 1.1: Active Directory Integration`          |
