@@ -19,7 +19,7 @@
 
 ### Verification
 1. Open Command Prompt as Administrator
-2. Run: dir \\DC01\Users$\michael.rodriguez
+2. Run: `dir \\DC01\Users$\michael.rodriguez`
 3. Should show the folder contents without access denied errors. I performed search before and after adding test folders/docs.  
 ![verification 1](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-19%20090323.png)
 ![verification 2](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-19%20090619.png)
