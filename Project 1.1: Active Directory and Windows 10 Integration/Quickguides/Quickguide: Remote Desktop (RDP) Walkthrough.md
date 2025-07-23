@@ -21,5 +21,6 @@ Computer: CLIENT01
 User name: testlab\kenny.rogers.it
 the rest will stay default for now
 ```
+![mstsc](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-23%20113144.png)
 If you see an error like the one below, proceed to the [Troubleshooting Guide Here](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Troubleshooting/RDP%20Connection%20Denied%20-%20Not%20Authorized.md).
 ![error](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-23%20113818.png)
