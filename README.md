@@ -1,4 +1,4 @@
-<sup>[ASCII Version]</sup> <sup>[IP Matrix]</sup>
+[ASCII Version] <sup>[IP Matrix]</sup>
 ![Project 1 Topology](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/topology.svg)
 |--------------------------|
 | `Project 1: Modular pfSense + NetOps Foundation`          |
