@@ -5,7 +5,7 @@
 ---
 1. In PowerShell remote into the CLI of workstation, in this instance it is "CLIENT01"  
 `Enter-PSSession -ComputerName CLIENT01`  
-If you get DNS Resolve issues [Refer to this DNS Walkthrough here].
+If you get DNS resolution issues [Refer to this DNS Walkthrough here].
 2. We need to allow this workstation RDP access and enable RDP firewall rule:
 ```
 Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -Name "fDenyTSConnections" -Value 0
