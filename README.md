@@ -1,5 +1,5 @@
 [Topology ASCII Version] [IPAM](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.0%3A%20pfSense%20%2B%20NetOps%20Foundation/IPAM%20Schema.md)
-![Project 1 Topology](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201%3A%20NetOps%20Monitoring/topology.svg)
+![Project 1 Topology](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.0%3A%20pfSense%20%2B%20NetOps%20Foundation/topology.svg)
 |--------------------------|
 | `Project 1: Modular pfSense + NetOps Foundation`          |
 | `Project 1.1: Active Directory Integration`          |
