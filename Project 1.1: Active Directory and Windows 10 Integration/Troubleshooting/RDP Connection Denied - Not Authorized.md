@@ -10,6 +10,12 @@ If you get DNS resolution issues [Refer to this DNS Walkthrough here].
 ```
 Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -Name "fDenyTSConnections" -Value 0
 Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
-Exit-PSSession
 ```
-3. 
+3. This workstation also needs to be a part of the group that is permitted RDP access:
+```
+Get-LocalGroupMember -Group "Remote Desktop Users"
+Add-LocalGroupMember -Group "Remote Desktop Users" -Member "testlab\kenny.rogers.it"
+net localgroup "Remote Desktop Users" "testlab\kenny.rogers.it" /add
+```
+4. Now we need to add a domain-wide GPO. [Refer here for the step-by-step GPO setup]. Make sure to `gpupdate /force` from CLIENT01.
+5. 
