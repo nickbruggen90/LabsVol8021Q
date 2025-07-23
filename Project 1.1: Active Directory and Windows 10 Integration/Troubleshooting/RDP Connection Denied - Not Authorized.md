@@ -18,4 +18,3 @@ Add-LocalGroupMember -Group "Remote Desktop Users" -Member "testlab\kenny.rogers
 net localgroup "Remote Desktop Users" "testlab\kenny.rogers.it" /add
 ```
 4. Now we need to add a domain-wide GPO. [Refer here for the step-by-step GPO setup]. Make sure to `gpupdate /force` from CLIENT01.
-5. 
