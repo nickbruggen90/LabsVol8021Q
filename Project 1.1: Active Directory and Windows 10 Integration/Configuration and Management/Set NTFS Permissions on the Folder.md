@@ -12,7 +12,7 @@
 5. Now we will add the appropriate permissions so only Administrators, the employee themselves, and you can add additional permissions as required. This is the concept of least privilege access.
 5. a. *Click "Add" → Select a Principal*. In this instance we will be working with employee Kenny Rogers.
 ![kenny rogers select](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20123421.png)  
-6. You'll want the employee and Administrator to have full control. As well as applied to "This folder, subfolders and files".
+6. You'll want the employee and Administrator to have full control. As well as applied to ` "This folder, subfolders and files" `.
 ![permissions panel](https://github.com/nickbruggen90/LabsVol8021Q/blob/main/Project%201.1%3A%20Active%20Directory%20and%20Windows%2010%20Integration/Images2/Screenshot%202025-07-18%20123436.png)  
 
 ---
