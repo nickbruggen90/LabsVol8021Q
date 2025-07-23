@@ -23,4 +23,4 @@ Quick troubleshooting guide for creating and fixing network shares in Active Dir
 2. Navigate to `\\DC01\Users$` (or locally to C:\Users)
 3. *Right-click in empty space → New → Folder*
 4. Name the folder: [username] (e.g., michael.rodriguez)
-5. Press Enter to create
+5. *Press Enter* to create
