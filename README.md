@@ -4,6 +4,7 @@
 |--------------------------|
 | `Project 1: Modular pfSense + NetOps Foundation`          |
 | `Project 1.1: Active Directory Integration`          |
+| **─────────────────────** | **─────** |
 | `Module 1: NetData NMS Integration`   |
 | **─────────────────────** | **─────** |
 | `Project 2: Znuny (OTRS) Ticketing System`          |
