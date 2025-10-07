@@ -5,7 +5,7 @@
 | `Project 1.1: Active Directory Integration`          |
 | **─────────────────────** |
 | `Module 1: NetData NMS Integration`   |
-| `Module 2: Sophos Firewall Integration (DMZ Zone)`   |
+| `Module 2: LibreNMS Integration`   |
 | **─────────────────────** |
 | `Project 2: Znuny (OTRS) Ticketing System`          |
 | `Project 3: MSP Operation Lab - Datto RMM Workflow Simulation`   |
