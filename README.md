@@ -24,8 +24,7 @@
 - Windows Server 2025
 - Windows 10 Pro
 - Znuny/OTRS
-- SPLUNK
-- Sophos Firewall
+- LibreNMS
 - NetData NMS
 ---
 
